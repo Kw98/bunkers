@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4602513565567408544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7612087484974932989}
   - {fileID: 7687613615339837109}
@@ -97,7 +97,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   legsAnim: {fileID: 7494596770540807831}
-  inventory: {fileID: 0}
 --- !u!114 &7982032573934216735
 MonoBehaviour:
   m_ObjectHideFlags: 0
