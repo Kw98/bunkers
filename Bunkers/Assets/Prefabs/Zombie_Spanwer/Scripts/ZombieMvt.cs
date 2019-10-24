@@ -8,9 +8,11 @@ public class ZombieMvt : MonoBehaviour
     public float speed = 0;
     private Vector3 v_diff;
     private float atan2;
-
+    // Update is called once per frame
     void Update()
     {
+        Debug.Log("Player Position: X = " + player.transform.position.x + " --- Y = " + player.transform.position.y + " --- Z = " +
+        player.transform.position.z);
         Chase();
     }
 
