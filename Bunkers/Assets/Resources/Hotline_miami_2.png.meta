@@ -2363,6 +2363,9 @@ TextureImporter:
   - first:
       213: -2826829155186031846
     second: Hotline_miami_2_786
+  - first:
+      213: -3542444284300124977
+    second: Hotline_miami_2_787
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -2487,8 +2490,8 @@ TextureImporter:
         y: 368
         width: 16
         height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5612,8 +5615,8 @@ TextureImporter:
       name: Hotline_miami_2_150
       rect:
         serializedVersion: 2
-        x: 48
-        y: 320
+        x: 101
+        y: 265
         width: 16
         height: 16
       alignment: 1
@@ -11811,8 +11814,8 @@ TextureImporter:
         y: 208
         width: 16
         height: 16
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -18981,6 +18984,27 @@ TextureImporter:
       bones: []
       spriteID: 76dd15a10748f29408489a1642c1977e
       internalID: -2826829155186031846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_2_787
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 885
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80da0a139caf75e4ab3538e37f763099
+      internalID: -3542444284300124977
       vertices: []
       indices: 
       edges: []
