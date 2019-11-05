@@ -1,71 +1,38 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerAction : MonoBehaviour
 {
-    public float speed;
-    private Rigidbody2D body;
-    private Transform   tr;
-    private Camera  cam;
-    private Vector3 mousePos;
-    public Animator legsAnim;
-    private Inventory    inventory;
+    public float    speed;
+    public Rigidbody2D  rigidbody;
+    public Camera   camera;
+    public Animator legs;
+    private Vector2     movement;
+    private Vector2         mousePos;
 
-
-    private void Awake() {
-        inventory = GetComponent<Inventory>();
-        body = GetComponent<Rigidbody2D>();
-        tr = GetComponent<Transform>();
-        cam = Camera.main;
+    private void Update() {
+        if (Input.GetKeyDown(KeyCode.A))
+            gameObject.GetComponent<Inventory>().drop();
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");
+        mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
+        legs.SetFloat("Run", movement.x + movement.y);
     }
 
-    // Start is called before the first frame update
-    void Start() {
-        mousePos = getMousePos();
-    }
 
     private void FixedUpdate() {
-        mousePos = getMousePos();
-        // move
-        float xSpeed = Input.GetAxis("Horizontal") * speed;
-        float ySpeed = Input.GetAxis("Vertical") * speed;
-        body.velocity = new Vector2(xSpeed, ySpeed);
-        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0) {
-            legsAnim.SetBool("isRunning", true);
-        } else
-            legsAnim.SetBool("isRunning", false);
-        // look at
-        float   angle = Mathf.Atan2(mousePos.y - tr.position.y, mousePos.x - tr.position.x) * Mathf.Rad2Deg;
-        tr.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        rigidbody.velocity = movement;
+        Vector2 lookDir = mousePos - rigidbody.position;
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        rigidbody.rotation = angle;
     }
 
-
-    private Vector3 getMousePos() {
-        return cam.ScreenToWorldPoint(new Vector3 (Input.mousePosition.x, Input.mousePosition.y, cam.transform.position.y - tr.position.y));
-    }
-
-    private void    lootWeapon(GameObject Weapon) {
-        for (int i = 0; i < transform.childCount; i++) {
-            GameObject check = transform.GetChild(i).gameObject;
-            if (check.tag == "Weapon") {
-                if (check.GetComponent<Weapon>().wType == Weapon.GetComponent<Weapon>().wType) {
-                    Destroy(check);
-                    break;
-                }
-            }
-        }
-        Weapon.transform.parent = gameObject.transform;
-        Weapon.SetActive(false);
+    private void OnCollisionEnter2D(Collision2D other) {
+        Debug.Log("Collided");
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        GameObject obj = other.gameObject;
-
-        Debug.Log("COLLISION");
-        if (obj.tag == "Weapon") {
-            if (inventory.loot(obj))
-                lootWeapon(obj);
-        }
+        Debug.Log("Triggered");
+            if (other.gameObject.tag == "Weapon" || other.gameObject.tag == "Charger")
+                gameObject.GetComponent<Inventory>().loot(other.gameObject);
     }
 }

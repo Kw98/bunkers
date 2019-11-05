@@ -42,8 +42,8 @@ public class melee : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmosSelected() {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(attackPos.position, new Vector3(attackWidth, attackLength, 1));
-    }
+    // private void OnDrawGizmosSelected() {
+    //     Gizmos.color = Color.red;
+    //     Gizmos.DrawWireCube(attackPos.position, new Vector3(attackWidth, attackLength, 1));
+    // }
 }
