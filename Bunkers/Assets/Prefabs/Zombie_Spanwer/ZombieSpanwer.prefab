@@ -43,6 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd1d848ad06a6d4a86108962f07da53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zombie: {fileID: 0}
+  zombie: {fileID: 5565562533894574448, guid: 75e30922e17a35c49bfa73341c529b68, type: 3}
   spawninterval: 3
   nextspawn: 1

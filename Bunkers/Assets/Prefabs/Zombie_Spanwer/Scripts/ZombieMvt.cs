@@ -10,12 +10,15 @@ public class ZombieMvt : MonoBehaviour
     private float atan2;
     private float distance;
     private Animator animation;
+    private Collider m_Collider;
     private bool dead = false;
 
 
     void Awake()
     {
         animation = GetComponent<Animator>();
+        m_Collider = GetComponent<Collider>();
+        this.GetComponent<Collider2D>().enabled = true;
     }
 
     // Update is called once per frame
@@ -38,21 +41,22 @@ public class ZombieMvt : MonoBehaviour
 
     void Iamdead()
     {
-        animation.SetBool("isDead", true);
+        var rand = Random.Range(1, 4);
+        if (rand == 1)
+            animation.SetBool("isDead", true);
+        if (rand == 2)
+            animation.SetBool("isDead2", true);
+        if (rand == 3)
+            animation.SetBool("isDead3", true);
         dead = true;
+        transform.position = transform.localPosition;
     }
 
 
     void Update()
     {
         distance = Vector2.Distance(transform.position, player.transform.position);
-        print(distance);
-
-        if (Input.GetKeyDown("space"))
-        {
-            Iamdead();
-        }
-        else if  (distance < 0.23)
+        if  (distance < 0.23)
             attack();
         else
         {
@@ -74,6 +78,17 @@ public class ZombieMvt : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, 0f, atan2 * Mathf.Rad2Deg);
         }
     }
+
+    void OnCollisionEnter2D(Collision2D hit)
+    {
+        if (hit.gameObject.tag == "Bullet")
+        {
+            Destroy(hit.transform.gameObject);
+            Iamdead();
+            this.GetComponent<Collider2D>().enabled = false;
+        }
+    }
+
 
 
 }
