@@ -10,14 +10,12 @@ public class ZombieMvt : MonoBehaviour
     private float atan2;
     private float distance;
     private Animator animation;
-    private Collider m_Collider;
     private bool dead = false;
 
 
     void Awake()
     {
         animation = GetComponent<Animator>();
-        m_Collider = GetComponent<Collider>();
         this.GetComponent<Collider2D>().enabled = true;
     }
 
@@ -29,13 +27,13 @@ public class ZombieMvt : MonoBehaviour
         var rand = Random.Range(1, 3);
         if (rand == 1)
         {
-            animation.SetBool("isAttacking", true);
             animation.SetBool("isAttacking2", false);
+            animation.SetBool("isAttacking", true);
         }
         else
         {
-            animation.SetBool("isAttacking2", true);
             animation.SetBool("isAttacking", false);
+            animation.SetBool("isAttacking2", true);
         }
     }
 
@@ -56,7 +54,7 @@ public class ZombieMvt : MonoBehaviour
     void Update()
     {
         distance = Vector2.Distance(transform.position, player.transform.position);
-        if  (distance < 0.23)
+        if  (distance < 0.20)
             attack();
         else
         {
