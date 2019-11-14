@@ -8,7 +8,6 @@ public class ligthHandle : MonoBehaviour
     public Text chronoText;
     public int timeSpeed;
     public Light lt;
-    public bool days;
     private float ligthtime;
     public Text daysText;
     public Light FlashLight;
@@ -48,13 +47,11 @@ public class ligthHandle : MonoBehaviour
         {
             daysText.text = "days";
             FlashLight.intensity = 0;
-            days = true;
         }
         else
         {
             daysText.text = "night";
             FlashLight.intensity = 1.5f;
-            days = false;
         }
     }
 

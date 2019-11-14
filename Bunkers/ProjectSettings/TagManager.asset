@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Charger
   - Zombie
+  - Days
   layers:
   - Default
   - TransparentFX
