@@ -2791,6 +2791,7 @@ GameObject:
   - component: {fileID: 1927219800914429629}
   - component: {fileID: 1927219800914429631}
   - component: {fileID: 1927219800914429630}
+  - component: {fileID: 361791853894084544}
   m_Layer: 0
   m_Name: Walls
   m_TagString: Untagged
@@ -3694,6 +3695,22 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!19719996 &361791853894084544
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927219800914429628}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &1927219801013998044
 GameObject:
   m_ObjectHideFlags: 0
@@ -3705,6 +3722,7 @@ GameObject:
   - component: {fileID: 1927219801013998045}
   - component: {fileID: 1927219801013998047}
   - component: {fileID: 1927219801013998046}
+  - component: {fileID: 1835290050111512144}
   m_Layer: 0
   m_Name: Staiirs
   m_TagString: Untagged
@@ -3942,6 +3960,22 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!19719996 &1835290050111512144
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927219801013998044}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &1927219801521677526
 GameObject:
   m_ObjectHideFlags: 0
@@ -4516,6 +4550,7 @@ GameObject:
   - component: {fileID: 1927219802159646184}
   - component: {fileID: 1927219802159646186}
   - component: {fileID: 1927219802159646185}
+  - component: {fileID: 5659208515548501945}
   m_Layer: 0
   m_Name: Fournitures
   m_TagString: Untagged
@@ -5498,6 +5533,22 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!19719996 &5659208515548501945
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927219802159646191}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &2666341556362235432
 GameObject:
   m_ObjectHideFlags: 0
@@ -5624,6 +5675,7 @@ GameObject:
   - component: {fileID: 1402431606834767751}
   - component: {fileID: 9064476104593295653}
   - component: {fileID: 8150034874337213106}
+  - component: {fileID: 626205359617485271}
   m_Layer: 0
   m_Name: BottomFournitures
   m_TagString: Untagged
@@ -5828,3 +5880,19 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!19719996 &626205359617485271
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3097502913948287328}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
