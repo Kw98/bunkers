@@ -3794,6 +3794,9 @@ TextureImporter:
   - first:
       213: -5713358220134198078
     second: Hotline_miami_11_16
+  - first:
+      213: -8414178074450912071
+    second: Hotline_miami_11_17
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -10547,27 +10550,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hotline_miami_1_16
-      rect:
-        serializedVersion: 2
-        x: 762
-        y: 630
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d699bf9e3ead4fc4d933071791c1527d
-      internalID: -3343216819954618206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Hotline_miami_1_528
       rect:
         serializedVersion: 2
@@ -11034,11 +11016,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 730
-        y: 590
+        y: 591
         width: 16
-        height: 8
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: -0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11055,11 +11037,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 714
-        y: 590
+        y: 591
         width: 16
-        height: 8
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: -0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11076,11 +11058,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 698
-        y: 590
+        y: 591
         width: 16
-        height: 8
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: -0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11097,11 +11079,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 682
-        y: 590
+        y: 591
         width: 16
-        height: 8
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: -0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11205,8 +11187,8 @@ TextureImporter:
         y: 590
         width: 16
         height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11415,8 +11397,8 @@ TextureImporter:
         y: 590
         width: 16
         height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11520,8 +11502,8 @@ TextureImporter:
         y: 590
         width: 16
         height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11625,8 +11607,8 @@ TextureImporter:
         y: 590
         width: 16
         height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11730,8 +11712,8 @@ TextureImporter:
         y: 590
         width: 16
         height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -11751,8 +11733,8 @@ TextureImporter:
         y: 590
         width: 16
         height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -17346,6 +17328,27 @@ TextureImporter:
       bones: []
       spriteID: 00c6f6074c3507a4089fc4ab300e28de
       internalID: -5713358220134198078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_11_17
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 630
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e733a5e3704ddcd4982dfd7cc37f3d33
+      internalID: -8414178074450912071
       vertices: []
       indices: 
       edges: []
