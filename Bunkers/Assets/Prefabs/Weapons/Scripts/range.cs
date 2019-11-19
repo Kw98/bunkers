@@ -13,12 +13,18 @@ public class range : MonoBehaviour
     public List<GameObject>   chargers;
     private bool    isFiring;
     private float      fireTime;
+    public AudioClip shootsong;
+    private AudioSource audioSource;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
         isFiring = false;
         fireTime = 0;
+        audioSource = CreateAudioSource(shootsong, false);
+
     }
 
     // Update is called once per frame
@@ -38,6 +44,8 @@ public class range : MonoBehaviour
             if (fireTime <= 0) {
                 fireTime = fireRate;
                 shoot();
+                audioSource.Play();
+
             }
         } else
             fireTime = 0;
@@ -46,10 +54,26 @@ public class range : MonoBehaviour
     private void    shoot() {
         // Debug.Log(chargers.Count);
         if (chargers.Count > 0 && chargers[0].GetComponent<Charger>().useBullet()) {
+
             GameObject b = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             b.GetComponent<Bullet>().damages = damage;
         }
     }
+    private AudioSource CreateAudioSource(AudioClip audioClip,
+        bool startPlayingImmediately)
+    {
+        GameObject audioSourceGO = new GameObject();
+        audioSourceGO.transform.parent = transform;
+        audioSourceGO.transform.position = transform.position;
+        AudioSource newAudioSource =
+        audioSourceGO.AddComponent<AudioSource>() as AudioSource;
+        newAudioSource.clip = audioClip;
+        if (!newAudioSource.isPlaying)
+            newAudioSource.Play();
+
+        return newAudioSource;
+    }
+
 
     private IEnumerator reload() {
         yield return new WaitForSeconds(reloadTime);
@@ -65,3 +89,4 @@ public class range : MonoBehaviour
         Debug.Log("reloaded");
     }
 }
+
