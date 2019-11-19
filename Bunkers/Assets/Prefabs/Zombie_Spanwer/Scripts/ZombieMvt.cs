@@ -51,8 +51,7 @@ public class ZombieMvt : MonoBehaviour
         transform.position = transform.localPosition;
     }
 
-
-    void Update()
+  void FixedUpdate()
     {
         GameObject p = null;
         foreach (GameObject player in players)
@@ -96,6 +95,10 @@ public class ZombieMvt : MonoBehaviour
             Destroy(hit.transform.gameObject);
             Iamdead();
             this.GetComponent<Collider2D>().enabled = false;
+        }
+        else
+        {
+
         }
     }
 
