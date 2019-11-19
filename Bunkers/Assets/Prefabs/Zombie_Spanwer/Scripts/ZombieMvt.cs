@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ZombieMvt : MonoBehaviour
 { 
-    public GameObject player;
+    private GameObject[] players;
     public float speed = 0;
     private Vector3 v_diff;
     private float atan2;
@@ -17,6 +17,7 @@ public class ZombieMvt : MonoBehaviour
     {
         animation = GetComponent<Animator>();
         this.GetComponent<Collider2D>().enabled = true;
+        players = GameObject.FindGameObjectsWithTag("Player");
     }
 
     // Update is called once per frame
@@ -53,26 +54,37 @@ public class ZombieMvt : MonoBehaviour
 
     void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        if  (distance < 0.20)
-            attack();
-        else
+        GameObject p = null;
+        foreach (GameObject player in players)
         {
-            animation.SetBool("isAttacking", false);
-            animation.SetBool("isAttacking2", false);
-            Chase();
+            p = player;
         }
+        distance = Vector2.Distance(transform.position, p.transform.position);
+            if (distance < 0.20)
+                attack();
+            else
+            {
+                animation.SetBool("isAttacking", false);
+                animation.SetBool("isAttacking2", false);
+                Chase();
+            }
     }
 
     void Chase()
     {
-        Vector3 targetDirection = player.transform.position - transform.position;
-        if (dead != true)
+        GameObject p = null;
+        foreach (GameObject player in players)
+        {
+             p = player;
+        }
+        distance = Vector2.Distance(transform.position, p.transform.position);
+        print(distance);
+        Vector3 targetDirection = p.transform.position - transform.position;
+        if (dead != true && distance < 2)
         {
             transform.position += targetDirection * speed * Time.deltaTime;
-            v_diff = (player.transform.position - transform.position);
+            v_diff = (p.transform.position - transform.position);
             atan2 = Mathf.Atan2(v_diff.y, v_diff.x);
-
             transform.rotation = Quaternion.Euler(0f, 0f, atan2 * Mathf.Rad2Deg);
         }
     }
