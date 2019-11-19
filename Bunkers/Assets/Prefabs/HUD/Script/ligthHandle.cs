@@ -5,54 +5,50 @@ public class ligthHandle : MonoBehaviour
 {
     public bool chrono;
     public float timer;
-    public Text chronoText;
     public int timeSpeed;
     public Light lt;
-    private float ligthtime;
-    public Text daysText;
     public Light FlashLight;
+    public GameObject    timeUIHandler;
+    private float ligthtime;
+    private int  dayCounter;
+    private float hours;
+    private float minutes;
 
     // Start is called before the first frame update
     void Start()
     {
+        dayCounter = 0;
         chrono = true;
-
     }
     // Update is called once per frame
     void Update()
     {
         int temp = (int)timer / 60;
-        displayMoment(temp);
+        updateFlashLigt(temp);
         if (temp >= 6 && temp < 11)
             ligthtime += 0.0006f;
-        if (temp > 19 && temp <= 22)
+        else if (temp > 19 && temp <= 22)
             ligthtime -= 0.0015f;
         lt.intensity = ligthtime;
         if (timer > 1440)
-        {
             timer = 0;
-        }
-        else if (chrono)
-        {
+        if (chrono) {
             timer += Time.deltaTime * timeSpeed;
-            string minutes = Mathf.Floor(timer / 60).ToString("00");
-            chronoText.text = minutes + "H";
+            hours = Mathf.Floor(timer / 60);
+            minutes = Mathf.Floor(timer % 60);
+            if (hours == 6 && timer % 60 < 0.1f) {
+                dayCounter++;
+                timeUIHandler.GetComponent<TimeUIHandler>().updateDay(dayCounter);
+            }
+            timeUIHandler.GetComponent<TimeUIHandler>().updateTimer(hours, minutes);
         }
     }
 
-    void displayMoment(float time)
-    {
-
+    void updateFlashLigt(float time) {
         if (time >= 7 && time <= 20)
-        {
-            daysText.text = "days";
             FlashLight.intensity = 0;
-        }
         else
-        {
-            daysText.text = "night";
             FlashLight.intensity = 1.5f;
-        }
     }
 
 }
