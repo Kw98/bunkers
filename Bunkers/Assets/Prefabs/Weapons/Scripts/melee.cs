@@ -20,6 +20,10 @@ public class melee : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+    }
+
+    public void Updater() {
         if ((Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0) && !Input.GetMouseButtonDown(0)) {
             animator.SetTrigger("run");
         } else if (!Input.GetMouseButtonDown(0))
@@ -41,9 +45,4 @@ public class melee : MonoBehaviour
             // damage enemies
         }
     }
-
-    // private void OnDrawGizmosSelected() {
-    //     Gizmos.color = Color.red;
-    //     Gizmos.DrawWireCube(attackPos.position, new Vector3(attackWidth, attackLength, 1));
-    // }
 }

@@ -18,7 +18,6 @@ public class range : MonoBehaviour
 
 
 
-    // Start is called before the first frame update
     void Start()
     {
         isFiring = false;
@@ -27,9 +26,7 @@ public class range : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    public void    Updater() {
         if (Input.GetMouseButtonDown(0))
             isFiring = true;
         if (Input.GetMouseButtonUp(0))

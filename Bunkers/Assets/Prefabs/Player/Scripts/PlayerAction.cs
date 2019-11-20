@@ -6,6 +6,7 @@ public class PlayerAction : MonoBehaviour
     public Rigidbody2D  rigidbody;
     public Camera   camera;
     public Animator legs;
+    public Inventory inventory;
     private Vector2     movement;
     private Vector2         mousePos;
 
@@ -16,6 +17,10 @@ public class PlayerAction : MonoBehaviour
         movement.y = Input.GetAxis("Vertical");
         mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
         legs.SetFloat("Run", movement.x + movement.y);
+        if (inventory.actualEquiped != -1)
+            inventory.weapons[inventory.actualEquiped].transform.Find("Equiped").gameObject.GetComponent<range>().Updater();
+        else
+            inventory.melee.GetComponent<melee>().Updater();
     }
 
 
