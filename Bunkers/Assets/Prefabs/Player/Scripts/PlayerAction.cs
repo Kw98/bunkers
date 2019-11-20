@@ -12,6 +12,7 @@ public class PlayerAction : MonoBehaviour
     private Vector2     movement;
     private Vector2         mousePos;
     [SerializeField] private GameObject GameOverMenu;
+    [SerializeField] private GameObject VictoryMenu;
 
     private void Update() {
         if (currentHealth <= 0) {
@@ -47,6 +48,8 @@ public class PlayerAction : MonoBehaviour
         Debug.Log("Triggered");
             if (other.gameObject.tag == "Weapon" || other.gameObject.tag == "Charger")
                 gameObject.GetComponent<Inventory>().loot(other.gameObject);
+        if (other.gameObject.tag == "Victory")
+            VictoryMenu.SetActive(true);
     }
 
     private void OnDestroy() {
