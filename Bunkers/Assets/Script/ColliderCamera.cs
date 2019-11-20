@@ -5,25 +5,31 @@ using UnityEngine;
 public class ColliderCamera : MonoBehaviour
 {
     // Start is called before the first frame update
+    public float    distPrint;
     public GameObject[] Player;
-    public GameObject[] TileMap;
+    private List<GameObject> TileMap;
+
+    private void Awake() {
+        TileMap = new List<GameObject>();
+        foreach (Transform child in transform)
+            TileMap.Add(child.gameObject);
+    }
 
     void Update()
     {
-        for (int i = 0; i < TileMap.Length; i++)
-        {
+        foreach (GameObject pref in TileMap) {
             float minDist = 15;
             foreach (GameObject p in Player) {
                 if (!p)
                     continue;
-                float d = Vector3.Distance(p.transform.position, TileMap[i].transform.position);
+                float d = Vector3.Distance(p.transform.position, pref.transform.position);
                 if (d < minDist)
                     minDist = d;
             }
-            if (minDist < 15)
-                TileMap[i].SetActive(true);
+            if (minDist < distPrint)
+                pref.SetActive(true);
             else
-                TileMap[i].SetActive(false);
+                pref.SetActive(false);
         }
     }
 }

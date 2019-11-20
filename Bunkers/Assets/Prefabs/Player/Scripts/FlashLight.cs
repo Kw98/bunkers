@@ -7,7 +7,7 @@ public class FlashLight : MonoBehaviour
     private ligthHandle lightHandler;
     private Light light;
 
-    private void Awake() {
+    private void Start() {
         lightHandler = GameObject.Find("LightHandler").GetComponent<ligthHandle>();
         light = GetComponent<Light>();
     }
