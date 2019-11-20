@@ -8,7 +8,6 @@ public class ligthHandle : MonoBehaviour
     public int timeSpeed;
     public int timeSpeedNight;
     public Light lt;
-    public Light FlashLight;
     public GameObject    timeUIHandler;
     private float ligthtime;
     private int  dayCounter;
@@ -25,7 +24,6 @@ public class ligthHandle : MonoBehaviour
     void Update()
     {
         int temp = (int)timer / 60;
-        updateFlashLigt(temp);
         if (temp >= 6 && temp < 11)
             ligthtime += 0.0006f;
         else if (temp > 19 && temp <= 22)
@@ -51,12 +49,4 @@ public class ligthHandle : MonoBehaviour
             timeUIHandler.GetComponent<TimeUIHandler>().updateTimer(hours, minutes);
         }
     }
-
-    void updateFlashLigt(float time) {
-        if (time >= 7 && time <= 20)
-            FlashLight.intensity = 0;
-        else
-            FlashLight.intensity = 1.5f;
-    }
-
 }

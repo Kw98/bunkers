@@ -2,6 +2,8 @@
 
 public class PlayerAction : MonoBehaviour
 {
+    public float maxHealth;
+    public float currentHealth;
     public float    speed;
     public Rigidbody2D  rigidbody;
     public Camera   camera;
@@ -9,8 +11,13 @@ public class PlayerAction : MonoBehaviour
     public Inventory inventory;
     private Vector2     movement;
     private Vector2         mousePos;
+    [SerializeField] private GameObject GameOverMenu;
 
     private void Update() {
+        if (currentHealth <= 0) {
+            Destroy(gameObject);
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.A))
             gameObject.GetComponent<Inventory>().drop();
         movement.x = Input.GetAxis("Horizontal");
@@ -31,13 +38,18 @@ public class PlayerAction : MonoBehaviour
         rigidbody.rotation = angle;
     }
 
-    private void OnCollisionEnter2D(Collision2D other) {
-        Debug.Log("Collided");
+    private void OnCollisionEnter2D(Collision2D hit) {
+        if (hit.gameObject.tag == "Zombie")
+            currentHealth -= 1.0f;
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         Debug.Log("Triggered");
             if (other.gameObject.tag == "Weapon" || other.gameObject.tag == "Charger")
                 gameObject.GetComponent<Inventory>().loot(other.gameObject);
+    }
+
+    private void OnDestroy() {
+        GameOverMenu.SetActive(true);
     }
 }

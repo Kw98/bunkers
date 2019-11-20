@@ -69,11 +69,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 068a728136cf3ad468c99479f3b65eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 10
+  currentHealth: 10
   speed: 4
   rigidbody: {fileID: 4602513565567408559}
   camera: {fileID: 0}
   legs: {fileID: 7494596770540807831}
   inventory: {fileID: 8574001089598828805}
+  GameOverMenu: {fileID: 0}
 --- !u!114 &8574001089598828805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,6 +95,7 @@ MonoBehaviour:
   - {fileID: 0}
   melee: {fileID: 8346608334105642043}
   selectedWeapon: 0
+  actualEquiped: 0
 --- !u!1 &6799984772632552720
 GameObject:
   m_ObjectHideFlags: 0
@@ -102,8 +106,9 @@ GameObject:
   m_Component:
   - component: {fileID: 84371853948443777}
   - component: {fileID: 2477171060438458381}
+  - component: {fileID: 4910060610634870261}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: FlashLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -183,6 +188,19 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &4910060610634870261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6799984772632552720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4b89e46bc8148e4e8a4a46978551dec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightHandler: {fileID: 0}
 --- !u!1 &7322363848408092379
 GameObject:
   m_ObjectHideFlags: 0

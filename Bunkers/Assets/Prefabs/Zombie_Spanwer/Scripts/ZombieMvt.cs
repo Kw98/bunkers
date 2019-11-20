@@ -58,6 +58,8 @@ public class ZombieMvt : MonoBehaviour
         {
             p = player;
         }
+        if (!p)
+            return;
         distance = Vector2.Distance(transform.position, p.transform.position);
             if (distance < 0.20)
                 attack();
