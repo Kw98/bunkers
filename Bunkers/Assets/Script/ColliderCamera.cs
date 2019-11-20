@@ -19,7 +19,7 @@ public class ColliderCamera : MonoBehaviour
         for (int i = 0; i < Size; i++)
         {
             float dist = Vector3.Distance(Player.position, TileMap[i].transform.position);
-            if (dist < 8)
+            if (dist < 15)
             {
                 TileMap[i].SetActive(true);
             }
