@@ -6,6 +6,7 @@ public class ligthHandle : MonoBehaviour
     public bool chrono;
     public float timer;
     public int timeSpeed;
+    public int timeSpeedNight;
     public Light lt;
     public Light FlashLight;
     public GameObject    timeUIHandler;
@@ -33,7 +34,14 @@ public class ligthHandle : MonoBehaviour
         if (timer > 1440)
             timer = 0;
         if (chrono) {
-            timer += Time.deltaTime * timeSpeed;
+            if (temp >= 7 && temp <= 20)
+            {
+                timer += Time.deltaTime * timeSpeed;
+            }
+            else
+            {
+                timer += Time.deltaTime * timeSpeedNight;
+            }
             hours = Mathf.Floor(timer / 60);
             minutes = Mathf.Floor(timer % 60);
             if (hours == 6 && timer % 60 < 0.1f) {
