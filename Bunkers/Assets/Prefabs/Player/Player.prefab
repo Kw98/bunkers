@@ -73,6 +73,7 @@ MonoBehaviour:
   rigidbody: {fileID: 4602513565567408559}
   camera: {fileID: 0}
   legs: {fileID: 7494596770540807831}
+  inventory: {fileID: 8574001089598828805}
 --- !u!114 &8574001089598828805
 MonoBehaviour:
   m_ObjectHideFlags: 0

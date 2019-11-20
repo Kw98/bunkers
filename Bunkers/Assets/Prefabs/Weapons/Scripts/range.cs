@@ -14,16 +14,13 @@ public class range : MonoBehaviour
     private bool    isFiring;
     private float      fireTime;
 
-    // Start is called before the first frame update
     void Start()
     {
         isFiring = false;
         fireTime = 0;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    public void    Updater() {
         if (Input.GetMouseButtonDown(0))
             isFiring = true;
         if (Input.GetMouseButtonUp(0))

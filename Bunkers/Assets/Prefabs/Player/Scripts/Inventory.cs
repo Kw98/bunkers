@@ -9,7 +9,7 @@ public class Inventory : MonoBehaviour
     public GameObject   melee;
     public int  selectedWeapon;
     private int currentNbWeapons;
-    private int actualEquiped;
+    public int actualEquiped;
 
     private void Start() {
         selectedWeapon = -1;
