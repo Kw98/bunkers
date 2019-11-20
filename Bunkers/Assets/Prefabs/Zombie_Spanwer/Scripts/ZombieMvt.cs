@@ -77,7 +77,6 @@ public class ZombieMvt : MonoBehaviour
              p = player;
         }
         distance = Vector2.Distance(transform.position, p.transform.position);
-        print(distance);
         Vector3 targetDirection = p.transform.position - transform.position;
         if (dead != true && distance < 2)
         {
