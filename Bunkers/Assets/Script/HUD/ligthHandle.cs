@@ -10,9 +10,9 @@ public class ligthHandle : MonoBehaviour
     public Light lt;
     public GameObject    timeUIHandler;
     private float ligthtime;
-    private int  dayCounter;
-    private float hours;
-    private float minutes;
+    public int  dayCounter;
+    public float hours;
+    public float minutes;
 
     // Start is called before the first frame update
     void Start()
