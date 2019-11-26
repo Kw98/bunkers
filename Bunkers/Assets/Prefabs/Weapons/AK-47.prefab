@@ -133,6 +133,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  shootsong: {fileID: 0}
 --- !u!1 &5528779667590762490
 GameObject:
   m_ObjectHideFlags: 0
