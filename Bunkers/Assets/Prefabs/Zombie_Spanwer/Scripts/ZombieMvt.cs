@@ -6,11 +6,11 @@ public class ZombieMvt : MonoBehaviour
 { 
     private GameObject[] players;
     public float speed = 0;
+    public bool dead = false;
     private Vector3 v_diff;
     private float atan2;
     private float distance;
     private Animator animation;
-    private bool dead = false;
 
 
     void Awake()
