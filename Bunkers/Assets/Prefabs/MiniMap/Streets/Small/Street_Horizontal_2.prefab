@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7261571885494590148}
   - component: {fileID: 592026642023236478}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Street_Horizontal_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 7874571175042479}
   - component: {fileID: 1906787122743522768}
   - component: {fileID: 5107526098866681467}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1433,7 +1433,7 @@ GameObject:
   - component: {fileID: 8202290392911020106}
   - component: {fileID: 1352554926935803902}
   - component: {fileID: 5684834457402614749}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}

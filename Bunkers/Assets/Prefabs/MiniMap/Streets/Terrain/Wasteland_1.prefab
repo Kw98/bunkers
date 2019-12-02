@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 445602060960696817}
   - component: {fileID: 445602060960696718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wasteland_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 445602061554900618}
   - component: {fileID: 445602061554900620}
   - component: {fileID: 445602061554900621}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -839,7 +839,7 @@ GameObject:
   - component: {fileID: 445602061973863826}
   - component: {fileID: 445602061973863828}
   - component: {fileID: 445602061973863829}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2394038435015055910}
   - component: {fileID: 9052281332086209809}
   - component: {fileID: 9087438955239641370}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2120,7 +2120,7 @@ GameObject:
   - component: {fileID: 4052704931079639333}
   - component: {fileID: 8455623395169857362}
   - component: {fileID: 4375059909917650153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2250,7 +2250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3864334551262727937}
   - component: {fileID: 3400490000865322674}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Street_Vertical_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

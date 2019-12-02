@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 608951233790123474}
   - component: {fileID: 5966178293128636408}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Street_Vertical_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 8546760038640939572}
   - component: {fileID: 2059139386234543713}
   - component: {fileID: 4326376054081558142}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9114,8 +9114,7 @@ GameObject:
   - component: {fileID: 3937907934494500151}
   - component: {fileID: 294235554816353413}
   - component: {fileID: 1814871742512247604}
-  - component: {fileID: 5172955518028154568}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9219,19 +9218,3 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!19719996 &5172955518028154568
-TilemapCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8471013031106509721}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0.00001
