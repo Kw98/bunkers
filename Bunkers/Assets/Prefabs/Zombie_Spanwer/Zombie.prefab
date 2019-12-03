@@ -336,11 +336,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5565562533894574452}
     m_Modifications:
-    - target: {fileID: 7023133818362550813, guid: 09bb6f5b2562f80439d2f745a0302338,
-        type: 3}
-      propertyPath: m_Name
-      value: ButtonArrowUpSprite 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7023133818362550814, guid: 09bb6f5b2562f80439d2f745a0302338,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -395,6 +390,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7023133818362550813, guid: 09bb6f5b2562f80439d2f745a0302338,
+        type: 3}
+      propertyPath: m_Name
+      value: ButtonArrowUpSprite 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09bb6f5b2562f80439d2f745a0302338, type: 3}
