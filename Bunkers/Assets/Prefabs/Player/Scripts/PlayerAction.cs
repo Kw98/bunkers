@@ -42,6 +42,8 @@ public class PlayerAction : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D hit) {
         if (hit.gameObject.tag == "Zombie")
             currentHealth -= 1.0f;
+        if (hit.gameObject.tag == "Boss")
+            currentHealth -= hit.gameObject.GetComponent<Boss>().Damages;
     }
 
     private void OnTriggerEnter2D(Collider2D other) {

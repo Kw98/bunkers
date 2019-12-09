@@ -98,6 +98,7 @@ MonoBehaviour:
   melee: {fileID: 8346608334105642043}
   selectedWeapon: 0
   actualEquiped: 0
+  imageWapeon: {fileID: 0}
 --- !u!1 &6799984772632552720
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +348,7 @@ GameObject:
   - component: {fileID: 5150194089050711366}
   m_Layer: 0
   m_Name: Unarmed
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

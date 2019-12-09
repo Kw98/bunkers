@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6769217124565422133}
   m_Layer: 0
   m_Name: Equiped
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,10 +129,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4060819725916831063, guid: ea1542d5b1bdabc48b12b82505580d5c,
     type: 3}
   maxCharger: 5
-  chargers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  chargers: []
   shootsong: {fileID: 0}
 --- !u!1 &5528779667590762490
 GameObject:
@@ -241,7 +238,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5528779668853497798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -14.557321, y: -8.737561, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5528779667590762491}

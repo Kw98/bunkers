@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 1546462521798457324}
   m_Layer: 0
   m_Name: Equiped
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -160,9 +160,10 @@ MonoBehaviour:
     type: 3}
   maxCharger: 4
   chargers:
-  - {fileID: 8554867240474571833, guid: 29b9fc0c4d2d0414fb75522b52fcd58e, type: 3}
-  - {fileID: 8554867240474571833, guid: 29b9fc0c4d2d0414fb75522b52fcd58e, type: 3}
-  - {fileID: 8554867240474571833, guid: 29b9fc0c4d2d0414fb75522b52fcd58e, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  shootsong: {fileID: 0}
 --- !u!1 &6400834885092727407
 GameObject:
   m_ObjectHideFlags: 0

@@ -3884,7 +3884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1d20b96a0b7d624583464e49435c13b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoloGameSceneName: Map
+  SoloGameSceneName: History
 --- !u!1 &1294007964
 GameObject:
   m_ObjectHideFlags: 0

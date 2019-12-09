@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4604336631626588881}
   m_Layer: 0
   m_Name: Equiped
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -205,14 +205,15 @@ MonoBehaviour:
     type: 3}
   maxCharger: 10
   chargers:
-  - {fileID: 4979782603374213150, guid: a87584e8d79935448a32abf351d4dd46, type: 3}
-  - {fileID: 4979782603374213150, guid: a87584e8d79935448a32abf351d4dd46, type: 3}
-  - {fileID: 4979782603374213150, guid: a87584e8d79935448a32abf351d4dd46, type: 3}
-  - {fileID: 4979782603374213150, guid: a87584e8d79935448a32abf351d4dd46, type: 3}
-  - {fileID: 4979782603374213150, guid: a87584e8d79935448a32abf351d4dd46, type: 3}
-  - {fileID: 4979782603374213150, guid: a87584e8d79935448a32abf351d4dd46, type: 3}
-  - {fileID: 4979782603374213150, guid: a87584e8d79935448a32abf351d4dd46, type: 3}
-  - {fileID: 4979782603374213150, guid: a87584e8d79935448a32abf351d4dd46, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  shootsong: {fileID: 0}
 --- !u!1 &7353388644734989415
 GameObject:
   m_ObjectHideFlags: 0
