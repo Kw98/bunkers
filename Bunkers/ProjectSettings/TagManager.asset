@@ -11,6 +11,7 @@ TagManager:
   - Zombie
   - Days
   - Victory
+  - ReloadText
   layers:
   - Default
   - TransparentFX

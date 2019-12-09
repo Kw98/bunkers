@@ -28,9 +28,11 @@ public class Weapon : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other) {
     }
 
-    public void equip() {
+    public SpriteRenderer equip() {
         Debug.Log("EQUIPED");
         equiped.active = true;
+        return loot.GetComponent<SpriteRenderer>();
+
     }
 
     public void unequip() {
@@ -52,4 +54,5 @@ public class Weapon : MonoBehaviour
         transform.parent = null;
         GetComponent<Collider2D>().enabled = true;
     }
+
 }

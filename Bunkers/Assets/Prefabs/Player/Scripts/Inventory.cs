@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 //change weapon array to list
 public class Inventory : MonoBehaviour
@@ -10,11 +9,13 @@ public class Inventory : MonoBehaviour
     public int  selectedWeapon;
     private int currentNbWeapons;
     public int actualEquiped;
+    public GameObject imageWapeon;
 
     private void Start() {
         selectedWeapon = -1;
         currentNbWeapons = 0;
         actualEquiped = 0;
+        imageWapeon.SetActive(false);
     }
 
     private void Update() {
@@ -96,17 +97,23 @@ public class Inventory : MonoBehaviour
     }
 
     private void    equip() {
+        
         if (actualEquiped != -1 && selectedWeapon == -1) {
             weapons[actualEquiped].GetComponent<Weapon>().unequip();
+            imageWapeon.SetActive(true);
+            imageWapeon.GetComponent<Image>().sprite = null;
             melee.SetActive(true);
             return;
         } else if (actualEquiped == -1 && selectedWeapon != -1) {
+            imageWapeon.SetActive(true);
             melee.SetActive(false);
             weapons[selectedWeapon].GetComponent<Weapon>().equip();
+            imageWapeon.GetComponent<Image>().sprite = weapons[selectedWeapon].GetComponent<Weapon>().equip().sprite;
             return;
         }
         if (weapons[selectedWeapon] == null)
             return;
+        imageWapeon.GetComponent<Image>().sprite = weapons[selectedWeapon].GetComponent<Weapon>().equip().sprite;
         weapons[actualEquiped].GetComponent<Weapon>().unequip();
         weapons[selectedWeapon].GetComponent<Weapon>().equip();
     }

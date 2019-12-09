@@ -17,20 +17,33 @@ public class ligthHandle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dayCounter = 0;
+        dayCounter = 1;
         chrono = true;
     }
     // Update is called once per frame
     void Update()
     {
         int temp = (int)timer / 60;
-        if (temp >= 6 && temp < 11)
-            ligthtime += 0.0006f;
-        else if (temp > 19 && temp <= 22)
-            ligthtime -= 0.0015f;
+        if (temp >= 6 && temp < 10)
+        {
+            if (ligthtime < 1.3)
+                ligthtime += 0.00009f * timeSpeed;
+        }
+        if (temp == 12)
+            ligthtime = 1.3f;
+       if (temp > 19 && temp <= 22)
+        {
+            ligthtime -= 0.0002f * timeSpeedNight;
+        }
+        if (temp == 23)
+            ligthtime = 0;
         lt.intensity = ligthtime;
         if (timer > 1440)
+        {
+            dayCounter++;
             timer = 0;
+            timeUIHandler.GetComponent<TimeUIHandler>().updateDay(dayCounter);
+        }
         if (chrono) {
             if (temp >= 7 && temp <= 20)
             {
@@ -42,10 +55,6 @@ public class ligthHandle : MonoBehaviour
             }
             hours = Mathf.Floor(timer / 60);
             minutes = Mathf.Floor(timer % 60);
-            if (hours == 6 && timer % 60 < 0.1f) {
-                dayCounter++;
-                timeUIHandler.GetComponent<TimeUIHandler>().updateDay(dayCounter);
-            }
             timeUIHandler.GetComponent<TimeUIHandler>().updateTimer(hours, minutes);
         }
     }

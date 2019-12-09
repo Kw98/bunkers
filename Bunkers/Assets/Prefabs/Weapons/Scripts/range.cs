@@ -15,6 +15,7 @@ public class range : MonoBehaviour
     private float      fireTime;
     public AudioClip shootsong;
     private AudioSource audioSource;
+    private GameObject ReloadText;
 
 
 
@@ -23,6 +24,10 @@ public class range : MonoBehaviour
         isFiring = false;
         fireTime = 0;
         audioSource = CreateAudioSource(shootsong, false);
+        ReloadText = GameObject.FindWithTag("ReloadText");
+        ReloadText.GetComponent<UnityEngine.UI.Text>().text = "";
+        
+
 
     }
 
@@ -48,12 +53,15 @@ public class range : MonoBehaviour
 
     private void    shoot() {
         // Debug.Log(chargers.Count);
+
         if (chargers.Count > 0 && chargers[0].GetComponent<Charger>().useBullet()) {
 
             GameObject b = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             audioSource.Play();
             b.GetComponent<Bullet>().damages = damage;
         }
+        else
+            ReloadText.GetComponent<UnityEngine.UI.Text>().text = "Press R for reload";
     }
     private AudioSource CreateAudioSource(AudioClip audioClip,
         bool startPlayingImmediately)
@@ -73,7 +81,6 @@ public class range : MonoBehaviour
 
     private IEnumerator reload() {
         yield return new WaitForSeconds(reloadTime);
-        Debug.Log("reloading");
         if (chargers.Count > 0) {
             GameObject  c = chargers[0];
             chargers.RemoveAt(0);
@@ -83,6 +90,7 @@ public class range : MonoBehaviour
                 chargers.Add(c);
         }
         Debug.Log("reloaded");
+        ReloadText.GetComponent<UnityEngine.UI.Text>().text = "";
     }
 }
 
