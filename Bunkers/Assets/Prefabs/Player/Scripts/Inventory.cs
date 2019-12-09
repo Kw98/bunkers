@@ -10,34 +10,36 @@ public class Inventory : MonoBehaviour
     public int  selectedWeapon;
     private int currentNbWeapons;
     public int actualEquiped;
+    private PhotonView  photonView;
 
     private void Start() {
-        selectedWeapon = -1;
+        photonView = GetComponent<PhotonView>();
         currentNbWeapons = 0;
-        actualEquiped = 0;
     }
 
     private void Update() {
-        actualEquiped = selectedWeapon;
-        if (Input.GetAxis("Mouse ScrollWheel") > 0f) {
-            selectedWeapon = (selectedWeapon + 1) % weapons.Length;
-            equip();
-        } else if (Input.GetAxis("Mouse ScrollWheel") < 0f) {
-            selectedWeapon = Mathf.Abs(selectedWeapon - 1) % weapons.Length;
-            equip();
-        } if (Input.GetKeyDown(KeyCode.Alpha1) && selectedWeapon != 0) {
-            selectedWeapon = 0;
-            equip();
-        } if (Input.GetKeyDown(KeyCode.Alpha2) && selectedWeapon != 1) {
-            selectedWeapon = 1;
-            equip();
-        } if (Input.GetKeyDown(KeyCode.Alpha3) && selectedWeapon != 2) {
-            selectedWeapon = 2;
-            equip();
-        } if (Input.GetKeyDown(KeyCode.F) && selectedWeapon != -1) {
-            selectedWeapon = -1;
-            equip();
-        }
+        if (!photonView.isMine)
+            return;
+        // actualEquiped = selectedWeapon;
+        // if (Input.GetAxis("Mouse ScrollWheel") > 0f) {
+        //     selectedWeapon = (selectedWeapon + 1) % weapons.Length;
+        //     equip();
+        // } else if (Input.GetAxis("Mouse ScrollWheel") < 0f) {
+        //     selectedWeapon = Mathf.Abs(selectedWeapon - 1) % weapons.Length;
+        //     equip();
+        // } if (Input.GetKeyDown(KeyCode.Alpha1) && selectedWeapon != 0) {
+        //     selectedWeapon = 0;
+        //     equip();
+        // } if (Input.GetKeyDown(KeyCode.Alpha2) && selectedWeapon != 1) {
+        //     selectedWeapon = 1;
+        //     equip();
+        // } if (Input.GetKeyDown(KeyCode.Alpha3) && selectedWeapon != 2) {
+        //     selectedWeapon = 2;
+        //     equip();
+        // } if (Input.GetKeyDown(KeyCode.F) && selectedWeapon != -1) {
+        //     selectedWeapon = -1;
+        //     equip();
+        // }
     }
 
     public bool loot(GameObject obj) {

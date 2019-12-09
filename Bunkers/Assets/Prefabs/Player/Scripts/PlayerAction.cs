@@ -6,19 +6,34 @@ public class PlayerAction : MonoBehaviour
     public float currentHealth;
     public float    speed;
     public Rigidbody2D  rigidbody;
-    public Camera   camera;
+    [SerializeField] private Camera   camera;
+    [SerializeField] private PhotonView photonView;
     public Animator legs;
     public Inventory inventory;
     private Vector2     movement;
     private Vector2         mousePos;
-    [SerializeField] private GameObject GameOverMenu;
-    [SerializeField] private GameObject VictoryMenu;
+
+    private void Awake() {
+        photonView = GetComponent<PhotonView>();
+        if (photonView.isMine) {
+            GameObject cam = GameObject.Find("Camera");
+            print("HELLLOOOOOOOOOOOOOOOOOOO");
+            if (cam)
+                camera = cam.GetComponent<Camera>();
+        }
+    }
 
     private void Update() {
-        if (currentHealth <= 0) {
-            Destroy(gameObject);
+        if (!photonView.isMine)
+            return;
+        else if (currentHealth <= 0) {
+            PhotonNetwork.Destroy(gameObject);
             return;
         }
+        checkInputs();
+    }
+
+    private void    checkInputs() {
         if (Input.GetKeyDown(KeyCode.A))
             gameObject.GetComponent<Inventory>().drop();
         movement.x = Input.GetAxis("Horizontal");
@@ -33,6 +48,8 @@ public class PlayerAction : MonoBehaviour
 
 
     private void FixedUpdate() {
+        if (!photonView.isMine)
+            return;
         rigidbody.velocity = movement;
         Vector2 lookDir = mousePos - rigidbody.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
@@ -40,19 +57,16 @@ public class PlayerAction : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D hit) {
+        if (!photonView.isMine)
+            return;
         if (hit.gameObject.tag == "Zombie")
             currentHealth -= 1.0f;
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("Triggered");
-            if (other.gameObject.tag == "Weapon" || other.gameObject.tag == "Charger")
-                gameObject.GetComponent<Inventory>().loot(other.gameObject);
-        if (other.gameObject.tag == "Victory")
-            VictoryMenu.SetActive(true);
-    }
-
-    private void OnDestroy() {
-        GameOverMenu.SetActive(true);
+        if (!photonView.isMine)
+            return;
+        if (other.gameObject.tag == "Weapon" || other.gameObject.tag == "Charger")
+            gameObject.GetComponent<Inventory>().loot(other.gameObject);
     }
 }
