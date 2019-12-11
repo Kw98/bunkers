@@ -57,7 +57,6 @@ public class Inventory : MonoBehaviour
                             weapons[i].GetComponent<Weapon>().unequip();
                         return true;
                     } else if (weapons[i].GetComponent<Weapon>().wt == wt) {
-                        // get charger from weapon
                         Destroy(obj);
                         return true;
                     }
@@ -67,6 +66,7 @@ public class Inventory : MonoBehaviour
             WeaponType wt = obj.GetComponent<Charger>().weaponType;
             for (int i = 0; i < weapons.Length; i++) {
                 if (weapons[i] && weapons[i].GetComponent<Weapon>().wt == wt) {
+                    obj.transform.GetChild(0).gameObject.active = false;
                     GameObject e = weapons[i].transform.Find("Equiped").gameObject;
                     range wp = e.GetComponent<range>();
                     if (wp.chargers.Count < wp.maxCharger) {

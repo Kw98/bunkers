@@ -50,13 +50,14 @@ public class PlayerAction : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         Debug.Log("Triggered");
         if (other.gameObject.tag == "Weapon" || other.gameObject.tag == "Charger")
-        {
-            if (other.gameObject.tag == "Charger")
-                other.gameObject.transform.GetChild(0).gameObject.active = false;
             gameObject.GetComponent<Inventory>().loot(other.gameObject);
-        }
         else if (other.gameObject.tag == "Battery")
             Light.GetComponent<FlashLight>().AddBattery(other.gameObject);
+        else if (other.gameObject.tag == "MedicPack" && currentHealth < maxHealth)
+        {
+            currentHealth += other.gameObject.GetComponent<MedicPack>().health;
+            Destroy(other.gameObject);
+        }
         else if (other.gameObject.tag == "Victory")
             VictoryMenu.SetActive(true);
     }

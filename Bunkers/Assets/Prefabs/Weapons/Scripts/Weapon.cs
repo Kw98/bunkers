@@ -54,4 +54,5 @@ public class Weapon : MonoBehaviour
         GetComponent<Collider2D>().enabled = true;
     }
 
+
 }

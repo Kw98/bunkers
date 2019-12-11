@@ -46,6 +46,7 @@ public class FlashLight : MonoBehaviour
         }
         if (ActualNbOfBattery == 0)
         {
+            timeActualBattery = 0;
             light.intensity = 0;
             lightActivated = false;
         }

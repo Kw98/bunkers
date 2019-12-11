@@ -35,12 +35,12 @@ public class Boss : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D hit)
     {
-        if (hit.gameObject.tag == "Bullet" && !red)
+        if (hit.gameObject.tag == "Bullet")
         {
             red = true;
             timeShoot = time;
             renderer.color = new Color(255f, 0f, 0f, 1f);
-            CurrentHealth -= 20.0f /*hit.gameObject.GetComponent<Bullet>().Damages*/;
+            CurrentHealth -= hit.gameObject.GetComponent<Bullet>().damages;
             Destroy(hit.transform.gameObject);
         }
     }

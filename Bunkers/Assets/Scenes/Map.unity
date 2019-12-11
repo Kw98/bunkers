@@ -65437,6 +65437,11 @@ PrefabInstance:
       propertyPath: m_DrawHalo
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5203482734287936260, guid: fbf990874722f934ab78d92125840e3c,
+        type: 3}
+      propertyPath: m_Range
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1506044150283136023, guid: fbf990874722f934ab78d92125840e3c,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -66595,6 +66600,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6799984772632552720, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
+        type: 3}
+      propertyPath: m_Name
+      value: flashLigth
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910060610634870261, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
+        type: 3}
+      propertyPath: timeBattery
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910060610634870261, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
+        type: 3}
+      propertyPath: nbMaxOfBattery
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910060610634870261, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
+        type: 3}
+      propertyPath: ActualNbOfBattery
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910060610634870261, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
+        type: 3}
+      propertyPath: batterytext
+      value: 
+      objectReference: {fileID: 937946078}
     - target: {fileID: 4602513565567408557, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66693,23 +66723,29 @@ PrefabInstance:
     - target: {fileID: 3550691246427305718, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.06
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 3550691246427305718, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.07
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 3550691246427305718, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
         type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3550691246427305718, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
         type: 3}
       propertyPath: m_SortingOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 3550691246427305718, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1346633779017008559, guid: 34460c98ea697644a873098000823472,
+        type: 3}
     - target: {fileID: 2204424312769565052, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
         type: 3}
       propertyPath: m_RootOrder
@@ -66815,11 +66851,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 6799984772632552720, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
-        type: 3}
-      propertyPath: m_Name
-      value: flashLigth
-      objectReference: {fileID: 0}
     - target: {fileID: 2477171060438458381, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
         type: 3}
       propertyPath: m_Range
@@ -66860,26 +66891,6 @@ PrefabInstance:
       propertyPath: imageWapeon
       value: 
       objectReference: {fileID: 1726421684}
-    - target: {fileID: 4910060610634870261, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
-        type: 3}
-      propertyPath: timeBattery
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4910060610634870261, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
-        type: 3}
-      propertyPath: nbMaxOfBattery
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4910060610634870261, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
-        type: 3}
-      propertyPath: ActualNbOfBattery
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4910060610634870261, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a,
-        type: 3}
-      propertyPath: batterytext
-      value: 
-      objectReference: {fileID: 937946078}
     m_RemovedComponents:
     - {fileID: 4602513565567408558, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8f9b125c5b6d9b040a3e0d79bb64ff9a, type: 3}
@@ -66956,6 +66967,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336566001}
   m_CullTransparentMesh: 0
+--- !u!1 &1348388167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4387256326533523303, guid: fbf990874722f934ab78d92125840e3c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1254123201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1348388170
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348388167}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9583b3f497b24304abb52baec5b57c62, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1352371780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -82972,6 +83008,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossMovement
       objectReference: {fileID: 0}
+    - target: {fileID: 7752439965406359936, guid: 2a2dceeb190ce4e44b3935adcc74fc09,
+        type: 3}
+      propertyPath: HealthBarBoss
+      value: 
+      objectReference: {fileID: 1824738880}
     - target: {fileID: 7752439965901051640, guid: 2a2dceeb190ce4e44b3935adcc74fc09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -83087,11 +83128,6 @@ PrefabInstance:
       propertyPath: m_Simulated
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7752439965406359936, guid: 2a2dceeb190ce4e44b3935adcc74fc09,
-        type: 3}
-      propertyPath: HealthBarBoss
-      value: 
-      objectReference: {fileID: 1824738880}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a2dceeb190ce4e44b3935adcc74fc09, type: 3}
 --- !u!1 &1806384253 stripped
@@ -87147,7 +87183,7 @@ PrefabInstance:
     - target: {fileID: 5437457981133206659, guid: 3fdd8ad5ca11d954bafd3d27c8648e2f,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5437457981133206658, guid: 3fdd8ad5ca11d954bafd3d27c8648e2f,
         type: 3}
@@ -87162,7 +87198,7 @@ PrefabInstance:
     - target: {fileID: 5437457981133206658, guid: 3fdd8ad5ca11d954bafd3d27c8648e2f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5437457981133206658, guid: 3fdd8ad5ca11d954bafd3d27c8648e2f,
         type: 3}
