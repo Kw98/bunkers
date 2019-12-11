@@ -108,7 +108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7222787373928389120}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.314128, y: -9.352957, z: 0}
+  m_LocalPosition: {x: -12.47713, y: -9.926257, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 6831211849894810243}
@@ -206,4 +206,3 @@ MonoBehaviour:
   maxBullets: 30
   actualNbOfBullets: 30
   weaponType: 0
-  textNbBullets: {fileID: 0}
