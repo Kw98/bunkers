@@ -32,7 +32,6 @@ public class Weapon : MonoBehaviour
         Debug.Log("EQUIPED");
         equiped.active = true;
         return loot.GetComponent<SpriteRenderer>();
-
     }
 
     public void unequip() {

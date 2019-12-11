@@ -9,6 +9,7 @@ public class PlayerAction : MonoBehaviour
     public Camera   camera;
     public Animator legs;
     public Inventory inventory;
+    public GameObject Light;
     private Vector2     movement;
     private Vector2         mousePos;
     [SerializeField] private GameObject GameOverMenu;
@@ -48,9 +49,15 @@ public class PlayerAction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         Debug.Log("Triggered");
-            if (other.gameObject.tag == "Weapon" || other.gameObject.tag == "Charger")
-                gameObject.GetComponent<Inventory>().loot(other.gameObject);
-        if (other.gameObject.tag == "Victory")
+        if (other.gameObject.tag == "Weapon" || other.gameObject.tag == "Charger")
+        {
+            if (other.gameObject.tag == "Charger")
+                other.gameObject.transform.GetChild(0).gameObject.active = false;
+            gameObject.GetComponent<Inventory>().loot(other.gameObject);
+        }
+        else if (other.gameObject.tag == "Battery")
+            Light.GetComponent<FlashLight>().AddBattery(other.gameObject);
+        else if (other.gameObject.tag == "Victory")
             VictoryMenu.SetActive(true);
     }
 

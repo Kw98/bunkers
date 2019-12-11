@@ -12,6 +12,8 @@ TagManager:
   - Days
   - Victory
   - ReloadText
+  - Boss
+  - Battery
   layers:
   - Default
   - TransparentFX

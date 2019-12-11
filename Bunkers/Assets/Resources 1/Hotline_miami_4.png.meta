@@ -1,0 +1,3523 @@
+fileFormatVersion: 2
+guid: d8830a8f91d98c94788396be2cbe474e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7377840495691590846
+    second: Hotline_miami_4_0
+  - first:
+      213: 2472317925482059850
+    second: Hotline_miami_4_1
+  - first:
+      213: 7597013734539807247
+    second: Hotline_miami_4_2
+  - first:
+      213: -3125269572288653566
+    second: Hotline_miami_4_3
+  - first:
+      213: 7196183146463735366
+    second: Hotline_miami_4_4
+  - first:
+      213: -7207429352111619691
+    second: Hotline_miami_4_5
+  - first:
+      213: 4873215216903281363
+    second: Hotline_miami_4_6
+  - first:
+      213: 64018843622705145
+    second: Hotline_miami_4_7
+  - first:
+      213: -7058328719564770183
+    second: Hotline_miami_4_8
+  - first:
+      213: -9055738197898546784
+    second: Hotline_miami_4_9
+  - first:
+      213: 5470470495982943817
+    second: Hotline_miami_4_10
+  - first:
+      213: 3269338802607712017
+    second: Hotline_miami_4_11
+  - first:
+      213: 6800941276471755684
+    second: Hotline_miami_4_12
+  - first:
+      213: 2588696866632251084
+    second: Hotline_miami_4_13
+  - first:
+      213: -7621346679381912739
+    second: Hotline_miami_4_14
+  - first:
+      213: 9054730653407041929
+    second: Hotline_miami_4_15
+  - first:
+      213: 5090947619059203520
+    second: Hotline_miami_4_16
+  - first:
+      213: 987788043398196805
+    second: Hotline_miami_4_17
+  - first:
+      213: 8648892631886296933
+    second: Hotline_miami_4_18
+  - first:
+      213: 6631974671656309357
+    second: Hotline_miami_4_19
+  - first:
+      213: -1521540383546785469
+    second: Hotline_miami_4_20
+  - first:
+      213: 346755601082828330
+    second: Hotline_miami_4_21
+  - first:
+      213: -6715923353136043789
+    second: Hotline_miami_4_22
+  - first:
+      213: -8315836101940778861
+    second: Hotline_miami_4_23
+  - first:
+      213: 5389103775896321080
+    second: Hotline_miami_4_24
+  - first:
+      213: -539131883636351262
+    second: Hotline_miami_4_25
+  - first:
+      213: -3511148859607365984
+    second: Hotline_miami_4_26
+  - first:
+      213: 8928199212773147063
+    second: Hotline_miami_4_27
+  - first:
+      213: -7149999391369062714
+    second: Hotline_miami_4_28
+  - first:
+      213: -6319017407233273465
+    second: Hotline_miami_4_29
+  - first:
+      213: -4301897368537420975
+    second: Hotline_miami_4_30
+  - first:
+      213: 3915438031595014582
+    second: Hotline_miami_4_31
+  - first:
+      213: -3600917755108767427
+    second: Hotline_miami_4_32
+  - first:
+      213: 1700393913426424357
+    second: Hotline_miami_4_33
+  - first:
+      213: -3732488938477501051
+    second: Hotline_miami_4_34
+  - first:
+      213: 6190372118200834359
+    second: Hotline_miami_4_35
+  - first:
+      213: 7408356620950640647
+    second: Hotline_miami_4_36
+  - first:
+      213: 1578382144182231324
+    second: Hotline_miami_4_37
+  - first:
+      213: 6998093814276119396
+    second: Hotline_miami_4_38
+  - first:
+      213: 8594554401441569401
+    second: Hotline_miami_4_39
+  - first:
+      213: -2613891921596651953
+    second: Hotline_miami_4_40
+  - first:
+      213: -5091629329258556006
+    second: Hotline_miami_4_41
+  - first:
+      213: -73670637709575034
+    second: Hotline_miami_4_42
+  - first:
+      213: -585907149585605075
+    second: Hotline_miami_4_43
+  - first:
+      213: -7162754621388297771
+    second: Hotline_miami_4_44
+  - first:
+      213: -21296171118055774
+    second: Hotline_miami_4_45
+  - first:
+      213: 5054531180965917384
+    second: Hotline_miami_4_46
+  - first:
+      213: 8056855088559094264
+    second: Hotline_miami_4_47
+  - first:
+      213: -3249844674448765895
+    second: Hotline_miami_4_48
+  - first:
+      213: -6107808265400403045
+    second: Hotline_miami_4_49
+  - first:
+      213: 4902185019622768833
+    second: Hotline_miami_4_50
+  - first:
+      213: 4828862865123331705
+    second: Hotline_miami_4_51
+  - first:
+      213: -6783496347417186741
+    second: Hotline_miami_4_52
+  - first:
+      213: 2406590678190712053
+    second: Hotline_miami_4_53
+  - first:
+      213: -2742661880530470153
+    second: Hotline_miami_4_54
+  - first:
+      213: -5385836849584347090
+    second: Hotline_miami_4_55
+  - first:
+      213: -3265148195958179136
+    second: Hotline_miami_4_56
+  - first:
+      213: -3361864074399392743
+    second: Hotline_miami_4_57
+  - first:
+      213: -6701739494570515174
+    second: Hotline_miami_4_58
+  - first:
+      213: 1862429466206926934
+    second: Hotline_miami_4_59
+  - first:
+      213: 4882467733236172698
+    second: Hotline_miami_4_60
+  - first:
+      213: 572479508059011801
+    second: Hotline_miami_4_61
+  - first:
+      213: 453383579538588219
+    second: Hotline_miami_4_62
+  - first:
+      213: 4106906505385306967
+    second: Hotline_miami_4_63
+  - first:
+      213: -7577887875170180697
+    second: Hotline_miami_4_64
+  - first:
+      213: 2373344584527755606
+    second: Hotline_miami_4_65
+  - first:
+      213: 2677366186234753337
+    second: Hotline_miami_4_66
+  - first:
+      213: -7368869642908702923
+    second: Hotline_miami_4_67
+  - first:
+      213: 1509185000515882614
+    second: Hotline_miami_4_68
+  - first:
+      213: 885256139315180408
+    second: Hotline_miami_4_69
+  - first:
+      213: 8079309550481299583
+    second: Hotline_miami_4_70
+  - first:
+      213: 5465397104352865234
+    second: Hotline_miami_4_71
+  - first:
+      213: 3260284325520257843
+    second: Hotline_miami_4_72
+  - first:
+      213: -4165370010853310453
+    second: Hotline_miami_4_73
+  - first:
+      213: 4618313231620167726
+    second: Hotline_miami_4_74
+  - first:
+      213: -4290979005875605422
+    second: Hotline_miami_4_75
+  - first:
+      213: -4565158300881250224
+    second: Hotline_miami_4_76
+  - first:
+      213: -5941761175828945839
+    second: Hotline_miami_4_77
+  - first:
+      213: -853076373465955792
+    second: Hotline_miami_4_78
+  - first:
+      213: 4986889311990319566
+    second: Hotline_miami_4_79
+  - first:
+      213: 5059381186581007870
+    second: Hotline_miami_4_80
+  - first:
+      213: 562484682249208238
+    second: Hotline_miami_4_81
+  - first:
+      213: -2805832428187587039
+    second: Hotline_miami_4_82
+  - first:
+      213: -9048847231705566298
+    second: Hotline_miami_4_83
+  - first:
+      213: 5251445150997109860
+    second: Hotline_miami_4_84
+  - first:
+      213: 7863937499697858838
+    second: Hotline_miami_4_85
+  - first:
+      213: 3710484146400775440
+    second: Hotline_miami_4_86
+  - first:
+      213: 7465085589965607032
+    second: Hotline_miami_4_87
+  - first:
+      213: -6832622996330180918
+    second: Hotline_miami_4_88
+  - first:
+      213: 4255032031486813222
+    second: Hotline_miami_4_89
+  - first:
+      213: 7371010173475259073
+    second: Hotline_miami_4_90
+  - first:
+      213: -3934469457945375148
+    second: Hotline_miami_4_91
+  - first:
+      213: 2075938587944377283
+    second: Hotline_miami_4_92
+  - first:
+      213: -7712112796493960065
+    second: Hotline_miami_4_93
+  - first:
+      213: -2619343887634669364
+    second: Hotline_miami_4_94
+  - first:
+      213: -8003801852599221059
+    second: Hotline_miami_4_95
+  - first:
+      213: 3434403847588751038
+    second: Hotline_miami_4_96
+  - first:
+      213: 1144309797524390146
+    second: Hotline_miami_4_97
+  - first:
+      213: 1554584084253615936
+    second: Hotline_miami_4_98
+  - first:
+      213: -8535515191774576910
+    second: Hotline_miami_4_99
+  - first:
+      213: 7440862555204097999
+    second: Hotline_miami_4_100
+  - first:
+      213: -3814759321056743977
+    second: Hotline_miami_4_101
+  - first:
+      213: -3266215192411313499
+    second: Hotline_miami_4_102
+  - first:
+      213: 6102617173842292387
+    second: Hotline_miami_4_103
+  - first:
+      213: 8127888857053994943
+    second: Hotline_miami_4_104
+  - first:
+      213: -5429404391143875716
+    second: Hotline_miami_4_105
+  - first:
+      213: -818521793184247647
+    second: Hotline_miami_4_106
+  - first:
+      213: 3431974318734205714
+    second: Hotline_miami_4_107
+  - first:
+      213: 2602917439972783008
+    second: Hotline_miami_4_108
+  - first:
+      213: 7600230629817574889
+    second: Hotline_miami_4_109
+  - first:
+      213: 1638744997174624564
+    second: Hotline_miami_4_110
+  - first:
+      213: -2883013946029984963
+    second: Hotline_miami_4_111
+  - first:
+      213: 800763808116862044
+    second: Hotline_miami_4_112
+  - first:
+      213: 5097083050541967796
+    second: Hotline_miami_4_113
+  - first:
+      213: -1662713144870125399
+    second: Hotline_miami_4_114
+  - first:
+      213: 5601004044344183120
+    second: Hotline_miami_4_115
+  - first:
+      213: -213184352208956173
+    second: Hotline_miami_4_116
+  - first:
+      213: 5726017306066483420
+    second: Hotline_miami_4_117
+  - first:
+      213: 5428797562201867708
+    second: Hotline_miami_4_118
+  - first:
+      213: 1379415508450011939
+    second: Hotline_miami_4_119
+  - first:
+      213: -3428394520580475956
+    second: Hotline_miami_4_120
+  - first:
+      213: 5155491829261723133
+    second: Hotline_miami_4_121
+  - first:
+      213: -1042423519286011562
+    second: Hotline_miami_4_122
+  - first:
+      213: 4602381047542271348
+    second: Hotline_miami_4_123
+  - first:
+      213: -1572999283952859425
+    second: Hotline_miami_4_124
+  - first:
+      213: 7107227988256858430
+    second: Hotline_miami_4_125
+  - first:
+      213: -3251394507544718023
+    second: Hotline_miami_4_126
+  - first:
+      213: 7266740226233064796
+    second: Hotline_miami_4_127
+  - first:
+      213: 8280853584776010332
+    second: Hotline_miami_4_128
+  - first:
+      213: -1715674134372694263
+    second: Hotline_miami_4_129
+  - first:
+      213: -5912088119160262569
+    second: Hotline_miami_4_130
+  - first:
+      213: -6925707228594775839
+    second: Hotline_miami_4_131
+  - first:
+      213: -4286077687848388993
+    second: Hotline_miami_4_132
+  - first:
+      213: 4888828807602124350
+    second: Hotline_miami_4_133
+  - first:
+      213: -1167350248891919628
+    second: Hotline_miami_4_134
+  - first:
+      213: 5937647679357909071
+    second: Hotline_miami_4_135
+  - first:
+      213: -8339556182412517820
+    second: Hotline_miami_4_136
+  - first:
+      213: -2664676971980693188
+    second: Hotline_miami_4_137
+  - first:
+      213: 6209377627622844836
+    second: Hotline_miami_4_138
+  - first:
+      213: 4175266140723413139
+    second: Hotline_miami_4_139
+  - first:
+      213: -2474496129166288391
+    second: Hotline_miami_4_140
+  - first:
+      213: -4600472737879205495
+    second: Hotline_miami_4_141
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hotline_miami_4_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 410
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d931e84cd39574041b62643d2d373421
+      internalID: -7377840495691590846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 408
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd3c969eafb4bc42b054dcaf20856fc
+      internalID: 2472317925482059850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 414
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e11c61f45973994590427971b79651f
+      internalID: 7597013734539807247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 397
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de9f240215a6bf42bf218439fc0a8b1
+      internalID: -3125269572288653566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 406
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e392de0eb485c040b695954176dbff8
+      internalID: 7196183146463735366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 403
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5aa91bbd11ab74783f9810db0deb7c
+      internalID: -7207429352111619691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_6
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 421
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4237c3c7930e30c4186be9e10f82c9ea
+      internalID: 4873215216903281363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_7
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 419
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac92ae4088ce6e744a63184d9d42a1c2
+      internalID: 64018843622705145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 404
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ef7c98fbad1d2409e630ecb38f79ee
+      internalID: -7058328719564770183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 404
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db98f1f270c3482479c098ae1a767630
+      internalID: -9055738197898546784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_10
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 393
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6374756d8789164ebada403c39e7497
+      internalID: 5470470495982943817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 404
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da7355915f9dff42b7863e98e86ef2b
+      internalID: 3269338802607712017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 393
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac6e96de65bf194fb55c51cc03894d6
+      internalID: 6800941276471755684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_13
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 404
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4b15d006d43c742a138b2b7784c07d
+      internalID: 2588696866632251084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_14
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 404
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e82a71c908bc5499b8b4e3a05662fe
+      internalID: -7621346679381912739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_15
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 393
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e4d0a3058d3994c9e994504da9f5c4
+      internalID: 9054730653407041929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_16
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 393
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73f5ae9e5ff6114086b0020e916d327
+      internalID: 5090947619059203520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_17
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 393
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654208bc0aaccb543afcd94146a1954d
+      internalID: 987788043398196805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_18
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 393
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8537f50ca9cb3b3408f4b3fd0d647772
+      internalID: 8648892631886296933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 347
+        width: 56
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83f0dabd3c6a4e47ae7fe3cb2df5a31
+      internalID: 6631974671656309357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 354
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778c15305f82d224aa36197abbf3e0bc
+      internalID: -1521540383546785469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_21
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 354
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b541fb2a94dbd5041a7bb391516db04b
+      internalID: 346755601082828330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 357
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329348ba9d67f62429a996a37b36f204
+      internalID: -6715923353136043789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_23
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 354
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1ef76a71979e1479eea124d69e2171
+      internalID: -8315836101940778861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_24
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 357
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2b5acc439f2ad4784d3b62fea11b40
+      internalID: 5389103775896321080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_25
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 357
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fb4e1138c97944c92b2186134a878d
+      internalID: -539131883636351262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 357
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cadecc352c9ade47a45511c196a8137
+      internalID: -3511148859607365984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 357
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ddadb2bb8d07e45bf35cb1a2424b11
+      internalID: 8928199212773147063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_28
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 357
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358aaacb2980b3c44949a60d301d3783
+      internalID: -7149999391369062714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_29
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 313
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4a3c659a012824fb3ae6311aab0518
+      internalID: -6319017407233273465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_30
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 316
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e581d001afe6b640abde2dfa51f71e7
+      internalID: -4301897368537420975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_31
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 313
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb045ffdeae13d46928dff7ffb49a8d
+      internalID: 3915438031595014582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_32
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 311
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8dd19e1f2052f4580d2212401c09c7
+      internalID: -3600917755108767427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_33
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 318
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6916dccb8b98a440949dc49e4396d27
+      internalID: 1700393913426424357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_34
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 318
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aa062ac0bcfa04ab8f6d4ae0ba4ed9
+      internalID: -3732488938477501051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_35
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 318
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0692b100536618444b177614f0896865
+      internalID: 6190372118200834359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_36
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 318
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3570938731c71b443bc5fb1e0498dc05
+      internalID: 7408356620950640647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_37
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 278
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d70ebd3ea4b65498a02acdef986963
+      internalID: 1578382144182231324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_38
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 270
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b1c0adbb5f423449b8694347cfb00b
+      internalID: 6998093814276119396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_39
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 275
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4984a84cfe40d44080d22e15573a75c
+      internalID: 8594554401441569401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_40
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 277
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4428274bdf261f24f8982700ceb71207
+      internalID: -2613891921596651953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_41
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 269
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb2a2aaa4347464382c0a8f855c7367
+      internalID: -5091629329258556006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_42
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 282
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5486f65cdc9394396931de9a33977f
+      internalID: -73670637709575034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_43
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 282
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346cce1695a628b46b5df06c796ab94d
+      internalID: -585907149585605075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_44
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 282
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99a0241b25747d499cd80ad100a368e
+      internalID: -7162754621388297771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_45
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 282
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3706fd3d523d8db4f8dafe26260e4657
+      internalID: -21296171118055774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_46
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 282
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776640f4f19e759499a8c74fd21f0dd1
+      internalID: 5054531180965917384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_47
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 236
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e36416992bdd7845b6ecb86eecf3cc5
+      internalID: 8056855088559094264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_48
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 234
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e41b53f14a87649b70f256f7877a4f
+      internalID: -3249844674448765895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_49
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 234
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df692fd13f46ac74395f6a8a6a04ce3f
+      internalID: -6107808265400403045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_50
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 241
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fbc007869995740b71a84bce8a199f
+      internalID: 4902185019622768833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_51
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 241
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb859e25aeaa2554cbe5911d6e5fd5da
+      internalID: 4828862865123331705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_52
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 241
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbb2fe5b63c2164bb54a747491d08a8
+      internalID: -6783496347417186741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_53
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 241
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca6d625af32ca543a0ec3b55b82846b
+      internalID: 2406590678190712053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_54
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 241
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562feaa7a4733a04dbad96434b94f143
+      internalID: -2742661880530470153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_55
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 237
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c288d6cc1afbf1c42b4fabc8d43bf079
+      internalID: -5385836849584347090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_56
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 211
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b7f089f146346439e01bc32f2b781a
+      internalID: -3265148195958179136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_57
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 195
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1fe02a7421f2a44a537df1e38233c5
+      internalID: -3361864074399392743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_58
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 193
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29219ae743e877a4094a186da0e2ab0c
+      internalID: -6701739494570515174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_59
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 193
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41fe518f79f4414c80908127eac30a0
+      internalID: 1862429466206926934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_60
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 201
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1257d13f507a748a39e68b587a0173
+      internalID: 4882467733236172698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_61
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d584a1123f86f1419843b8bfa0dbb55
+      internalID: 572479508059011801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_62
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c32e9e40c8c9c41982a49bed3b4406
+      internalID: 453383579538588219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_63
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed2bc3480d40ae40825c14c6c7ae8cf
+      internalID: 4106906505385306967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_64
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c18faa48bae91d48b640e9cab4624a1
+      internalID: -7577887875170180697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_65
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 203
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecf18abae494b946acecfa0d95bf466
+      internalID: 2373344584527755606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_66
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866bc67f91e7c3f4296b1756dee3f9ab
+      internalID: 2677366186234753337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_67
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 202
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72edc87931fde3d4cb09aca53452e594
+      internalID: -7368869642908702923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_68
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 168
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f263155180c54d24dac80de6bab80c44
+      internalID: 1509185000515882614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_69
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 169
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0020f5518ede56b4a81e1117b4d31122
+      internalID: 885256139315180408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_70
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 169
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d792eec09986e4cbfa99e4d256d9ca
+      internalID: 8079309550481299583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_71
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 181
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b688085a68da51499e82e8aaf30a825
+      internalID: 5465397104352865234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_72
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 181
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d35df323c1bf4042af337c043a26175
+      internalID: 3260284325520257843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_73
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 181
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e601c950cdfdf47a1abfbf0ed208aa
+      internalID: -4165370010853310453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_74
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 181
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125e3d503ea43b7489bc209ad25e77a3
+      internalID: 4618313231620167726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_75
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 181
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3c0c98907b1f24989d9fee975bf21c
+      internalID: -4290979005875605422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_76
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 154
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75813531707b96499046dc3fda161c2
+      internalID: -4565158300881250224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_77
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 149
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44581535bd1c5c64b88a8175bbc0692a
+      internalID: -5941761175828945839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_78
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 152
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9430cca8091138c418e373f75d980b91
+      internalID: -853076373465955792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_79
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 149
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76645e99f022fa541b9d76b2a5328c75
+      internalID: 4986889311990319566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_80
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 174
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32f878e89e00ef41931a21af24e52ed
+      internalID: 5059381186581007870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_81
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 173
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa2e1ab4c107364e94900b5203fb14b
+      internalID: 562484682249208238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_82
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 174
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e996f7c4ec50bf47ba8aa2140aa820f
+      internalID: -2805832428187587039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_83
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 174
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc637383436aa7f4ca04719f07e961b3
+      internalID: -9048847231705566298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_84
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 174
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ed49390a1f0624a8603b89d8c92ed9
+      internalID: 5251445150997109860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_85
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 150
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7710d74f9e7a4ba47880c2abd1421022
+      internalID: 7863937499697858838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_86
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 135
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9ca46c03ed7254d88bd30c74d44dcb
+      internalID: 3710484146400775440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_87
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 137
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdddb1e6a874cd46888793b34f17ead
+      internalID: 7465085589965607032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_88
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 137
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d002d8b003727429b808f6060f1c0e
+      internalID: -6832622996330180918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_89
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 149
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64a7a753c10b35439b404d55e928b90
+      internalID: 4255032031486813222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_90
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 149
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe04160e6a3ddb24284b1cf496f8ed48
+      internalID: 7371010173475259073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_91
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6963b287623ea44a257f65ecf18b29
+      internalID: -3934469457945375148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_92
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 135
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bc97ba1438cd147b1e221bed23e33d
+      internalID: 2075938587944377283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_93
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 140
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90410fc4cb9308e4dbb688f5c3ec6749
+      internalID: -7712112796493960065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_94
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 140
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2a1933d2c2a954694534b1cd1124ca
+      internalID: -2619343887634669364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_95
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 141
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e09d5f1e30741143854d91d86186310
+      internalID: -8003801852599221059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_96
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 110
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1571a742fecd841bfd903db7811f9e
+      internalID: 3434403847588751038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_97
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 110
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d54110a834adf49a8709485b081ad0
+      internalID: 1144309797524390146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_98
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 105
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f67d59ff784f5b4eaee88efd8f35ef2
+      internalID: 1554584084253615936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_99
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 102
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba720a0d275435f4c924a30c68eb5bc2
+      internalID: -8535515191774576910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_100
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 103
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdaf497e1c680c4ca47c9ab5abccb99
+      internalID: 7440862555204097999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_101
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 103
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487a120055dba094985529a4aaa0dc62
+      internalID: -3814759321056743977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_102
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 116
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7810aec67133a784db395530cbcbadf9
+      internalID: -3266215192411313499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_103
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 102
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dd3c7938cbf1346b4b408273a1e5b3
+      internalID: 6102617173842292387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_104
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 103
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f68646d029aa0d499a6f26526aeb3f2
+      internalID: 8127888857053994943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_105
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 103
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7b93276868b964dbd446524d44fc88
+      internalID: -5429404391143875716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_106
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 105
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d2ba9d754c96c46b8c138a28b726a4
+      internalID: -818521793184247647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_107
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 87
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78feea2be73cc0041af7fceff6c893f5
+      internalID: 3431974318734205714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_108
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 108
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3adfb44d0254744b51e324b4e43d82
+      internalID: 2602917439972783008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_109
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 67
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1196581787cab444ae298ea1ec71f4a
+      internalID: 7600230629817574889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_110
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 70
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeffc1766a4acdd46ac4d8f9ffd06de8
+      internalID: 1638744997174624564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_111
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 67
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b975047fa5e754fa3c68139ecf7f55
+      internalID: -2883013946029984963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_112
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 64
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fefd09a8379a94eb1300e727000b2d
+      internalID: 800763808116862044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_113
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 69
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b679009e5bda28c468ac808233335a85
+      internalID: 5097083050541967796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_114
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 70
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbd4f90098938146b04c05b542d2cda
+      internalID: -1662713144870125399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_115
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 83
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819423381e2b5694fafde36eeec3372a
+      internalID: 5601004044344183120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_116
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 69
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c2c01859d575a439c504b9a2c27b34
+      internalID: -213184352208956173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_117
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 70
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe2e01c1cd968e47ba24cabf17b3937
+      internalID: 5726017306066483420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_118
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 72
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30862299fd7eb84fb30b696e6204581
+      internalID: 5428797562201867708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_119
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 70
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811eb079db374f146a93211856456bcd
+      internalID: 1379415508450011939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_120
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 74
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f424268a8e163e40b860b59fc317601
+      internalID: -3428394520580475956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_121
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 26
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e8c3365a72243418599c6079cddac4
+      internalID: 5155491829261723133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_122
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 29
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42de1f16d4c580d41ac19c0eeb344ada
+      internalID: -1042423519286011562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_123
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 26
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7500abf2fd2a014eaef51c9942df576
+      internalID: 4602381047542271348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_124
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 23
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ca51b0a5f6af74ab4417bb880b27a1
+      internalID: -1572999283952859425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_125
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 36
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29df4ac1ecac12942ae6605e09575ddb
+      internalID: 7107227988256858430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_126
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 37
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d6e4e69b38fc14692351971d46ac0e
+      internalID: -3251394507544718023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_127
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 49
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522c4adc09b473b4ba54ee329fa29ebf
+      internalID: 7266740226233064796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_128
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 50
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41da8cdacf16b9f4085cd33458e344e6
+      internalID: 8280853584776010332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_129
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 36
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f02d619489c4243a63d61038b4fe39
+      internalID: -1715674134372694263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_130
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 37
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d6d50c0a6711d4bb674afed7d72215
+      internalID: -5912088119160262569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_131
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc7fbdc3ebc58946ba1bdd05ca2926b
+      internalID: -6925707228594775839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_132
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 41
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7115c0875938e42b01058b9e2b5533
+      internalID: -4286077687848388993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_133
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 17
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904ceeca8970c7943a052502420787a9
+      internalID: 4888828807602124350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_134
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 3
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32a2bfad0139594c827e08491a18ab0
+      internalID: -1167350248891919628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_135
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 5
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805e216dd79bf2f48a24a6a69f75fd94
+      internalID: 5937647679357909071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_136
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 16
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba04e1c473910049a44549b11baec0f
+      internalID: -8339556182412517820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_137
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 17
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f149261a63279f408b80ffa35de4f79
+      internalID: -2664676971980693188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_138
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 3
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad4b9919e2b9184c81ff63a4656e2d4
+      internalID: 6209377627622844836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_139
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 4
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82a4596c16e0314992065b058abae6b
+      internalID: 4175266140723413139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_140
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 9
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94929ee4f8e5564e9bfa0b955ff9470
+      internalID: -2474496129166288391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_4_141
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 9
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bdbaad37a37ba4dab8ef88b6fc0937
+      internalID: -4600472737879205495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

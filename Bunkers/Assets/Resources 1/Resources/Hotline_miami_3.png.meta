@@ -1,0 +1,4066 @@
+fileFormatVersion: 2
+guid: c54cfd53eb1ed0345be76e2482cde609
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9085932849434767182
+    second: Hotline_miami_3_0
+  - first:
+      213: -6883159329830927811
+    second: Hotline_miami_3_1
+  - first:
+      213: -14077273525680978
+    second: Hotline_miami_3_2
+  - first:
+      213: 6794167770966966058
+    second: Hotline_miami_3_3
+  - first:
+      213: 703981452079544598
+    second: Hotline_miami_3_4
+  - first:
+      213: 2772238904292066597
+    second: Hotline_miami_3_5
+  - first:
+      213: 385227797437701520
+    second: Hotline_miami_3_6
+  - first:
+      213: 2830251156672456165
+    second: Hotline_miami_3_7
+  - first:
+      213: -4617242779317494474
+    second: Hotline_miami_3_8
+  - first:
+      213: 6019097874070239672
+    second: Hotline_miami_3_9
+  - first:
+      213: 4591294377496326923
+    second: Hotline_miami_3_10
+  - first:
+      213: -3638489170233805852
+    second: Hotline_miami_3_11
+  - first:
+      213: 1570564394423453111
+    second: Hotline_miami_3_12
+  - first:
+      213: 8016990881818695435
+    second: Hotline_miami_3_13
+  - first:
+      213: 289880184123647679
+    second: Hotline_miami_3_14
+  - first:
+      213: 2460157938253775513
+    second: Hotline_miami_3_15
+  - first:
+      213: -8712941478165719343
+    second: Hotline_miami_3_16
+  - first:
+      213: -384345878706844807
+    second: Hotline_miami_3_17
+  - first:
+      213: 4322370103675535278
+    second: Hotline_miami_3_18
+  - first:
+      213: 9013223795983898546
+    second: Hotline_miami_3_19
+  - first:
+      213: -1097024227962165011
+    second: Hotline_miami_3_20
+  - first:
+      213: -7307778105596007440
+    second: Hotline_miami_3_21
+  - first:
+      213: -7401882921578525958
+    second: Hotline_miami_3_22
+  - first:
+      213: 6290878295319241071
+    second: Hotline_miami_3_23
+  - first:
+      213: -8615106589410205013
+    second: Hotline_miami_3_24
+  - first:
+      213: -507441226651929080
+    second: Hotline_miami_3_25
+  - first:
+      213: 284156932765687240
+    second: Hotline_miami_3_26
+  - first:
+      213: 3693554223046441398
+    second: Hotline_miami_3_27
+  - first:
+      213: -723982742204549027
+    second: Hotline_miami_3_28
+  - first:
+      213: 6262892496195479720
+    second: Hotline_miami_3_29
+  - first:
+      213: -499116906822777187
+    second: Hotline_miami_3_30
+  - first:
+      213: -164389806913950669
+    second: Hotline_miami_3_31
+  - first:
+      213: -4904892983873021208
+    second: Hotline_miami_3_32
+  - first:
+      213: 5643302077644231179
+    second: Hotline_miami_3_33
+  - first:
+      213: 1425930861614203182
+    second: Hotline_miami_3_34
+  - first:
+      213: 4888658545984041512
+    second: Hotline_miami_3_35
+  - first:
+      213: 5282989472964553827
+    second: Hotline_miami_3_36
+  - first:
+      213: -3511540730066941047
+    second: Hotline_miami_3_37
+  - first:
+      213: 2963978411806748894
+    second: Hotline_miami_3_38
+  - first:
+      213: -6974443957584331621
+    second: Hotline_miami_3_39
+  - first:
+      213: 998299655800949751
+    second: Hotline_miami_3_40
+  - first:
+      213: -6590457918032047805
+    second: Hotline_miami_3_41
+  - first:
+      213: 5308080546478885331
+    second: Hotline_miami_3_42
+  - first:
+      213: -4325856802874800590
+    second: Hotline_miami_3_43
+  - first:
+      213: -2899662389411386238
+    second: Hotline_miami_3_44
+  - first:
+      213: -4277728567041970885
+    second: Hotline_miami_3_45
+  - first:
+      213: -8773169072417912958
+    second: Hotline_miami_3_46
+  - first:
+      213: 3967666834459441070
+    second: Hotline_miami_3_47
+  - first:
+      213: -4346252930209286043
+    second: Hotline_miami_3_48
+  - first:
+      213: 292499499389833229
+    second: Hotline_miami_3_49
+  - first:
+      213: -5833300126009405272
+    second: Hotline_miami_3_50
+  - first:
+      213: -6018455209062579361
+    second: Hotline_miami_3_51
+  - first:
+      213: 5777753027716954757
+    second: Hotline_miami_3_52
+  - first:
+      213: -234570527388273684
+    second: Hotline_miami_3_53
+  - first:
+      213: -4601119292275178381
+    second: Hotline_miami_3_54
+  - first:
+      213: -8590467789342555169
+    second: Hotline_miami_3_55
+  - first:
+      213: 3616973310966731311
+    second: Hotline_miami_3_56
+  - first:
+      213: -2638486859313882736
+    second: Hotline_miami_3_57
+  - first:
+      213: -8065589945679294006
+    second: Hotline_miami_3_58
+  - first:
+      213: 8677532150377394259
+    second: Hotline_miami_3_59
+  - first:
+      213: 5405296539919412777
+    second: Hotline_miami_3_60
+  - first:
+      213: 8431202665620652642
+    second: Hotline_miami_3_61
+  - first:
+      213: -550011647392549667
+    second: Hotline_miami_3_62
+  - first:
+      213: 7438596615501894044
+    second: Hotline_miami_3_63
+  - first:
+      213: -6702569043675224011
+    second: Hotline_miami_3_64
+  - first:
+      213: 713252921770595133
+    second: Hotline_miami_3_65
+  - first:
+      213: -5616325069817331744
+    second: Hotline_miami_3_66
+  - first:
+      213: 5005088363508717156
+    second: Hotline_miami_3_67
+  - first:
+      213: -6892622322949115785
+    second: Hotline_miami_3_68
+  - first:
+      213: -4321845638702303001
+    second: Hotline_miami_3_69
+  - first:
+      213: -868029630502413663
+    second: Hotline_miami_3_70
+  - first:
+      213: 1184889313218396910
+    second: Hotline_miami_3_71
+  - first:
+      213: 934775072916696178
+    second: Hotline_miami_3_72
+  - first:
+      213: 4065474965705148325
+    second: Hotline_miami_3_73
+  - first:
+      213: 2394285245303195237
+    second: Hotline_miami_3_74
+  - first:
+      213: -5972080682096329390
+    second: Hotline_miami_3_75
+  - first:
+      213: -7210112068190798552
+    second: Hotline_miami_3_76
+  - first:
+      213: 7490623472817268735
+    second: Hotline_miami_3_77
+  - first:
+      213: 5518328092482604368
+    second: Hotline_miami_3_78
+  - first:
+      213: -4435435464849399101
+    second: Hotline_miami_3_79
+  - first:
+      213: -3683208606736526059
+    second: Hotline_miami_3_80
+  - first:
+      213: -1551581121663999396
+    second: Hotline_miami_3_81
+  - first:
+      213: 925339237525965876
+    second: Hotline_miami_3_82
+  - first:
+      213: 674721484124138043
+    second: Hotline_miami_3_83
+  - first:
+      213: -9097954921157340361
+    second: Hotline_miami_3_84
+  - first:
+      213: 3983137185616618213
+    second: Hotline_miami_3_85
+  - first:
+      213: -599506358164930899
+    second: Hotline_miami_3_86
+  - first:
+      213: 4192623794140494281
+    second: Hotline_miami_3_87
+  - first:
+      213: 2517094633449596456
+    second: Hotline_miami_3_88
+  - first:
+      213: 1779084698656745723
+    second: Hotline_miami_3_89
+  - first:
+      213: -3501611369057663792
+    second: Hotline_miami_3_90
+  - first:
+      213: 3918380464299371329
+    second: Hotline_miami_3_91
+  - first:
+      213: -6162966557204010685
+    second: Hotline_miami_3_92
+  - first:
+      213: -4548970888973264700
+    second: Hotline_miami_3_93
+  - first:
+      213: 5264358766062220747
+    second: Hotline_miami_3_94
+  - first:
+      213: 6201650000696739359
+    second: Hotline_miami_3_95
+  - first:
+      213: -8310190327357251101
+    second: Hotline_miami_3_96
+  - first:
+      213: 428740085655123291
+    second: Hotline_miami_3_97
+  - first:
+      213: 4067816095801749080
+    second: Hotline_miami_3_98
+  - first:
+      213: -7827847962324612368
+    second: Hotline_miami_3_99
+  - first:
+      213: -5849299684363908135
+    second: Hotline_miami_3_100
+  - first:
+      213: -2038491951808910514
+    second: Hotline_miami_3_101
+  - first:
+      213: 7930917754968037678
+    second: Hotline_miami_3_102
+  - first:
+      213: 9102091515619492842
+    second: Hotline_miami_3_103
+  - first:
+      213: -1724570866314163653
+    second: Hotline_miami_3_104
+  - first:
+      213: 2169483511336926530
+    second: Hotline_miami_3_105
+  - first:
+      213: 675115724796099808
+    second: Hotline_miami_3_106
+  - first:
+      213: 6805692499261326036
+    second: Hotline_miami_3_107
+  - first:
+      213: -1088275437387757484
+    second: Hotline_miami_3_108
+  - first:
+      213: 6310737891896291831
+    second: Hotline_miami_3_109
+  - first:
+      213: -8114273509459003631
+    second: Hotline_miami_3_110
+  - first:
+      213: 5917853851801665330
+    second: Hotline_miami_3_111
+  - first:
+      213: 6830778100449776421
+    second: Hotline_miami_3_112
+  - first:
+      213: -8582406912013988445
+    second: Hotline_miami_3_113
+  - first:
+      213: -2750843912521054085
+    second: Hotline_miami_3_114
+  - first:
+      213: -2652098224975021278
+    second: Hotline_miami_3_115
+  - first:
+      213: 6623083168119371691
+    second: Hotline_miami_3_116
+  - first:
+      213: 4007237383420849995
+    second: Hotline_miami_3_117
+  - first:
+      213: 3142492410096045042
+    second: Hotline_miami_3_118
+  - first:
+      213: 6918016364213348923
+    second: Hotline_miami_3_119
+  - first:
+      213: -7350679751203951286
+    second: Hotline_miami_3_120
+  - first:
+      213: -1528161434432827960
+    second: Hotline_miami_3_121
+  - first:
+      213: -897002343745219864
+    second: Hotline_miami_3_122
+  - first:
+      213: -8019367944298124650
+    second: Hotline_miami_3_123
+  - first:
+      213: 2037955801471733118
+    second: Hotline_miami_3_124
+  - first:
+      213: -9117566933696301258
+    second: Hotline_miami_3_125
+  - first:
+      213: -1308826483148207067
+    second: Hotline_miami_3_126
+  - first:
+      213: -8926582437865904330
+    second: Hotline_miami_3_127
+  - first:
+      213: 96856341880698323
+    second: Hotline_miami_3_128
+  - first:
+      213: 3161859211301927976
+    second: Hotline_miami_3_129
+  - first:
+      213: -2978393868520325772
+    second: Hotline_miami_3_130
+  - first:
+      213: -6450357209253178944
+    second: Hotline_miami_3_131
+  - first:
+      213: -7850461993113066040
+    second: Hotline_miami_3_132
+  - first:
+      213: 4205746493221970307
+    second: Hotline_miami_3_133
+  - first:
+      213: 2536799725081757573
+    second: Hotline_miami_3_134
+  - first:
+      213: 3904878564363723705
+    second: Hotline_miami_3_135
+  - first:
+      213: 8807692498510602570
+    second: Hotline_miami_3_136
+  - first:
+      213: 3003270066057522210
+    second: Hotline_miami_3_137
+  - first:
+      213: -8590839284060960949
+    second: Hotline_miami_3_138
+  - first:
+      213: 7058191522127448478
+    second: Hotline_miami_3_139
+  - first:
+      213: 5743363828048662378
+    second: Hotline_miami_3_140
+  - first:
+      213: -3057862808870498732
+    second: Hotline_miami_3_141
+  - first:
+      213: -7315581889688999458
+    second: Hotline_miami_3_142
+  - first:
+      213: 3612486591267269544
+    second: Hotline_miami_3_143
+  - first:
+      213: 4735324222055462155
+    second: Hotline_miami_3_144
+  - first:
+      213: -7004464059817764788
+    second: Hotline_miami_3_145
+  - first:
+      213: -7742064932813775786
+    second: Hotline_miami_3_146
+  - first:
+      213: 5315847572903558177
+    second: Hotline_miami_3_147
+  - first:
+      213: -982074373762522150
+    second: Hotline_miami_3_148
+  - first:
+      213: -2779275600929401807
+    second: Hotline_miami_3_149
+  - first:
+      213: 5739932137675988457
+    second: Hotline_miami_3_150
+  - first:
+      213: -6067449741309518728
+    second: Hotline_miami_3_151
+  - first:
+      213: -5029694309396011685
+    second: Hotline_miami_3_152
+  - first:
+      213: 7442505604347877395
+    second: Hotline_miami_3_153
+  - first:
+      213: 7546961697377636674
+    second: Hotline_miami_3_154
+  - first:
+      213: -3060893548014439903
+    second: Hotline_miami_3_155
+  - first:
+      213: 446672803817427024
+    second: Hotline_miami_3_156
+  - first:
+      213: -7768471358046631905
+    second: Hotline_miami_3_157
+  - first:
+      213: 8323922743294470187
+    second: Hotline_miami_3_158
+  - first:
+      213: -6541312576314819077
+    second: Hotline_miami_3_159
+  - first:
+      213: -7533956380873965852
+    second: Hotline_miami_3_160
+  - first:
+      213: -4468015544265226008
+    second: Hotline_miami_3_161
+  - first:
+      213: 93599177067780407
+    second: Hotline_miami_3_162
+  - first:
+      213: 3543922346919634840
+    second: Hotline_miami_3_163
+  - first:
+      213: 7305237463460139714
+    second: Hotline_miami_3_164
+  - first:
+      213: -5705824127733285859
+    second: Hotline_miami_3_165
+  - first:
+      213: -1957808636801039264
+    second: Hotline_miami_3_166
+  - first:
+      213: 6274226589565198326
+    second: Hotline_miami_3_167
+  - first:
+      213: -2948411733836263194
+    second: Hotline_miami_3_168
+  - first:
+      213: -634767543127734816
+    second: Hotline_miami_3_169
+  - first:
+      213: 8208621566408361831
+    second: Hotline_miami_3_170
+  - first:
+      213: 8801578013863764583
+    second: Hotline_miami_3_171
+  - first:
+      213: -7507697408767937235
+    second: Hotline_miami_3_172
+  - first:
+      213: -8741327545333548547
+    second: Hotline_miami_3_173
+  - first:
+      213: -5500823981951141841
+    second: Hotline_miami_3_174
+  - first:
+      213: -1680449440723932547
+    second: Hotline_miami_3_175
+  - first:
+      213: -1271405846317399593
+    second: Hotline_miami_3_176
+  - first:
+      213: 4525441401425377164
+    second: Hotline_miami_3_177
+  - first:
+      213: 3110399586056436627
+    second: Hotline_miami_3_178
+  - first:
+      213: -5425570493843981242
+    second: Hotline_miami_3_179
+  - first:
+      213: -7826475645495589910
+    second: Hotline_miami_3_180
+  - first:
+      213: 1469304283808991521
+    second: Hotline_miami_3_181
+  - first:
+      213: 9210282485802152892
+    second: Hotline_miami_3_182
+  - first:
+      213: 3950653173653913204
+    second: Hotline_miami_3_183
+  - first:
+      213: -6786120514688308569
+    second: Hotline_miami_3_184
+  - first:
+      213: 127889467153150642
+    second: Hotline_miami_3_185
+  - first:
+      213: 7704447905004628433
+    second: Hotline_miami_3_186
+  - first:
+      213: -5620456090389144661
+    second: Hotline_miami_3_187
+  - first:
+      213: 3097871572105587379
+    second: Hotline_miami_3_188
+  - first:
+      213: 1519648096046010845
+    second: Hotline_miami_3_189
+  - first:
+      213: 3168570055611104472
+    second: Hotline_miami_3_190
+  - first:
+      213: -6476086570165805905
+    second: Hotline_miami_3_191
+  - first:
+      213: 4314310799359687413
+    second: Hotline_miami_3_192
+  - first:
+      213: -8924014089833248356
+    second: Hotline_miami_3_193
+  - first:
+      213: 1812225201453483042
+    second: Hotline_miami_3_194
+  - first:
+      213: -3283034052623286735
+    second: Hotline_miami_3_195
+  - first:
+      213: 7568468194751361604
+    second: Hotline_miami_3_196
+  - first:
+      213: 4668639498178180339
+    second: Hotline_miami_3_197
+  - first:
+      213: 468945194509187061
+    second: Hotline_miami_3_198
+  - first:
+      213: 8353236892798259214
+    second: Hotline_miami_3_199
+  - first:
+      213: 6309335025767743657
+    second: Hotline_miami_3_200
+  - first:
+      213: 2287720101409198718
+    second: Hotline_miami_3_201
+  - first:
+      213: -1824770946621893987
+    second: Hotline_miami_3_202
+  - first:
+      213: -2006628970546809696
+    second: Hotline_miami_3_203
+  - first:
+      213: -7307939085488648542
+    second: Hotline_miami_3_204
+  - first:
+      213: -4459544701492555362
+    second: Hotline_miami_3_205
+  - first:
+      213: 7821076482002705412
+    second: Hotline_miami_3_206
+  - first:
+      213: 8369271365206842001
+    second: Hotline_miami_3_207
+  - first:
+      213: 8216060742917957157
+    second: Hotline_miami_3_208
+  - first:
+      213: 5339913865964906970
+    second: Hotline_miami_3_209
+  - first:
+      213: -4879919931021306509
+    second: Hotline_miami_3_210
+  - first:
+      213: 3192274410447192868
+    second: Hotline_miami_3_211
+  - first:
+      213: 4831027728864239139
+    second: Hotline_miami_3_212
+  - first:
+      213: 4381394491513580526
+    second: Hotline_miami_3_213
+  - first:
+      213: 7411533860449752830
+    second: Hotline_miami_3_214
+  - first:
+      213: -910000929945417586
+    second: Hotline_miami_3_215
+  - first:
+      213: -5347102924054888059
+    second: Hotline_miami_3_216
+  - first:
+      213: -1348899059293964559
+    second: Hotline_miami_3_217
+  - first:
+      213: 2355559163822915074
+    second: Hotline_miami_3_218
+  - first:
+      213: -1255077634924807127
+    second: Hotline_miami_3_219
+  - first:
+      213: -2472838172954753281
+    second: Hotline_miami_3_220
+  - first:
+      213: -3460899836648349140
+    second: Hotline_miami_3_221
+  - first:
+      213: 9011636555616541006
+    second: Hotline_miami_3_222
+  - first:
+      213: -6863516473530104548
+    second: Hotline_miami_3_223
+  - first:
+      213: 8740666758640631041
+    second: Hotline_miami_3_224
+  - first:
+      213: -7372443896888121788
+    second: Hotline_miami_3_225
+  - first:
+      213: -3814790545143505124
+    second: Hotline_miami_3_226
+  - first:
+      213: 5625715019391108896
+    second: Hotline_miami_3_227
+  - first:
+      213: 3200976162188544638
+    second: Hotline_miami_3_228
+  - first:
+      213: -1931279740794846555
+    second: Hotline_miami_3_229
+  - first:
+      213: 4142464226396308156
+    second: Hotline_miami_3_230
+  - first:
+      213: 2783651648610081999
+    second: Hotline_miami_3_231
+  - first:
+      213: 8064351771159668998
+    second: Hotline_miami_3_232
+  - first:
+      213: -2076084118749268548
+    second: Hotline_miami_3_233
+  - first:
+      213: 567938109825143141
+    second: Hotline_miami_3_234
+  - first:
+      213: 3002928051338198738
+    second: Hotline_miami_3_235
+  - first:
+      213: -6695559278552565727
+    second: Hotline_miami_3_236
+  - first:
+      213: -3890953458392770523
+    second: Hotline_miami_3_237
+  - first:
+      213: -7458754660702718265
+    second: Hotline_miami_3_238
+  - first:
+      213: 5368117142015384093
+    second: Hotline_miami_3_239
+  - first:
+      213: -2479426392919104012
+    second: Hotline_miami_3_240
+  - first:
+      213: 6892570012379002876
+    second: Hotline_miami_3_241
+  - first:
+      213: 4128528300594565252
+    second: Hotline_miami_3_242
+  - first:
+      213: -2399832288028169154
+    second: Hotline_miami_3_243
+  - first:
+      213: -2375306878643894758
+    second: Hotline_miami_3_244
+  - first:
+      213: 816273788007265946
+    second: Hotline_miami_3_245
+  - first:
+      213: 3557162446883240119
+    second: Hotline_miami_3_246
+  - first:
+      213: 7168985295454570904
+    second: Hotline_miami_3_247
+  - first:
+      213: 3799241018461646633
+    second: Hotline_miami_3_248
+  - first:
+      213: -3474863661549909814
+    second: Hotline_miami_3_249
+  - first:
+      213: 3118192622862919241
+    second: Hotline_miami_3_250
+  - first:
+      213: 3432871091394259512
+    second: Hotline_miami_3_251
+  - first:
+      213: 8942222737932508743
+    second: Hotline_miami_3_252
+  - first:
+      213: 8658178675697333433
+    second: Hotline_miami_3_253
+  - first:
+      213: 5168171769377207429
+    second: Hotline_miami_3_254
+  - first:
+      213: -7922902559101066517
+    second: Hotline_miami_3_255
+  - first:
+      213: 2282751146510198162
+    second: Hotline_miami_3_256
+  - first:
+      213: 6365293805486134125
+    second: Hotline_miami_3_257
+  - first:
+      213: 4692998931076051659
+    second: Hotline_miami_3_258
+  - first:
+      213: -8662314128497683498
+    second: Hotline_miami_3_259
+  - first:
+      213: -9041176954691880884
+    second: Hotline_miami_3_260
+  - first:
+      213: 716819568014762881
+    second: Hotline_miami_3_261
+  - first:
+      213: -7666419319822661634
+    second: Hotline_miami_3_262
+  - first:
+      213: 4797960093265444650
+    second: Hotline_miami_3_263
+  - first:
+      213: -4244627051892661539
+    second: Hotline_miami_3_264
+  - first:
+      213: -279375762772388799
+    second: Hotline_miami_3_265
+  - first:
+      213: -5254376473775139033
+    second: Hotline_miami_3_266
+  - first:
+      213: 5034289779097855932
+    second: Hotline_miami_3_267
+  - first:
+      213: 5643924114841329860
+    second: Hotline_miami_3_268
+  - first:
+      213: 8810457409638776258
+    second: Hotline_miami_3_269
+  - first:
+      213: 5673569991409158657
+    second: Hotline_miami_3_270
+  - first:
+      213: -6261450564412725161
+    second: Hotline_miami_3_271
+  - first:
+      213: -952602914754501723
+    second: Hotline_miami_3_272
+  - first:
+      213: 1763287782582739268
+    second: Hotline_miami_3_273
+  - first:
+      213: 8896375220314097412
+    second: Hotline_miami_3_274
+  - first:
+      213: 2671837397207082061
+    second: Hotline_miami_3_275
+  - first:
+      213: 80576122149794361
+    second: Hotline_miami_3_276
+  - first:
+      213: 4611214077317782008
+    second: Hotline_miami_3_277
+  - first:
+      213: 5872167889905368819
+    second: Hotline_miami_3_278
+  - first:
+      213: 3439231930822136458
+    second: Hotline_miami_3_279
+  - first:
+      213: -967402053086071859
+    second: Hotline_miami_3_280
+  - first:
+      213: 3982655793467713955
+    second: Hotline_miami_3_281
+  - first:
+      213: -8940853740632989858
+    second: Hotline_miami_3_282
+  - first:
+      213: -7185333521149992634
+    second: Hotline_miami_3_283
+  - first:
+      213: -3758313699246109319
+    second: Hotline_miami_3_284
+  - first:
+      213: 5232968967462668605
+    second: Hotline_miami_3_285
+  - first:
+      213: -2690199186945652478
+    second: Hotline_miami_3_286
+  - first:
+      213: 9124309816599369722
+    second: Hotline_miami_3_287
+  - first:
+      213: 1321255254151977993
+    second: Hotline_miami_3_288
+  - first:
+      213: -2785342890118842434
+    second: Hotline_miami_3_289
+  - first:
+      213: -276920206492958566
+    second: Hotline_miami_3_290
+  - first:
+      213: -2802763881018235943
+    second: Hotline_miami_3_291
+  - first:
+      213: -8081536674523852062
+    second: Hotline_miami_3_292
+  - first:
+      213: 5180441827917016418
+    second: Hotline_miami_3_293
+  - first:
+      213: 5182183272778840719
+    second: Hotline_miami_3_294
+  - first:
+      213: -1111911737275953042
+    second: Hotline_miami_3_295
+  - first:
+      213: -6651799381296570897
+    second: Hotline_miami_3_296
+  - first:
+      213: -6769976722588131457
+    second: Hotline_miami_3_297
+  - first:
+      213: -3145831922632466697
+    second: Hotline_miami_3_298
+  - first:
+      213: 9180297095420579412
+    second: Hotline_miami_3_299
+  - first:
+      213: 8041269278329371936
+    second: Hotline_miami_3_300
+  - first:
+      213: -6418479141942058913
+    second: Hotline_miami_3_301
+  - first:
+      213: -3034843489517550728
+    second: Hotline_miami_3_302
+  - first:
+      213: 749213519243314609
+    second: Hotline_miami_3_303
+  - first:
+      213: -331308648637639732
+    second: Hotline_miami_3_304
+  - first:
+      213: -6009969567528886483
+    second: Hotline_miami_3_305
+  - first:
+      213: -7071875782255693979
+    second: Hotline_miami_3_306
+  - first:
+      213: 5319784412133419613
+    second: Hotline_miami_3_307
+  - first:
+      213: 3341572818442257346
+    second: Hotline_miami_3_308
+  - first:
+      213: -6028394858222434421
+    second: Hotline_miami_3_309
+  - first:
+      213: -1406616373810183758
+    second: Hotline_miami_3_310
+  - first:
+      213: -3471489466688414600
+    second: Hotline_miami_3_311
+  - first:
+      213: 4520542795545319896
+    second: Hotline_miami_3_312
+  - first:
+      213: -6265451136473474858
+    second: Hotline_miami_3_313
+  - first:
+      213: 4771572047929007910
+    second: Hotline_miami_3_314
+  - first:
+      213: -687936225357049467
+    second: Hotline_miami_3_315
+  - first:
+      213: -365306045581435166
+    second: Hotline_miami_3_316
+  - first:
+      213: 6565259298879093733
+    second: Hotline_miami_3_317
+  - first:
+      213: -4528787400727334957
+    second: Hotline_miami_3_318
+  - first:
+      213: 7177470087764599624
+    second: Hotline_miami_3_319
+  - first:
+      213: 2813651923677547244
+    second: Hotline_miami_3_320
+  - first:
+      213: -3027923989968841090
+    second: Hotline_miami_3_321
+  - first:
+      213: 2664026369174339744
+    second: Hotline_miami_3_322
+  - first:
+      213: 2400172413292697677
+    second: Hotline_miami_3_323
+  - first:
+      213: -4958130869531877756
+    second: Hotline_miami_3_324
+  - first:
+      213: 3225110503177539824
+    second: Hotline_miami_3_325
+  - first:
+      213: 7244449465979770906
+    second: Hotline_miami_3_326
+  - first:
+      213: 2247908936826929842
+    second: Hotline_miami_3_327
+  - first:
+      213: -9157767987015653819
+    second: Hotline_miami_3_328
+  - first:
+      213: 2294874234975294362
+    second: Hotline_miami_3_329
+  - first:
+      213: -8646408505541481495
+    second: Hotline_miami_3_330
+  - first:
+      213: -2419719786903220136
+    second: Hotline_miami_3_331
+  - first:
+      213: 4717970114164026018
+    second: Hotline_miami_3_332
+  - first:
+      213: 2006459327952670314
+    second: Hotline_miami_3_333
+  - first:
+      213: -2503507792297211594
+    second: Hotline_miami_3_334
+  - first:
+      213: -7381688938034560159
+    second: Hotline_miami_3_335
+  - first:
+      213: -5205351154659438687
+    second: Hotline_miami_3_336
+  - first:
+      213: -3599188737615463896
+    second: Hotline_miami_3_337
+  - first:
+      213: -4844816881169152530
+    second: Hotline_miami_3_338
+  - first:
+      213: 690610868688001700
+    second: Hotline_miami_3_339
+  - first:
+      213: 1688846080413909785
+    second: Hotline_miami_3_340
+  - first:
+      213: 2461986684580858981
+    second: Hotline_miami_3_341
+  - first:
+      213: -7577558878521786031
+    second: Hotline_miami_3_342
+  - first:
+      213: 5508899454091544176
+    second: Hotline_miami_3_343
+  - first:
+      213: -6097514514664900303
+    second: Hotline_miami_3_344
+  - first:
+      213: 7550594466655559638
+    second: Hotline_miami_3_345
+  - first:
+      213: -6441433153983999594
+    second: Hotline_miami_3_346
+  - first:
+      213: -123855397626063109
+    second: Hotline_miami_3_347
+  - first:
+      213: -5451372687807553941
+    second: Hotline_miami_3_348
+  - first:
+      213: -3782740869896154830
+    second: Hotline_miami_3_349
+  - first:
+      213: 620392578042271537
+    second: Hotline_miami_3_350
+  - first:
+      213: 2908096350380291254
+    second: Hotline_miami_3_351
+  - first:
+      213: 3964725112685292700
+    second: Hotline_miami_3_352
+  - first:
+      213: 2873786771839445276
+    second: Hotline_miami_3_353
+  - first:
+      213: 1350241668315445807
+    second: Hotline_miami_3_354
+  - first:
+      213: 4359776384927838367
+    second: Hotline_miami_3_355
+  - first:
+      213: 2330463175102824057
+    second: Hotline_miami_3_356
+  - first:
+      213: 7735920536985697527
+    second: Hotline_miami_3_357
+  - first:
+      213: -5412253590295010511
+    second: Hotline_miami_3_358
+  - first:
+      213: -3770198602229007712
+    second: Hotline_miami_3_359
+  - first:
+      213: 7466565817585639760
+    second: Hotline_miami_3_360
+  - first:
+      213: 2325428311298963798
+    second: Hotline_miami_3_361
+  - first:
+      213: -5526295693343598124
+    second: Hotline_miami_3_362
+  - first:
+      213: -3068418791671505608
+    second: Hotline_miami_3_363
+  - first:
+      213: 626946130737432413
+    second: Hotline_miami_3_364
+  - first:
+      213: -6762991443403264598
+    second: Hotline_miami_3_365
+  - first:
+      213: -737321601004735666
+    second: Hotline_miami_3_366
+  - first:
+      213: 6567378887801417321
+    second: Hotline_miami_3_367
+  - first:
+      213: 5213258163803864103
+    second: Hotline_miami_3_368
+  - first:
+      213: -7162332197298172317
+    second: Hotline_miami_3_369
+  - first:
+      213: -4093953376024348456
+    second: Hotline_miami_3_370
+  - first:
+      213: -1073067667288233802
+    second: Hotline_miami_3_371
+  - first:
+      213: -3424927789531907470
+    second: Hotline_miami_3_372
+  - first:
+      213: -1412457084975499672
+    second: Hotline_miami_3_373
+  - first:
+      213: -7662458064348116876
+    second: Hotline_miami_3_374
+  - first:
+      213: 6180657537550968128
+    second: Hotline_miami_3_375
+  - first:
+      213: 1553872394536825936
+    second: Hotline_miami_3_376
+  - first:
+      213: -3788311778392713943
+    second: Hotline_miami_3_377
+  - first:
+      213: 8111253549046563469
+    second: Hotline_miami_3_378
+  - first:
+      213: -6798469148408226724
+    second: Hotline_miami_3_379
+  - first:
+      213: -7506830297492775896
+    second: Hotline_miami_3_380
+  - first:
+      213: 268861848254757203
+    second: Hotline_miami_3_381
+  - first:
+      213: 228624811647854261
+    second: Hotline_miami_3_382
+  - first:
+      213: -1854609606593771626
+    second: Hotline_miami_3_383
+  - first:
+      213: -4883171699680473943
+    second: Hotline_miami_3_384
+  - first:
+      213: -1710753114859845662
+    second: Hotline_miami_3_385
+  - first:
+      213: 7901458864664908703
+    second: Hotline_miami_3_386
+  - first:
+      213: -4084937005199653025
+    second: Hotline_miami_3_387
+  - first:
+      213: -7045657506825693106
+    second: Hotline_miami_3_388
+  - first:
+      213: 8453410292708640318
+    second: Hotline_miami_3_389
+  - first:
+      213: -6452618031298696181
+    second: Hotline_miami_3_390
+  - first:
+      213: -6643738026339107716
+    second: Hotline_miami_3_391
+  - first:
+      213: -2676148361175380730
+    second: Hotline_miami_3_392
+  - first:
+      213: 7572795870852789381
+    second: Hotline_miami_3_393
+  - first:
+      213: 452485960611139909
+    second: Hotline_miami_3_394
+  - first:
+      213: 1408978462718047722
+    second: Hotline_miami_3_395
+  - first:
+      213: -2188016021681502909
+    second: Hotline_miami_3_396
+  - first:
+      213: -8323443073732071348
+    second: Hotline_miami_3_397
+  - first:
+      213: -8408783331180030956
+    second: Hotline_miami_3_398
+  - first:
+      213: 7559523657295761296
+    second: Hotline_miami_3_399
+  - first:
+      213: -6605702937680741107
+    second: Hotline_miami_3_400
+  - first:
+      213: -2777330615307410751
+    second: Hotline_miami_3_401
+  - first:
+      213: -810972517301746986
+    second: Hotline_miami_3_402
+  - first:
+      213: 6926585158911166060
+    second: Hotline_miami_3_403
+  - first:
+      213: 2753387017300936717
+    second: Hotline_miami_3_404
+  - first:
+      213: 7453265577389882197
+    second: Hotline_miami_3_405
+  - first:
+      213: 4701603999201457913
+    second: Hotline_miami_3_406
+  - first:
+      213: -2538452891347343249
+    second: Hotline_miami_3_407
+  - first:
+      213: -8983318767254392210
+    second: Hotline_miami_3_408
+  - first:
+      213: -3758214240308625478
+    second: Hotline_miami_3_409
+  - first:
+      213: 4772402687885702906
+    second: Hotline_miami_3_410
+  - first:
+      213: 3545094736871331103
+    second: Hotline_miami_3_411
+  - first:
+      213: -5639955323163378823
+    second: Hotline_miami_3_412
+  - first:
+      213: -5198937793561229529
+    second: Hotline_miami_3_413
+  - first:
+      213: 2386732033274392342
+    second: Hotline_miami_3_414
+  - first:
+      213: -8680785077851319913
+    second: Hotline_miami_3_415
+  - first:
+      213: -3198097547833115401
+    second: Hotline_miami_3_416
+  - first:
+      213: 7587746962594420780
+    second: Hotline_miami_3_417
+  - first:
+      213: 4851112490146329304
+    second: Hotline_miami_3_418
+  - first:
+      213: 8342416328987201521
+    second: Hotline_miami_3_419
+  - first:
+      213: -2446497433528976934
+    second: Hotline_miami_3_420
+  - first:
+      213: 4051108111901917117
+    second: Hotline_miami_3_421
+  - first:
+      213: -4052825198860156065
+    second: Hotline_miami_3_422
+  - first:
+      213: -6868280608356914307
+    second: Hotline_miami_3_423
+  - first:
+      213: -4808973822078752635
+    second: Hotline_miami_3_424
+  - first:
+      213: 3667648648810230872
+    second: Hotline_miami_3_425
+  - first:
+      213: -1868881561930608546
+    second: Hotline_miami_3_426
+  - first:
+      213: 3291876881370339238
+    second: Hotline_miami_3_427
+  - first:
+      213: 1868381008340686527
+    second: Hotline_miami_3_428
+  - first:
+      213: -5554288393590301410
+    second: Hotline_miami_3_429
+  - first:
+      213: 4613562563953804671
+    second: Hotline_miami_3_430
+  - first:
+      213: 3267791314031536334
+    second: Hotline_miami_3_431
+  - first:
+      213: -6681761120037999932
+    second: Hotline_miami_3_432
+  - first:
+      213: -358373640239986400
+    second: Hotline_miami_3_433
+  - first:
+      213: -596567660233058884
+    second: Hotline_miami_3_434
+  - first:
+      213: 5717556966886250517
+    second: Hotline_miami_3_435
+  - first:
+      213: -1347634537599516748
+    second: Hotline_miami_3_436
+  - first:
+      213: 5619880649698153457
+    second: Hotline_miami_3_437
+  - first:
+      213: -3647515089421350163
+    second: Hotline_miami_3_438
+  - first:
+      213: 1369627713057499992
+    second: Hotline_miami_3_439
+  - first:
+      213: 8100571210284938638
+    second: Hotline_miami_3_440
+  - first:
+      213: 1156038817942351914
+    second: Hotline_miami_3_441
+  - first:
+      213: 7432813955333093386
+    second: Hotline_miami_3_442
+  - first:
+      213: 8184015449338489581
+    second: Hotline_miami_3_443
+  - first:
+      213: -3320399343150625623
+    second: Hotline_miami_3_444
+  - first:
+      213: -9140527819582956751
+    second: Hotline_miami_3_445
+  - first:
+      213: 2283862878039113493
+    second: Hotline_miami_3_446
+  - first:
+      213: -1374872263764646175
+    second: Hotline_miami_3_447
+  - first:
+      213: 6962716698970090191
+    second: Hotline_miami_3_448
+  - first:
+      213: -6579060216731636762
+    second: Hotline_miami_3_449
+  - first:
+      213: -7452162777797252891
+    second: Hotline_miami_3_450
+  - first:
+      213: -6478700948967268258
+    second: Hotline_miami_3_451
+  - first:
+      213: -471444867613151228
+    second: Hotline_miami_3_452
+  - first:
+      213: -383804089108922812
+    second: Hotline_miami_3_453
+  - first:
+      213: 2433993889100966901
+    second: Hotline_miami_3_454
+  - first:
+      213: -9200296134112203439
+    second: Hotline_miami_3_455
+  - first:
+      213: 1482993504950732553
+    second: Hotline_miami_3_456
+  - first:
+      213: -8204404358187679970
+    second: Hotline_miami_3_457
+  - first:
+      213: 7490586093518943801
+    second: Hotline_miami_3_458
+  - first:
+      213: 1916136478285750086
+    second: Hotline_miami_3_459
+  - first:
+      213: -136238439367935725
+    second: Hotline_miami_3_460
+  - first:
+      213: -1964016274072410375
+    second: Hotline_miami_3_461
+  - first:
+      213: -21104806420760760
+    second: Hotline_miami_3_462
+  - first:
+      213: 8083042375829102892
+    second: Hotline_miami_3_463
+  - first:
+      213: -3783742815944683809
+    second: Hotline_miami_3_464
+  - first:
+      213: -8192231175821184654
+    second: Hotline_miami_3_465
+  - first:
+      213: -7110149141446750443
+    second: Hotline_miami_3_466
+  - first:
+      213: -7500976275127219963
+    second: Hotline_miami_3_467
+  - first:
+      213: -931681404626524861
+    second: Hotline_miami_3_468
+  - first:
+      213: 5636835674517261677
+    second: Hotline_miami_3_469
+  - first:
+      213: 7894925749803377622
+    second: Hotline_miami_3_470
+  - first:
+      213: -3524752312501611848
+    second: Hotline_miami_3_471
+  - first:
+      213: 5686042903571646653
+    second: Hotline_miami_3_472
+  - first:
+      213: -5527974440873696627
+    second: Hotline_miami_3_473
+  - first:
+      213: 1605101909608515515
+    second: Hotline_miami_3_474
+  - first:
+      213: -9006884677695550385
+    second: Hotline_miami_3_475
+  - first:
+      213: -3643319725974184748
+    second: Hotline_miami_3_476
+  - first:
+      213: 4180954355384749265
+    second: Hotline_miami_3_477
+  - first:
+      213: 8533501912280152356
+    second: Hotline_miami_3_478
+  - first:
+      213: 7196704589386583507
+    second: Hotline_miami_3_479
+  - first:
+      213: -3022688474265941052
+    second: Hotline_miami_3_480
+  - first:
+      213: 8677303058794893740
+    second: Hotline_miami_3_481
+  - first:
+      213: 5424247182436537843
+    second: Hotline_miami_3_482
+  - first:
+      213: 5797492481201707031
+    second: Hotline_miami_3_483
+  - first:
+      213: 4795265042538655821
+    second: Hotline_miami_3_484
+  - first:
+      213: 1849207809107614140
+    second: Hotline_miami_3_485
+  - first:
+      213: -2091385228584455904
+    second: Hotline_miami_3_486
+  - first:
+      213: 3100677005345762611
+    second: Hotline_miami_3_487
+  - first:
+      213: -4673389943249724505
+    second: Hotline_miami_3_488
+  - first:
+      213: 1125354566958092740
+    second: Hotline_miami_3_489
+  - first:
+      213: 2168841640709585194
+    second: Hotline_miami_3_490
+  - first:
+      213: 1613518724621906029
+    second: Hotline_miami_3_491
+  - first:
+      213: -2180772760176222524
+    second: Hotline_miami_3_492
+  - first:
+      213: 9007434848746904546
+    second: Hotline_miami_3_493
+  - first:
+      213: -1296331739666128107
+    second: Hotline_miami_3_494
+  - first:
+      213: -1485035529001719748
+    second: Hotline_miami_3_495
+  - first:
+      213: 8127683735111026100
+    second: Hotline_miami_3_496
+  - first:
+      213: -7693282698979757010
+    second: Hotline_miami_3_497
+  - first:
+      213: -2774672558494212347
+    second: Hotline_miami_3_498
+  - first:
+      213: -6325925416759420690
+    second: Hotline_miami_3_499
+  - first:
+      213: 6484545365908140516
+    second: Hotline_miami_3_500
+  - first:
+      213: -5617407329191153418
+    second: Hotline_miami_3_501
+  - first:
+      213: 5682620725933464451
+    second: Hotline_miami_3_502
+  - first:
+      213: 4339038588386572436
+    second: Hotline_miami_3_503
+  - first:
+      213: -8019691117833031709
+    second: Hotline_miami_3_504
+  - first:
+      213: -1973799265102632536
+    second: Hotline_miami_3_505
+  - first:
+      213: 9099450219025750270
+    second: Hotline_miami_3_506
+  - first:
+      213: 6260544689884801096
+    second: Hotline_miami_3_507
+  - first:
+      213: -7086835896610193314
+    second: Hotline_miami_3_508
+  - first:
+      213: 5304019308913137121
+    second: Hotline_miami_3_509
+  - first:
+      213: -5727387277332681361
+    second: Hotline_miami_3_510
+  - first:
+      213: -5399391534743390805
+    second: Hotline_miami_3_511
+  - first:
+      213: 7072456177511764154
+    second: Hotline_miami_3_512
+  - first:
+      213: -6135749116259088851
+    second: Hotline_miami_3_513
+  - first:
+      213: 6259502482374031283
+    second: Hotline_miami_3_514
+  - first:
+      213: -2256439071243980591
+    second: Hotline_miami_3_515
+  - first:
+      213: 5004217915879403157
+    second: Hotline_miami_3_516
+  - first:
+      213: 4278114785360273939
+    second: Hotline_miami_3_517
+  - first:
+      213: 8218507194803141370
+    second: Hotline_miami_3_518
+  - first:
+      213: -794432118832396728
+    second: Hotline_miami_3_519
+  - first:
+      213: -5820138919965517992
+    second: Hotline_miami_3_520
+  - first:
+      213: -3225141163342990675
+    second: Hotline_miami_3_521
+  - first:
+      213: -3381448772575042121
+    second: Hotline_miami_3_522
+  - first:
+      213: 2591029767335762942
+    second: Hotline_miami_3_523
+  - first:
+      213: -107715761960333412
+    second: Hotline_miami_3_524
+  - first:
+      213: 7235563733601635075
+    second: Hotline_miami_3_525
+  - first:
+      213: -2422098893961858068
+    second: Hotline_miami_3_526
+  - first:
+      213: -5538610598917624814
+    second: Hotline_miami_3_527
+  - first:
+      213: 4706861644178146759
+    second: Hotline_miami_3_528
+  - first:
+      213: 8154976659009295377
+    second: Hotline_miami_3_529
+  - first:
+      213: 628575498662025562
+    second: Hotline_miami_3_530
+  - first:
+      213: 8552235053928652394
+    second: Hotline_miami_3_531
+  - first:
+      213: 9196463091612316248
+    second: Hotline_miami_3_532
+  - first:
+      213: -235441746539054641
+    second: Hotline_miami_3_533
+  - first:
+      213: 6058591531322121118
+    second: Hotline_miami_3_534
+  - first:
+      213: -6551239820362114543
+    second: Hotline_miami_3_535
+  - first:
+      213: -4106937737222166285
+    second: Hotline_miami_3_536
+  - first:
+      213: 8632692935559759310
+    second: Hotline_miami_3_537
+  - first:
+      213: 4535753036306727920
+    second: Hotline_miami_3_538
+  - first:
+      213: -5993891234357991857
+    second: Hotline_miami_3_539
+  - first:
+      213: 6927516355758375312
+    second: Hotline_miami_3_540
+  - first:
+      213: 2836563754666886650
+    second: Hotline_miami_3_541
+  - first:
+      213: -3891720614702602683
+    second: Hotline_miami_3_542
+  - first:
+      213: -4573911184659038934
+    second: Hotline_miami_3_543
+  - first:
+      213: -238474349992321585
+    second: Hotline_miami_3_544
+  - first:
+      213: -3730289528697862903
+    second: Hotline_miami_3_545
+  - first:
+      213: 4118384974574564313
+    second: Hotline_miami_3_546
+  - first:
+      213: 4436910070632054330
+    second: Hotline_miami_3_547
+  - first:
+      213: 6843948457646677101
+    second: Hotline_miami_3_548
+  - first:
+      213: -8609838338362949839
+    second: Hotline_miami_3_549
+  - first:
+      213: 610275203263549603
+    second: Hotline_miami_3_550
+  - first:
+      213: 8401479498296182705
+    second: Hotline_miami_3_551
+  - first:
+      213: -6548118264814277424
+    second: Hotline_miami_3_552
+  - first:
+      213: -4227192028219817005
+    second: Hotline_miami_3_553
+  - first:
+      213: -5317769888909164625
+    second: Hotline_miami_3_554
+  - first:
+      213: -1529351705901303149
+    second: Hotline_miami_3_555
+  - first:
+      213: -2987753384652212213
+    second: Hotline_miami_3_556
+  - first:
+      213: 640102942647371239
+    second: Hotline_miami_3_557
+  - first:
+      213: -5285070009113328642
+    second: Hotline_miami_3_558
+  - first:
+      213: 8794424886671654457
+    second: Hotline_miami_3_559
+  - first:
+      213: -5960876707521061280
+    second: Hotline_miami_3_560
+  - first:
+      213: 8414833910811669372
+    second: Hotline_miami_3_561
+  - first:
+      213: 5264680472318907977
+    second: Hotline_miami_3_562
+  - first:
+      213: 5356471599600183839
+    second: Hotline_miami_3_563
+  - first:
+      213: 2875398437786604050
+    second: Hotline_miami_3_564
+  - first:
+      213: 1955441705969977880
+    second: Hotline_miami_3_565
+  - first:
+      213: -1630410629052800141
+    second: Hotline_miami_3_566
+  - first:
+      213: 4255224303239466781
+    second: Hotline_miami_3_567
+  - first:
+      213: 7061802714867659957
+    second: Hotline_miami_3_568
+  - first:
+      213: -789597641663198868
+    second: Hotline_miami_3_569
+  - first:
+      213: 9163206504048762029
+    second: Hotline_miami_3_570
+  - first:
+      213: 2440574463775380230
+    second: Hotline_miami_3_571
+  - first:
+      213: -3752320234464543928
+    second: Hotline_miami_3_572
+  - first:
+      213: 3909580237634750772
+    second: Hotline_miami_3_573
+  - first:
+      213: -3855186415484563693
+    second: Hotline_miami_3_574
+  - first:
+      213: 1016100995637811586
+    second: Hotline_miami_3_575
+  - first:
+      213: 9009363176334037896
+    second: Hotline_miami_3_576
+  - first:
+      213: -8620824512576251523
+    second: Hotline_miami_3_577
+  - first:
+      213: 7689091928689231521
+    second: Hotline_miami_3_578
+  - first:
+      213: -3232343517235931763
+    second: Hotline_miami_3_579
+  - first:
+      213: 534600160307463152
+    second: Hotline_miami_3_580
+  - first:
+      213: 455226008353443144
+    second: Hotline_miami_3_581
+  - first:
+      213: -8675669545118105818
+    second: Hotline_miami_3_582
+  - first:
+      213: -3037555007494462678
+    second: Hotline_miami_3_583
+  - first:
+      213: 2452880461570390737
+    second: Hotline_miami_3_584
+  - first:
+      213: 1733811184045314652
+    second: Hotline_miami_3_585
+  - first:
+      213: -6571746960492819341
+    second: Hotline_miami_3_586
+  - first:
+      213: -165377011080208663
+    second: Hotline_miami_3_587
+  - first:
+      213: 4136351164206694265
+    second: Hotline_miami_3_588
+  - first:
+      213: 4871927891509040900
+    second: Hotline_miami_3_589
+  - first:
+      213: -3520026567952079464
+    second: Hotline_miami_3_590
+  - first:
+      213: 6558888016182894761
+    second: Hotline_miami_3_591
+  - first:
+      213: -9192006209655540046
+    second: Hotline_miami_3_592
+  - first:
+      213: 733491946376847760
+    second: Hotline_miami_3_593
+  - first:
+      213: 8368675277443388304
+    second: Hotline_miami_3_594
+  - first:
+      213: -1817536325083103319
+    second: Hotline_miami_3_595
+  - first:
+      213: 6283162536643103860
+    second: Hotline_miami_3_596
+  - first:
+      213: -2750456163242697027
+    second: Hotline_miami_3_597
+  - first:
+      213: -2922639674807891127
+    second: Hotline_miami_3_598
+  - first:
+      213: -2140775954033571283
+    second: Hotline_miami_3_599
+  - first:
+      213: -5044062276289133498
+    second: Hotline_miami_3_600
+  - first:
+      213: 3712383375163090356
+    second: Hotline_miami_3_601
+  - first:
+      213: -4796532182383388268
+    second: Hotline_miami_3_602
+  - first:
+      213: -8609426409592404097
+    second: Hotline_miami_3_603
+  - first:
+      213: 5510599539872978230
+    second: Hotline_miami_3_604
+  - first:
+      213: -6719304478896775111
+    second: Hotline_miami_3_605
+  - first:
+      213: -6140243088825839811
+    second: Hotline_miami_3_606
+  - first:
+      213: 3796684795964636167
+    second: Hotline_miami_3_607
+  - first:
+      213: 3648803138345521098
+    second: Hotline_miami_3_608
+  - first:
+      213: -3504999002594291606
+    second: Hotline_miami_3_609
+  - first:
+      213: 5036861402575360601
+    second: Hotline_miami_3_610
+  - first:
+      213: -8580461363021079986
+    second: Hotline_miami_3_611
+  - first:
+      213: 6536144399232231976
+    second: Hotline_miami_3_612
+  - first:
+      213: 6925705056753530489
+    second: Hotline_miami_3_613
+  - first:
+      213: -357216502392076917
+    second: Hotline_miami_3_614
+  - first:
+      213: -3945428519084687948
+    second: Hotline_miami_3_615
+  - first:
+      213: 3102978628097418949
+    second: Hotline_miami_3_616
+  - first:
+      213: -1807500359342774947
+    second: Hotline_miami_3_617
+  - first:
+      213: 6383934653654379315
+    second: Hotline_miami_3_618
+  - first:
+      213: 231839952277258120
+    second: Hotline_miami_3_619
+  - first:
+      213: 4209722526080404454
+    second: Hotline_miami_3_620
+  - first:
+      213: -5086715964405956014
+    second: Hotline_miami_3_621
+  - first:
+      213: 4137741223764056187
+    second: Hotline_miami_3_622
+  - first:
+      213: -816565733692533104
+    second: Hotline_miami_3_623
+  - first:
+      213: 8980216259600737576
+    second: Hotline_miami_3_624
+  - first:
+      213: 6415721301538309188
+    second: Hotline_miami_3_625
+  - first:
+      213: 6006956416005524149
+    second: Hotline_miami_3_626
+  - first:
+      213: 7857487422702220740
+    second: Hotline_miami_3_627
+  - first:
+      213: 627960073746100829
+    second: Hotline_miami_3_628
+  - first:
+      213: -6279904234035995565
+    second: Hotline_miami_3_629
+  - first:
+      213: -7226848897933196277
+    second: Hotline_miami_3_630
+  - first:
+      213: -87206185231673060
+    second: Hotline_miami_3_631
+  - first:
+      213: -3865436885717892993
+    second: Hotline_miami_3_632
+  - first:
+      213: -8832941553231013369
+    second: Hotline_miami_3_633
+  - first:
+      213: -6019947090713305499
+    second: Hotline_miami_3_634
+  - first:
+      213: 6421109334554685926
+    second: Hotline_miami_3_635
+  - first:
+      213: -495400485737633851
+    second: Hotline_miami_3_636
+  - first:
+      213: 1936331636753793310
+    second: Hotline_miami_3_637
+  - first:
+      213: -5529509971450341583
+    second: Hotline_miami_3_638
+  - first:
+      213: -2744260738376556994
+    second: Hotline_miami_3_639
+  - first:
+      213: -2887916931729739488
+    second: Hotline_miami_3_640
+  - first:
+      213: -8708897697805374200
+    second: Hotline_miami_3_641
+  - first:
+      213: 7903526286069991700
+    second: Hotline_miami_3_642
+  - first:
+      213: -2510981383804630140
+    second: Hotline_miami_3_643
+  - first:
+      213: -536089141637231889
+    second: Hotline_miami_3_644
+  - first:
+      213: 555725533187246412
+    second: Hotline_miami_3_645
+  - first:
+      213: -656464400225022142
+    second: Hotline_miami_3_646
+  - first:
+      213: 5079649769018883261
+    second: Hotline_miami_3_647
+  - first:
+      213: 8571031220292512578
+    second: Hotline_miami_3_648
+  - first:
+      213: -6196385555079368455
+    second: Hotline_miami_3_649
+  - first:
+      213: 3094886086284974796
+    second: Hotline_miami_3_650
+  - first:
+      213: -5521608152394626140
+    second: Hotline_miami_3_651
+  - first:
+      213: 1775645562685396268
+    second: Hotline_miami_3_652
+  - first:
+      213: -4325706677096506764
+    second: Hotline_miami_3_653
+  - first:
+      213: -6772814303566447422
+    second: Hotline_miami_3_654
+  - first:
+      213: 8675520056164623007
+    second: Hotline_miami_3_655
+  - first:
+      213: -8177567780786415750
+    second: Hotline_miami_3_656
+  - first:
+      213: -2636897507522953615
+    second: Hotline_miami_3_657
+  - first:
+      213: 8191760031110135675
+    second: Hotline_miami_3_658
+  - first:
+      213: 643767696304553638
+    second: Hotline_miami_3_659
+  - first:
+      213: -921125375814463341
+    second: Hotline_miami_3_660
+  - first:
+      213: -5602861630559777389
+    second: Hotline_miami_3_661
+  - first:
+      213: -3402869535932818710
+    second: Hotline_miami_3_662
+  - first:
+      213: 6574986431960044203
+    second: Hotline_miami_3_663
+  - first:
+      213: -8051732444959022697
+    second: Hotline_miami_3_664
+  - first:
+      213: -4405384019868198132
+    second: Hotline_miami_3_665
+  - first:
+      213: -3998874419253870298
+    second: Hotline_miami_3_666
+  - first:
+      213: 3696363878178221958
+    second: Hotline_miami_3_667
+  - first:
+      213: -922862234823023245
+    second: Hotline_miami_3_668
+  - first:
+      213: 3395308781376821962
+    second: Hotline_miami_3_669
+  - first:
+      213: -9182939019484882972
+    second: Hotline_miami_3_670
+  - first:
+      213: 8696564264787196993
+    second: Hotline_miami_3_671
+  - first:
+      213: 5305202783070513722
+    second: Hotline_miami_3_672
+  - first:
+      213: 6078768791500842453
+    second: Hotline_miami_3_673
+  - first:
+      213: -5571250243725134000
+    second: Hotline_miami_3_674
+  - first:
+      213: -3500317778888429357
+    second: Hotline_miami_3_675
+  - first:
+      213: 163833180575804280
+    second: Hotline_miami_3_676
+  - first:
+      213: 1655902840261289983
+    second: Hotline_miami_3_677
+  - first:
+      213: 4207309022112890308
+    second: Hotline_miami_3_678
+  - first:
+      213: 1988721222944221047
+    second: Hotline_miami_3_679
+  - first:
+      213: -3708489119554056583
+    second: Hotline_miami_3_680
+  - first:
+      213: 5457914077282265995
+    second: Hotline_miami_3_681
+  - first:
+      213: 7208796492668680119
+    second: Hotline_miami_3_682
+  - first:
+      213: 5984498316601022581
+    second: Hotline_miami_3_683
+  - first:
+      213: -5785524646185807046
+    second: Hotline_miami_3_684
+  - first:
+      213: 2626733208198940793
+    second: Hotline_miami_3_685
+  - first:
+      213: 2201280909019661380
+    second: Hotline_miami_3_686
+  - first:
+      213: 5267922887371475221
+    second: Hotline_miami_3_687
+  - first:
+      213: 2038993403022090217
+    second: Hotline_miami_3_688
+  - first:
+      213: -2538088953233099444
+    second: Hotline_miami_3_689
+  - first:
+      213: -1367491838017740869
+    second: Hotline_miami_3_690
+  - first:
+      213: 3519646883416547132
+    second: Hotline_miami_3_691
+  - first:
+      213: 115213106323762288
+    second: Hotline_miami_3_692
+  - first:
+      213: 2987604333956585917
+    second: Hotline_miami_3_693
+  - first:
+      213: 3539167879095645490
+    second: Hotline_miami_3_694
+  - first:
+      213: 8768090454620590545
+    second: Hotline_miami_3_695
+  - first:
+      213: 2195202441626377444
+    second: Hotline_miami_3_696
+  - first:
+      213: 4595304253247590644
+    second: Hotline_miami_3_697
+  - first:
+      213: 7766672011201209612
+    second: Hotline_miami_3_698
+  - first:
+      213: 2678371848067481686
+    second: Hotline_miami_3_699
+  - first:
+      213: 7382589042808272032
+    second: Hotline_miami_3_700
+  - first:
+      213: 899113537346267481
+    second: Hotline_miami_3_701
+  - first:
+      213: -3390543094253925416
+    second: Hotline_miami_3_702
+  - first:
+      213: -216367167456446569
+    second: Hotline_miami_3_703
+  - first:
+      213: 8906790346503868619
+    second: Hotline_miami_3_704
+  - first:
+      213: 6813702924518781746
+    second: Hotline_miami_3_705
+  - first:
+      213: -6454041213417439964
+    second: Hotline_miami_3_706
+  - first:
+      213: -6325717781653017378
+    second: Hotline_miami_3_707
+  - first:
+      213: -5819312809028088560
+    second: Hotline_miami_3_708
+  - first:
+      213: -7935146731421429298
+    second: Hotline_miami_3_709
+  - first:
+      213: -2298443319674021110
+    second: Hotline_miami_3_710
+  - first:
+      213: -1979824583563629227
+    second: Hotline_miami_3_711
+  - first:
+      213: 7778257379040455051
+    second: Hotline_miami_3_712
+  - first:
+      213: 8332379635842501617
+    second: Hotline_miami_3_713
+  - first:
+      213: -3041492498778196870
+    second: Hotline_miami_3_714
+  - first:
+      213: 422213140641266756
+    second: Hotline_miami_3_715
+  - first:
+      213: 8539863436165726618
+    second: Hotline_miami_3_716
+  - first:
+      213: 1869589970886957686
+    second: Hotline_miami_3_717
+  - first:
+      213: 9219903125481991544
+    second: Hotline_miami_3_718
+  - first:
+      213: -4211200947597464686
+    second: Hotline_miami_3_719
+  - first:
+      213: 4128580574471837439
+    second: Hotline_miami_3_720
+  - first:
+      213: -1380039019497388074
+    second: Hotline_miami_3_721
+  - first:
+      213: 7185630156017942444
+    second: Hotline_miami_3_722
+  - first:
+      213: 5655686667383064190
+    second: Hotline_miami_3_723
+  - first:
+      213: 4060991684746650336
+    second: Hotline_miami_3_724
+  - first:
+      213: -3382668460371755470
+    second: Hotline_miami_3_725
+  - first:
+      213: 1221927015337211996
+    second: Hotline_miami_3_726
+  - first:
+      213: 3117294217962863241
+    second: Hotline_miami_3_727
+  - first:
+      213: 8424236011804222636
+    second: Hotline_miami_3_728
+  - first:
+      213: 9004939651155760377
+    second: Hotline_miami_3_729
+  - first:
+      213: -4833269868391112523
+    second: Hotline_miami_3_730
+  - first:
+      213: -6716827815917214171
+    second: Hotline_miami_3_731
+  - first:
+      213: -8894814979165545368
+    second: Hotline_miami_3_732
+  - first:
+      213: -8059454909151811897
+    second: Hotline_miami_3_733
+  - first:
+      213: 7831533564371274179
+    second: Hotline_miami_3_734
+  - first:
+      213: -470521140171854957
+    second: Hotline_miami_3_735
+  - first:
+      213: -7165997571413798531
+    second: Hotline_miami_3_736
+  - first:
+      213: -5884807674502403513
+    second: Hotline_miami_3_737
+  - first:
+      213: -1161091450243334102
+    second: Hotline_miami_3_738
+  - first:
+      213: 567683131188161228
+    second: Hotline_miami_3_739
+  - first:
+      213: 2862643752780203479
+    second: Hotline_miami_3_740
+  - first:
+      213: -720910709811227176
+    second: Hotline_miami_3_741
+  - first:
+      213: 4742118562498624747
+    second: Hotline_miami_3_742
+  - first:
+      213: 1934931078634928037
+    second: Hotline_miami_3_743
+  - first:
+      213: 7314954021867690301
+    second: Hotline_miami_3_744
+  - first:
+      213: 5484085172789352786
+    second: Hotline_miami_3_745
+  - first:
+      213: -1475238218736313320
+    second: Hotline_miami_3_746
+  - first:
+      213: 4582872070377626778
+    second: Hotline_miami_3_747
+  - first:
+      213: 6532926216556709513
+    second: Hotline_miami_3_748
+  - first:
+      213: -5317766556098866114
+    second: Hotline_miami_3_749
+  - first:
+      213: 739042857682135127
+    second: Hotline_miami_3_750
+  - first:
+      213: -4052215222059818800
+    second: Hotline_miami_3_751
+  - first:
+      213: -3195903556000255610
+    second: Hotline_miami_3_752
+  - first:
+      213: 4935123569421918631
+    second: Hotline_miami_3_753
+  - first:
+      213: -6546563058924916550
+    second: Hotline_miami_3_754
+  - first:
+      213: -2705988706488017579
+    second: Hotline_miami_3_755
+  - first:
+      213: -3323306365294349570
+    second: Hotline_miami_3_756
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hotline_miami_3_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1048
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00d2e0f11e3c2b4c9cdfa9a8271e3d1
+      internalID: 9085932849434767182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1050
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff8170e6d36a1c479f1b415a8e2c1f0
+      internalID: -14077273525680978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1040
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764e620eb623b9a479d835b6bab968c0
+      internalID: 6794167770966966058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1040
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f894381fe96f3449caa62cf1982430
+      internalID: 703981452079544598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_13
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1064
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6662c6ceb8a68fa44bf0c86bc1e37422
+      internalID: 8016990881818695435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_14
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1066
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09498495b5ec2db42bdb643342b2ddbe
+      internalID: 289880184123647679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_15
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1063
+        width: 49
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efefd542cae5a6b4f82b53c5509a82d0
+      internalID: 2460157938253775513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_16
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1067
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e63f32a415d656428a3878d1e88c971
+      internalID: -8712941478165719343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_17
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1062
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ad9260559440346a05ffa76b82efc2
+      internalID: -384345878706844807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_18
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1061
+        width: 52
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d0a83aabd6d134dae65292e2c0ee5b
+      internalID: 4322370103675535278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_19
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1067
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cdbd3fbad55e34493efc2b9177d10d
+      internalID: 9013223795983898546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_25
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1029
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514fa095600941648a92b0c464494318
+      internalID: -507441226651929080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_26
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1029
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e1d00bae2e9c7499db17bcc8039dae
+      internalID: 284156932765687240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 985
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908b942378655e84f8d756d494476d83
+      internalID: -3511540730066941047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_39
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 989
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba3f8ab37e93124b92e031142876315
+      internalID: -6974443957584331621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_40
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 987
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34698ce1c0509704099d4602404d3c5c
+      internalID: 998299655800949751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_41
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 995
+        width: 54
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c86923de137674189e3bd588a6f57c
+      internalID: -6590457918032047805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_65
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 928
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e33fd82870b3ce4580ff12bfb22b9cc
+      internalID: 713252921770595133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_66
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 909
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859534aef4c65bd4e8cdadbe22d0d43a
+      internalID: -5616325069817331744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_67
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 940
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1503e6b644b9fba4ebc25c79143e4ca8
+      internalID: 5005088363508717156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_84
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 943
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd1bcf1994c0e645aa60a6814fbda43
+      internalID: -9097954921157340361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_85
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 942
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f117531f20b912c499471644896f734d
+      internalID: 3983137185616618213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_86
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 917
+        width: 49
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46065ab5bd1ae254295406c53b437625
+      internalID: -599506358164930899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_104
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 908
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f441ba0c9fa2d4d98708f293184ee9
+      internalID: -1724570866314163653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_107
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 865
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67ed9f18308f8c489e2c81aa4cc12f2
+      internalID: 6805692499261326036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_108
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 878
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bad09eab20bc1a45935e59d2abdaeb9
+      internalID: -1088275437387757484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_123
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 848
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e250fdc4016f29e4798fa7182f9a9df0
+      internalID: -8019367944298124650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_124
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 855
+        width: 54
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfc0fe09500c2149a9afc63184d353e
+      internalID: 2037955801471733118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_130
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 836
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc3b504e0c13164095ff35fb8f8b60f
+      internalID: -2978393868520325772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_147
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 785
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d33307f1c8504641af305d81bbc9cfc
+      internalID: 5315847572903558177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_149
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 804
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8250101e097ccf4a832a8944f4f54d0
+      internalID: -2779275600929401807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_151
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 791
+        width: 57
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfcbc4c0ad2ea045a0c10dd2710ab29
+      internalID: -6067449741309518728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_175
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 743
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e967bc025ab3874f8a46997ba049575
+      internalID: -1680449440723932547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_176
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 740
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e0e19b0d651dc47abf501c1e02b71f
+      internalID: -1271405846317399593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_193
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 727
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944e2c78eff55df45a53a9e0e2a4488b
+      internalID: -8924014089833248356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_202
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 703
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6166da83c31c2134197b93faf4a7c78c
+      internalID: -1824770946621893987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_218
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 683
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4646752a546ea841af38206a74adf2e
+      internalID: 2355559163822915074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_239
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 650
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6814f8b83edea224eb03f4a5ceed8345
+      internalID: 5368117142015384093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_241
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 661
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbc6d1ea80a5bf4f9c098a8467c6bf4
+      internalID: 6892570012379002876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_244
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 661
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b7f75855f604d42aaf6a00e3a7bd9d
+      internalID: -2375306878643894758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_261
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 622
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed5ad3d4c7bcbe4586f1c24e153d955
+      internalID: 716819568014762881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_262
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 622
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4192d7037bd4f469e569e94f5c4861
+      internalID: -7666419319822661634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_263
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 619
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50dada1cceac7294bbc3858954101563
+      internalID: 4797960093265444650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_286
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 600
+        width: 58
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c932daabfbd6149a2cf2b487b123e8
+      internalID: -2690199186945652478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_288
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 578
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca03fca644d2d2a4186a4e90b3eb405e
+      internalID: 1321255254151977993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_300
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 562
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0991a6eb3d14fca449bdf8d06806fdf3
+      internalID: 8041269278329371936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_301
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 561
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299d88369bf45534489c5bb7969a1e29
+      internalID: -6418479141942058913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_317
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 532
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc24e9084033f0a45923a3d09c9d3bfc
+      internalID: 6565259298879093733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_318
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 538
+        width: 54
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de11c2f4f38a4ae4eb20892b5308b704
+      internalID: -4528787400727334957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_333
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 543
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fed21c6a154ca48948a3fa7447b332
+      internalID: 2006459327952670314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_339
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 501
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8056d3336170cd47bc2d7befe2c25c7
+      internalID: 690610868688001700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_340
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 500
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6823ec2bc4ea9d94fac5987003d7c26c
+      internalID: 1688846080413909785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_350
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 497
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8174b9e3104dcde47a35b4a27e253635
+      internalID: 620392578042271537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_384
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 455
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4a1b486dcff754c98dbbafb9c9a9ef
+      internalID: -4883171699680473943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_392
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 440
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09314d3e147f17047b3594064fd54641
+      internalID: -2676148361175380730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_393
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 439
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea1c74958923d648bdc747c6ccdc6c5
+      internalID: 7572795870852789381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_411
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddafc6feda572248bbac20f0cf8daeb
+      internalID: 3545094736871331103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_444
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 378
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e673d984c42c51e48b1302f4b50d0472
+      internalID: -3320399343150625623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_445
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 378
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d2d2fc96489ce4cba86c3467efe1cf
+      internalID: -9140527819582956751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_446
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 376
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70f78b6fa32b8641880d04c46538e23
+      internalID: 2283862878039113493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_469
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 332
+        width: 52
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b67872b5050af40a1b160a084baf3b
+      internalID: 5636835674517261677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_486
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 317
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f504bceac68624faea036fba3a80c5
+      internalID: -2091385228584455904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_487
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 317
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053846a5c837ade4b9a2d90b076cfa31
+      internalID: 3100677005345762611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_504
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 324
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6bb836127380c4e84c9e824693e08d
+      internalID: -8019691117833031709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_508
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 290
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e46203ca5d524340aa1289347023711
+      internalID: -7086835896610193314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_525
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 255
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961bd8cd19da8d14aac1a4c5f5100e73
+      internalID: 7235563733601635075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_526
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 256
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb46e83af0defb4ba53453690d9342a
+      internalID: -2422098893961858068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_543
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 253
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3770c416363d4429958557aee81927
+      internalID: -4573911184659038934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_569
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 246
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17b73f7754621a4ca620cb641d01b53
+      internalID: -789597641663198868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_579
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 194
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006fcb5b2ea28de4cb5a28c6996ca990
+      internalID: -3232343517235931763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_580
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 189
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4632069c739a0074a9ad853846327645
+      internalID: 534600160307463152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_581
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 207
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa949c105318674192f8d03b5047f5b
+      internalID: 455226008353443144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_617
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 175
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34322331f7fcfa646913d80bc85acbe6
+      internalID: -1807500359342774947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_640
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 172
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f99267e27d2d5144a2320cfdf55d6f7
+      internalID: -2887916931729739488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_642
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 125
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ece24c7f4cfee04e803f7f03a985085
+      internalID: 7903526286069991700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_650
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 134
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084f77233b46fda43b9bbb0edf9b7126
+      internalID: 3094886086284974796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_651
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 132
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f6eacb8ace2b546aba5be8e9e1a958
+      internalID: -5521608152394626140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_690
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 64
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59434100c73059647b549a213395b424
+      internalID: -1367491838017740869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_700
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 74
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1da3ae9ec532f40be68338f8cf67d4
+      internalID: 7382589042808272032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotline_miami_3_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1073
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3601ffa09502ea0498111a23526d57c4
+      internalID: -6883159329830927811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
