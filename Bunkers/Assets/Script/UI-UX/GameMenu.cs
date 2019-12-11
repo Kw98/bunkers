@@ -11,20 +11,21 @@ public class GameMenu : MonoBehaviour {
     [SerializeField] private GameObject VictoryMenuObj;
 
     private void Update() {
-        if (VictoryMenuObj.active)
-        {
-            Time.timeScale = 0;
-            return;
-        }
-        Time.timeScale = 1;
         if (GameOverMenuObj.active)
             return;
-        if (Input.GetKeyDown(KeyCode.Escape) && !OptionMenuObj.active) {
+        if (Input.GetKeyDown(KeyCode.Escape) && !OptionMenuObj.active)
+        {
             if (GameMenuObj.active)
                 GameMenuObj.SetActive(false);
             else
                 GameMenuObj.SetActive(true);
         }
+        if (VictoryMenuObj.active || GameMenuObj.active || GameOverMenuObj.active)
+        {
+            Time.timeScale = 0;
+            return;
+        }
+        Time.timeScale = 1;
     }
 
     public void     OnGameMenuPressed() {
