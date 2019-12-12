@@ -48,6 +48,7 @@ public class ZombieMvt : MonoBehaviour
         if (rand == 3)
             animation.SetBool("isDead3", true);
         dead = true;
+        GetComponent<Rigidbody2D>().angularVelocity = 0;
         transform.position = transform.localPosition;
     }
 
@@ -93,6 +94,7 @@ public class ZombieMvt : MonoBehaviour
     {
         if (hit.gameObject.tag == "Bullet")
         {
+            Physics2D.IgnoreCollision(hit.collider, GetComponent<Collider2D>());
             Destroy(hit.transform.gameObject);
             Iamdead();
             this.GetComponent<Collider2D>().enabled = false;

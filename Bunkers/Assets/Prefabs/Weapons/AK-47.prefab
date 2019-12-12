@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 20
   reloadTime: 2
-  fireRate: 0.01
+  fireRate: 0.1
   firePoint: {fileID: 939060836728833059}
   bulletPrefab: {fileID: 4060819725916831063, guid: ea1542d5b1bdabc48b12b82505580d5c,
     type: 3}
@@ -156,8 +156,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3745464316994927079}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005, y: 0.001, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
+  m_LocalPosition: {x: 0.04, y: -0.05, z: 0}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 0}
   m_Children: []
   m_Father: {fileID: 5528779667590762491}
   m_RootOrder: 0
@@ -200,7 +200,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4222774644820674277, guid: 7889e5ed02149f84ba520ab9805526b6,
+  m_Sprite: {fileID: 4334057459632297650, guid: 8d32aa1d245ad1848842fa8229bea6ed,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -238,7 +238,7 @@ Transform:
   m_GameObject: {fileID: 5528779667590762490}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_Children:
   - {fileID: 6643334713923434127}
   m_Father: {fileID: 5528779668853497797}
@@ -282,7 +282,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -4222774644820674277, guid: a81d776129bc6fa498906c5f7799dc80,
+  m_Sprite: {fileID: 2775322821883292581, guid: b1d65f0c101fba847a67028eb90a0eaa,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

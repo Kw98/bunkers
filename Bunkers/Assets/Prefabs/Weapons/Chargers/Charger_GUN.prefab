@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4979782603374213347}
   - component: {fileID: 4979782603374213344}
-  - component: {fileID: 4979782603374213345}
   - component: {fileID: 4979782603374213150}
+  - component: {fileID: 3131224295772213469}
   m_Layer: 0
   m_Name: Charger_GUN
   m_TagString: Charger
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 4979782603374213151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.630166, y: 1.2204442, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_Children:
   - {fileID: 7383478049754462212}
   m_Father: {fileID: 0}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 2945346237746575926, guid: 2c2dfc0e32bf12d4ebc151393934c4fb,
+  m_Sprite: {fileID: 2175875661377597776, guid: ec3ba79f2a80dfe40ad6c42844c898d0,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -84,7 +84,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4979782603374213345
+--- !u!114 &4979782603374213150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4979782603374213151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e08793c61c7564d9a819a85b60d6d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxBullets: 15
+  actualNbOfBullets: 15
+  weaponType: 1
+--- !u!61 &3131224295772213469
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,30 +116,15 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.03, y: 0.05}
+    oldSize: {x: 0.73, y: 1.25}
     newSize: {x: 0.03, y: 0.05}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.03, y: 0.05}
+  m_Size: {x: 0.73, y: 1.25}
   m_EdgeRadius: 0
---- !u!114 &4979782603374213150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4979782603374213151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19e08793c61c7564d9a819a85b60d6d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxBullets: 15
-  actualNbOfBullets: 15
-  weaponType: 1
 --- !u!1 &5708046617255611872
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,7 +194,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2945346237746575926, guid: fdfbab1b94194ed4db3fb950eff431f6,
+  m_Sprite: {fileID: 2202227139078511678, guid: 15ed67677e60bc747868b21cd32f1ba6,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

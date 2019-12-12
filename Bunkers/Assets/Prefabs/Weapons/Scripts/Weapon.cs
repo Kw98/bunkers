@@ -7,7 +7,8 @@
         shotgun,
         uzi,
         m4,
-        cub
+        cub,
+        unarmed
     }
 
 public class Weapon : MonoBehaviour
@@ -22,34 +23,35 @@ public class Weapon : MonoBehaviour
         equiped.SetActive(false);
     }
 
-    private void FixedUpdate() {
-    }
-
-    private void OnCollisionEnter2D(Collision2D other) {
-    }
-
     public SpriteRenderer equip() {
         Debug.Log("EQUIPED");
-        equiped.active = true;
+        equiped.SetActive(true);
         return loot.GetComponent<SpriteRenderer>();
     }
 
     public void unequip() {
         Debug.Log("UNEQUIPED");
-        equiped.active = false;
+        equiped.SetActive(false);
     }
 
     public void getLoot(GameObject parent) {
         transform.parent = parent.transform;
         transform.localPosition = Vector3.zero;
         transform.rotation = parent.transform.rotation;
-        loot.active = false;
+        loot.SetActive(false);
         GetComponent<Collider2D>().enabled = false;
     }
 
+    public void attack() {
+        if (wt == WeaponType.cub)
+            equiped.GetComponent<melee>().Updater();
+        else
+            equiped.GetComponent<range>().Updater();
+    }
+
     public void drop() {
-        equiped.active = false;
-        loot.active = true;
+        equiped.SetActive(false);
+        loot.SetActive(true);
         transform.parent = null;
         GetComponent<Collider2D>().enabled = true;
     }

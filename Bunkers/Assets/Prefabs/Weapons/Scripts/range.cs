@@ -26,9 +26,6 @@ public class range : MonoBehaviour
         audioSource = CreateAudioSource(shootsong, false);
         ReloadText = GameObject.FindWithTag("ReloadText");
         ReloadText.GetComponent<UnityEngine.UI.Text>().text = "";
-        
-
-
     }
 
     public void    Updater() {
@@ -52,8 +49,6 @@ public class range : MonoBehaviour
     }
 
     private void    shoot() {
-        // Debug.Log(chargers.Count);
-
         if (chargers.Count > 0 && chargers[0].GetComponent<Charger>().useBullet()) {
 
             GameObject b = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);

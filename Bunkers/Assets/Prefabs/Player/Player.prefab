@@ -77,6 +77,7 @@ MonoBehaviour:
   camera: {fileID: 0}
   legs: {fileID: 7494596770540807831}
   inventory: {fileID: 8574001089598828805}
+  Light: {fileID: 0}
   GameOverMenu: {fileID: 0}
   VictoryMenu: {fileID: 0}
 --- !u!114 &8574001089598828805
@@ -91,14 +92,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7370a7a48dd4ead4ea53936075abbbdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  melee: {fileID: 8346608334105642043}
-  selectedWeapon: 0
-  actualEquiped: 0
-  imageWapeon: {fileID: 0}
+  MeleeGo: {fileID: 8346608334105642043}
+  MaxWeapon: 4
+  CurrentWeaponSprite: {fileID: 0}
+  Weapons: []
 --- !u!1 &6799984772632552720
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,6 +200,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b89e46bc8148e4e8a4a46978551dec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeBattery: 0
+  nbMaxOfBattery: 0
+  ActualNbOfBattery: 0
+  timeActualBattery: 0
+  batterytext: {fileID: 0}
 --- !u!1 &7322363848408092379
 GameObject:
   m_ObjectHideFlags: 0

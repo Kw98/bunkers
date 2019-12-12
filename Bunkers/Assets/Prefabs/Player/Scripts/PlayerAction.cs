@@ -12,45 +12,56 @@ public class PlayerAction : MonoBehaviour
     public GameObject Light;
     private Vector2     movement;
     private Vector2         mousePos;
+    private int             colNB;
     [SerializeField] private GameObject GameOverMenu;
     [SerializeField] private GameObject VictoryMenu;
+
+    private void Start() {
+        colNB = 0;
+    }
 
     private void Update() {
         if (currentHealth <= 0) {
             Destroy(gameObject);
             return;
         }
-        if (Input.GetKeyDown(KeyCode.A))
-            gameObject.GetComponent<Inventory>().drop();
+        // if (Input.GetKeyDown(KeyCode.A))
+        //     gameObject.GetComponent<Inventory>().drop();
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
         mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
         legs.SetFloat("Run", movement.x + movement.y);
-        if (inventory.actualEquiped != -1)
-            inventory.weapons[inventory.actualEquiped].transform.Find("Equiped").gameObject.GetComponent<range>().Updater();
-        else
-            inventory.melee.GetComponent<melee>().Updater();
+        inventory.Attack();
     }
 
 
     private void FixedUpdate() {
+        if (colNB == 0)
+            rigidbody.angularVelocity = 0;
         rigidbody.velocity = movement;
         Vector2 lookDir = mousePos - rigidbody.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
         rigidbody.rotation = angle;
+        colNB = 0;
     }
 
     private void OnCollisionEnter2D(Collision2D hit) {
-        if (hit.gameObject.tag == "Zombie")
+        //Debug.Log("COLLISION: " + hit.gameObject.tag);
+        //Physics2D.IgnoreCollision(hit.collider, GetComponent<Collider2D>());
+        if (hit.gameObject.tag == "Zombie") {
             currentHealth -= 1.0f;
-        if (hit.gameObject.tag == "Boss")
+            colNB++;
+        }
+        if (hit.gameObject.tag == "Boss") {
             currentHealth -= hit.gameObject.GetComponent<Boss>().Damages;
+            colNB++;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log("Triggered");
+        //Debug.Log("TRIGGER: " + other.gameObject.tag);
         if (other.gameObject.tag == "Weapon" || other.gameObject.tag == "Charger")
-            gameObject.GetComponent<Inventory>().loot(other.gameObject);
+            gameObject.GetComponent<Inventory>().Loot(other.gameObject);
         else if (other.gameObject.tag == "Battery")
             Light.GetComponent<FlashLight>().AddBattery(other.gameObject);
         else if (other.gameObject.tag == "MedicPack" && currentHealth < maxHealth)

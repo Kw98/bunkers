@@ -17,12 +17,6 @@ public class melee : MonoBehaviour
         attackTime = 0;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void Updater() {
         if ((Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0) && !Input.GetMouseButtonDown(0)) {
             animator.SetTrigger("run");
