@@ -54,7 +54,7 @@ public class Inventory : MonoBehaviour {
 
     private void LootWeapon(GameObject obj) {
         Weapon weapon = obj.GetComponent<Weapon>();
-        if (Weapons.Count + 1 >= MaxWeapon)
+        if (Weapons.Count + 1 >= MaxWeapon || weapon.lootable == false)
             return;
         for (int i = 1; i < Weapons.Count; i++) {
             if (weapon.wt == Weapons[i].GetComponent<Weapon>().wt) {
@@ -105,6 +105,20 @@ public class Inventory : MonoBehaviour {
             spriteRenderer = Weapons[Current].GetComponent<Weapon>().equip();
             CurrentWeaponSprite.GetComponent<Image>().sprite = spriteRenderer.sprite;
         }
+    }
+
+    public void Drop() {
+        if (Current == 0)
+            return;
+        Weapons[Current].GetComponent<Weapon>().drop();
+        Weapons.RemoveAt(Current);
+        if (Weapons.Count >= Current)
+            Current = Weapons.Count - 1;
+        if (Current == 0) {
+            CurrentWeaponSprite.SetActive(false);
+            Weapons[Current].SetActive(true);
+        } else
+            CurrentWeaponSprite.GetComponent<Image>().sprite = Weapons[Current].GetComponent<Weapon>().equip().sprite;
     }
 
 }

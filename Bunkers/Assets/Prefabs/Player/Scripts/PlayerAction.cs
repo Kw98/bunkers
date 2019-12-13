@@ -25,8 +25,8 @@ public class PlayerAction : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        // if (Input.GetKeyDown(KeyCode.A))
-        //     gameObject.GetComponent<Inventory>().drop();
+        if (Input.GetKeyDown(KeyCode.A))
+             gameObject.GetComponent<Inventory>().Drop();
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
         mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
