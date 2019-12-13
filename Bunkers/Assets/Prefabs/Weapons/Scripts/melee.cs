@@ -8,13 +8,14 @@ public class melee : MonoBehaviour
     public  float       attackLength;
     public  Transform     attackPos;
     public  float       attackRate;
-    private float      attackTime;
+    private float      nextAttack;
+    private bool        isAttacking;
     public  LayerMask   enemiesLayer;
 
     // Start is called before the first frame update
     void Start()
     {
-        attackTime = 0;
+        nextAttack = 0;
     }
 
     public void Updater() {
@@ -23,20 +24,26 @@ public class melee : MonoBehaviour
         } else if (!Input.GetMouseButtonDown(0))
             animator.SetTrigger("idle");
 
-        if (attackTime <= 0) {
-            if (Input.GetMouseButtonDown(0)) {
-                animator.SetTrigger("attack");
-                attack(damage);
-                attackTime = attackRate;
-            }
-        } else
-            attackTime -= Time.deltaTime; 
+        if (Input.GetMouseButtonUp(0))
+            isAttacking = false;
+        if (Input.GetMouseButtonDown(0))
+            isAttacking = true;
+
+        if (isAttacking && Time.time > nextAttack) {
+            animator.SetTrigger("attack");
+            attack();
+            nextAttack = Time.time + attackRate;
+        }
     }
 
-    private void    attack(int damages) {
-        Collider2D[]    enemies = Physics2D.OverlapBoxAll(attackPos.position, new Vector2(attackWidth, attackLength), 0, enemiesLayer);
-        for (int i = 0; i < enemies.Length; i++) {
-            // damage enemies
+    private void    attack() {
+        Collider2D[]    objs = Physics2D.OverlapBoxAll(attackPos.position, new Vector2(attackWidth, attackLength), 0);
+        foreach (Collider2D obj in objs) {
+            if (obj.gameObject.tag == "Zombie") {
+                if (obj.gameObject.GetComponent<ZombieMvt>().CurrentHealth - damage <= 0f)
+                    Physics2D.IgnoreCollision(obj, GetComponent<Collider2D>());
+                obj.gameObject.GetComponent<ZombieMvt>().CurrentHealth -= damage;
+            }
         }
     }
 }

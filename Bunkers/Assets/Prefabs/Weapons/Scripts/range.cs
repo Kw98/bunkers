@@ -12,7 +12,7 @@ public class range : MonoBehaviour
     public int  maxCharger;
     public List<GameObject>   chargers;
     private bool    isFiring;
-    private float      fireTime;
+    private float      nextFire;
     public AudioClip shootsong;
     private AudioSource audioSource;
     private GameObject ReloadText;
@@ -22,7 +22,7 @@ public class range : MonoBehaviour
     void Start()
     {
         isFiring = false;
-        fireTime = 0;
+        nextFire = 0;
         audioSource = CreateAudioSource(shootsong, false);
         ReloadText = GameObject.FindWithTag("ReloadText");
         ReloadText.GetComponent<UnityEngine.UI.Text>().text = "";
@@ -33,19 +33,12 @@ public class range : MonoBehaviour
             isFiring = true;
         if (Input.GetMouseButtonUp(0))
             isFiring = false;
+        if (isFiring && Time.time > nextFire) {
+            shoot();
+            nextFire = Time.time + fireRate;
+        }
         if (Input.GetKeyDown(KeyCode.R))
             StartCoroutine(reload());
-    }
-
-    private void FixedUpdate() {
-        if (isFiring) {
-            fireTime -= Time.deltaTime;
-            if (fireTime <= 0) {
-                fireTime = fireRate;
-                shoot();
-            }
-        } else
-            fireTime = 0;
     }
 
     private void    shoot() {

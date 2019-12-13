@@ -19,6 +19,25 @@ public class Inventory : MonoBehaviour {
         CurrentWeaponSprite.SetActive(false);
     }
 
+    private void Update() {
+        int next = Current;
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        if (scroll > 0f)
+            next = (next + 1) % Weapons.Count;
+        else if (scroll < 0f)
+            next = Mathf.Abs(next - 1) % Weapons.Count;
+        else if (Input.GetKeyDown(KeyCode.Alpha1))
+            next = 1;
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+            next = 2;
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+            next = 3;
+        else if (Input.GetKeyDown(KeyCode.V))
+            next = 0;
+        if (next != Current && next < Weapons.Count)
+            SwapWeapon(next);
+    }
+
     public void Loot(GameObject obj) {
         if (obj.tag == "Weapon")
             LootWeapon(obj);
