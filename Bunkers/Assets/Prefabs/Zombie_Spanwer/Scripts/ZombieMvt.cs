@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ZombieMvt : MonoBehaviour
 {
@@ -13,14 +14,19 @@ public class ZombieMvt : MonoBehaviour
     public float MaxHealth;
     public float CurrentHealth;
     private Animator animation;
+    [SerializeField] private Slider  slider;
+    [SerializeField] private GameObject healthbarUI;
 
 
     void Awake()
     {
         CurrentHealth = MaxHealth;
+        slider.maxValue = MaxHealth;
+        slider.value = CurrentHealth;
         animation = GetComponent<Animator>();
         this.GetComponent<Collider2D>().enabled = true;
         players = GameObject.FindGameObjectsWithTag("Player");
+        healthbarUI.SetActive(false);
     }
 
     void  attack()
@@ -48,9 +54,17 @@ public class ZombieMvt : MonoBehaviour
         if (rand == 3)
             animation.SetBool("isDead3", true);
         dead = true;
+        healthbarUI.SetActive(false);
         GetComponent<Rigidbody2D>().angularVelocity = 0;
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         GetComponent<Collider2D>().enabled = false;
+    }
+
+    private void Update() {
+        if (CurrentHealth < MaxHealth && CurrentHealth > 0f) {
+            healthbarUI.SetActive(true);
+            slider.value = CurrentHealth;
+        }
     }
 
   void FixedUpdate()
