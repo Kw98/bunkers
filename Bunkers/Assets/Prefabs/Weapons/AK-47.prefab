@@ -320,7 +320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5528779668853497798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.478582, y: -9.800448, z: 0}
+  m_LocalPosition: {x: -35.230408, y: -13.58862, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5528779667590762491}
@@ -369,6 +369,7 @@ MonoBehaviour:
   wt: 0
   loot: {fileID: 5528779667590762490}
   equiped: {fileID: 2932507024878919155}
+  lootable: 0
 --- !u!1 &8731402419046578693
 GameObject:
   m_ObjectHideFlags: 0
