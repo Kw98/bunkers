@@ -15,6 +15,7 @@ TagManager:
   - Boss
   - Battery
   - MedicPack
+  - DDOL
   layers:
   - Default
   - TransparentFX

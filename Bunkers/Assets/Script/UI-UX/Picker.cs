@@ -29,14 +29,14 @@ public class Picker : MonoBehaviour
         pickerTS.text = pickerTM.text;
     }
 
-    private void    OnClick_LeftArrow() {
+    public void    OnClick_LeftArrow() {
         current--;
         if (current < 0)
             current = textP.Length - 1;
         UpdateText();
     }
 
-    private void    OnClick_RightArrow() {
+    public void    OnClick_RightArrow() {
         current++;
         if (current >= textP.Length)
             current = 0;
