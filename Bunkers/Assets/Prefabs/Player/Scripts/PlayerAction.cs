@@ -64,7 +64,10 @@ public class PlayerAction : MonoBehaviour
             Light.GetComponent<FlashLight>().AddBattery(other.gameObject);
         else if (other.gameObject.tag == "MedicPack" && currentHealth < maxHealth)
         {
-            currentHealth += other.gameObject.GetComponent<MedicPack>().health;
+            if (currentHealth + other.gameObject.GetComponent<MedicPack>().health > maxHealth)
+                currentHealth = maxHealth;
+            else
+                currentHealth += other.gameObject.GetComponent<MedicPack>().health;
             Destroy(other.gameObject);
         }
         else if (other.gameObject.tag == "Victory")
