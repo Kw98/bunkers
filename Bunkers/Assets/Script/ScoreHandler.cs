@@ -2,54 +2,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public struct player_score_s {
-    public GameObject  player;
-    public int         score;
-}
-
 public class ScoreHandler : MonoBehaviour
 {
-    public int  pointDay;
-    public int  pointHour;
-    public int  pointMinute;
-    public int  pointKill;
-    public int  beginningPoints;
+    [SerializeField] private int    pointsDay;
+    [SerializeField] private int    pointsHour;
+    [SerializeField] private int    pointsMinute;
+    [SerializeField] private int    pointsKill;
+    [SerializeField] private int    startingPoints;
+    [SerializeField] private GameObject player;
+    [SerializeField] private ligthHandle    lightHandler;
+    public Score    score;
+    public int  kills;
+    private GameHandler gameHandler;
 
-    [SerializeField] private ScoreUI    gameOver;
-    [SerializeField] private ScoreUI    victory;
-    [SerializeField] private ScoreUI    hud;
-
-    private player_score_s[]    playersScore;
-    private ligthHandle lightHandler;
-
-    void Start() {
-        gameOver.OnScoreChanged(beginningPoints.ToString());
-        victory.OnScoreChanged(beginningPoints.ToString());
-        hud.OnScoreChanged(beginningPoints.ToString("00000"));
-        lightHandler = GameObject.Find("LightHandler").gameObject.GetComponent<ligthHandle>();
-        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
-        playersScore = new player_score_s[4];
-        int i = 0;
-        foreach (GameObject p in players) {
-            player_score_s  ps;
-            ps.player = p;
-            ps.score = beginningPoints;
-            playersScore[i] = ps;
-            i++;
-        }
+    private void Start() {
+        gameHandler = GameObject.Find("GameHandler").GetComponent<GameHandler>();
+        score = new Score(gameHandler.playerName, startingPoints, lightHandler.dayCounter, lightHandler.hours, lightHandler.minutes);
+        score.day++;
+        kills = 0;
     }
 
-    // Update is called once per frame
-    void Update() {
-        for (int i = 0; i < playersScore.Length; i++) {
-            if (!playersScore[i].player)
-                continue;
-            playersScore[i].score = beginningPoints - (lightHandler.dayCounter * pointDay) - ((int)lightHandler.hours * pointHour) - ((int)lightHandler.minutes * pointMinute);
-            if (playersScore[i].score < 0)
-                playersScore[i].score = 0;
-            gameOver.OnScoreChanged(playersScore[i].score.ToString());
-            victory.OnScoreChanged(playersScore[i].score.ToString());
-            hud.OnScoreChanged(playersScore[i].score.ToString("00000"));
-        }
+    private void Update() {
+        if (!player)
+            return;
+        score.points = startingPoints - (score.day * pointsDay) - ((int)score.hour * pointsHour) - ((int)score.min * pointsMinute) + (kills * pointsKill);
+        if (score.points < 0)
+            score.points = 0;
+    }
+
+    public void UpdateDay(int day) {
+        score.day++;
+    }
+
+    public void UpdateHoursMinutes(float hours, float minutes) {
+        score.hour = hours;
+        score.min = minutes;
     }
 }

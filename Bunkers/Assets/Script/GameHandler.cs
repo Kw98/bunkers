@@ -43,8 +43,8 @@ public class GameHandler : MonoBehaviour, IChatClientListener {
         }
     }
 
-    public void OnNewScore(int points, float time) {
-        Score sc = new Score(playerName, points, time);
+    public void OnNewScore(int points, int days, float hours, float minutes) {
+        Score sc = new Score(playerName, points, days, hours, minutes);
         List<Score> scList = new List<Score>(score.scoreList);
         scList.Add(sc);
         score.scoreList = scList.ToArray();

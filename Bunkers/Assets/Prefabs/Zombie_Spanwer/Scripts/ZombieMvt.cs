@@ -55,6 +55,7 @@ public class ZombieMvt : MonoBehaviour
             animation.SetBool("isDead3", true);
         dead = true;
         healthbarUI.SetActive(false);
+        GameObject.Find("HUD").GetComponent<ScoreHandler>().kills++;
         GetComponent<Rigidbody2D>().angularVelocity = 0;
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         GetComponent<Collider2D>().enabled = false;

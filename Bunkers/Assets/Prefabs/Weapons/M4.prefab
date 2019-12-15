@@ -163,7 +163,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  shootsong: {fileID: 0}
+  shootsong: {fileID: 8300000, guid: d9f6892421fef3149b0b9fcf2a6c0b37, type: 3}
 --- !u!1 &4575992064714330768
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,3 +402,4 @@ MonoBehaviour:
   wt: 5
   loot: {fileID: 6400834885092727407}
   equiped: {fileID: 3373744741807887866}
+  lootable: 0

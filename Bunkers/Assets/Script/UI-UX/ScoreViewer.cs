@@ -18,19 +18,14 @@ public class ScoreViewer : MonoBehaviour
     [SerializeField] private Text   rankTextS;
     [SerializeField] private Text   rankTextT;
 
-    public void InitScoreViewer(string playerName, int points, float time, int rank) {
+    public void InitScoreViewer(string playerName, int points, int days, float hours, float minutes, int rank) {
         playerTextF.text = playerName;
         playerTextS.text = playerTextF.text;
         playerTextT.text = playerTextF.text;
         pointsTextF.text = points.ToString("00000") + " pts";
         pointsTextS.text = pointsTextF.text;
         pointsTextT.text = pointsTextF.text;
-        if (time > 60) {
-            float min = time % 60f;
-            float second = time - (min * 60f);
-            timeTextF.text = min.ToString("00") + "min" + second.ToString("00") + "sec";
-        } else
-            timeTextF.text = time.ToString("00") + "sec";
+        timeTextF.text = days.ToString() + "days " + hours.ToString("00") + "h " + minutes.ToString("00") + "min";
         timeTextS.text = timeTextF.text;
         timeTextT.text = timeTextF.text;
         rankTextF.text = "rank " + rank.ToString();

@@ -57,6 +57,8 @@ public class BossMvmt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (DestinationCheckpoint == null || Zombie == null)
+            return;
         time = time + Time.deltaTime;
         if (moving)
         {
@@ -94,6 +96,7 @@ public class BossMvmt : MonoBehaviour
 
     void OnDestroy()
     {
+        GameObject.Find("HUD").GetComponent<ScoreHandler>().kills += 10;
         DisperseWeapons();
     }
 }

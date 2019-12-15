@@ -130,7 +130,7 @@ MonoBehaviour:
     type: 3}
   maxCharger: 5
   chargers: []
-  shootsong: {fileID: 0}
+  shootsong: {fileID: 8300000, guid: d9f6892421fef3149b0b9fcf2a6c0b37, type: 3}
 --- !u!1 &3745464316994927079
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,7 +320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5528779668853497798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.230408, y: -13.58862, z: 0}
+  m_LocalPosition: {x: -13.877251, y: -7.713341, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5528779667590762491}

@@ -13,8 +13,6 @@ public class PlayerAction : MonoBehaviour
     private Vector2     movement;
     private Vector2         mousePos;
     private int             colNB;
-    [SerializeField] private GameObject GameOverMenu;
-    [SerializeField] private GameObject VictoryMenu;
 
     private void Start() {
         colNB = 0;
@@ -70,10 +68,10 @@ public class PlayerAction : MonoBehaviour
             Destroy(other.gameObject);
         }
         else if (other.gameObject.tag == "Victory")
-            VictoryMenu.SetActive(true);
+            GameObject.Find("HUD").GetComponent<HUDHandler>().OnVictory();
     }
 
     private void OnDestroy() {
-        GameOverMenu.SetActive(true);
+        GameObject.Find("HUD").GetComponent<HUDHandler>().OnGameOver();
     }
 }
