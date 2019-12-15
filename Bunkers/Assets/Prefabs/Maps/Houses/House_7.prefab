@@ -9645,6 +9645,7 @@ GameObject:
   - component: {fileID: 6766101958995849391}
   - component: {fileID: 19200901244340270}
   - component: {fileID: 6894327787552035082}
+  - component: {fileID: 1934131491649929754}
   m_Layer: 0
   m_Name: Fournitures
   m_TagString: Untagged
@@ -11026,6 +11027,22 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!19719996 &1934131491649929754
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4509051932735619128}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &5035346985739663406
 GameObject:
   m_ObjectHideFlags: 0
@@ -11085,6 +11102,7 @@ GameObject:
   - component: {fileID: 4378612425316884190}
   - component: {fileID: 8385269378964469769}
   - component: {fileID: 1469818056501756608}
+  - component: {fileID: 6207529198542931282}
   m_Layer: 0
   m_Name: Walls
   m_TagString: Untagged
@@ -12309,3 +12327,19 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!19719996 &6207529198542931282
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8645187349368119038}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001

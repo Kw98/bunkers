@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 350341962507189432}
   - component: {fileID: 350341962507189439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Street_Vertical_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
