@@ -275,6 +275,7 @@ GameObject:
   - component: {fileID: 5565562533894574453}
   - component: {fileID: 5565562533894574454}
   - component: {fileID: 5795035164738948979}
+  - component: {fileID: 1884460653836964073}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Zombie
@@ -433,6 +434,24 @@ MonoBehaviour:
   CurrentHealth: 0
   slider: {fileID: 2636055238274422031}
   healthbarUI: {fileID: 4054361646744374026}
+--- !u!114 &1884460653836964073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565562533894574448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 303c7925157e3dd45af000cee2977ff6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chargers:
+  - {fileID: 7222787373928389120, guid: 671b1b1057ca95749a387e4f095b1d9d, type: 3}
+  - {fileID: 4979782603374213151, guid: a87584e8d79935448a32abf351d4dd46, type: 3}
+  - {fileID: 2294487814266307867, guid: 29b9fc0c4d2d0414fb75522b52fcd58e, type: 3}
+  - {fileID: 6341126122899633903, guid: 4f3fe95148a9f48458723f7f6565cbc1, type: 3}
+  medikit: {fileID: 5740847183819605689, guid: c75362913b6dd0145a4e6a91d0f50c3f, type: 3}
 --- !u!1001 &438644328675753308
 PrefabInstance:
   m_ObjectHideFlags: 0

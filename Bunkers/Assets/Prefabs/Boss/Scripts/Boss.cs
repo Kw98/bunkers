@@ -13,8 +13,25 @@ public class Boss : MonoBehaviour
     private bool red;
     private float time;
 
+    private void setBossHp() {
+        if (PlayerPrefs.GetString("DIFFICULTY", "easy") == "easy")
+            MaxHealth = 100f;
+        else if (PlayerPrefs.GetString("DIFFICULTY") == "normal") {
+            MaxHealth = 150f;
+            Damages = 2f;
+        } else if (PlayerPrefs.GetString("DIFFICULTY") == "hard") {
+            MaxHealth = 250f;
+            Damages = 4f;
+        } else if (PlayerPrefs.GetString("DIFFICULTY") == "hell") {
+            MaxHealth = 300f;
+            Damages = 6f;
+        }
+        CurrentHealth = MaxHealth;
+    }
+
     void Awake()
     {
+        setBossHp();
         red = false;
         renderer = gameObject.GetComponent<SpriteRenderer>();
     }
