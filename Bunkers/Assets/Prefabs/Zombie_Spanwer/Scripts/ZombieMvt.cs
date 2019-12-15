@@ -20,6 +20,9 @@ public class ZombieMvt : MonoBehaviour
 
     void Awake()
     {
+        int day = GameObject.Find("HUD").GetComponent<ScoreHandler>().score.day;
+        for (int i = 1; i < day; i++)
+            MaxHealth += 10f;
         CurrentHealth = MaxHealth;
         slider.maxValue = MaxHealth;
         slider.value = CurrentHealth;
