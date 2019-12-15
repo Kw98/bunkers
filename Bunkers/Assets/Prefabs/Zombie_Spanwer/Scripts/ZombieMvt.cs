@@ -18,8 +18,29 @@ public class ZombieMvt : MonoBehaviour
     [SerializeField] private GameObject healthbarUI;
 
 
+    private void setZombieHp() {
+        int day = GameObject.Find("HUD").GetComponent<ScoreHandler>().score.day;
+        float scaling = 10f;
+        if (PlayerPrefs.GetString("DIFFICULTY", "easy") == "easy")
+            MaxHealth = 20f;
+        else if (PlayerPrefs.GetString("DIFFICULTY") == "normal")
+            MaxHealth = 30f;
+        else if (PlayerPrefs.GetString("DIFFICULTY") == "hard") {
+            MaxHealth = 50f;
+            scaling = 20f;
+            speed += 0.5f;
+        } else if (PlayerPrefs.GetString("DIFFICULTY") == "hell") {
+            MaxHealth = 70f;
+            scaling = 40f;
+            speed += 1f;
+        }
+        for (int i = 1; i < day; i++)
+            MaxHealth += scaling;
+    }
+
     void Awake()
     {
+        setZombieHp();
         CurrentHealth = MaxHealth;
         slider.maxValue = MaxHealth;
         slider.value = CurrentHealth;
@@ -55,9 +76,11 @@ public class ZombieMvt : MonoBehaviour
             animation.SetBool("isDead3", true);
         dead = true;
         healthbarUI.SetActive(false);
+        GameObject.Find("HUD").GetComponent<ScoreHandler>().kills++;
         GetComponent<Rigidbody2D>().angularVelocity = 0;
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         GetComponent<Collider2D>().enabled = false;
+        GetComponent<Drop>().spawn();
     }
 
     private void Update() {

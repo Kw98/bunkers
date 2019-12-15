@@ -30,7 +30,7 @@ public class ScoreBoardMenu : MonoBehaviour
         int rank = 1;
         foreach (Score score in scoreboard) {
             GameObject sv = Instantiate(scoreViewerPrefab);
-            sv.GetComponent<ScoreViewer>().InitScoreViewer(score.playerName, score.points, score.time, rank);
+            sv.GetComponent<ScoreViewer>().InitScoreViewer(score.playerName, score.points, score.day, score.hour, score.min, rank);
             sv.transform.SetParent(viewerContent.transform, false);
             rank++;
         }

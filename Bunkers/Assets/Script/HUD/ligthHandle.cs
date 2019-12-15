@@ -8,11 +8,11 @@ public class ligthHandle : MonoBehaviour
     public int timeSpeed;
     public int timeSpeedNight;
     public Light lt;
-    public GameObject    timeUIHandler;
     private float ligthtime;
     public int  dayCounter;
     public float hours;
     public float minutes;
+    [SerializeField] private ScoreHandler   scoreHandler;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +42,8 @@ public class ligthHandle : MonoBehaviour
         {
             dayCounter++;
             timer = 0;
-            timeUIHandler.GetComponent<TimeUIHandler>().updateDay(dayCounter);
+            scoreHandler.UpdateDay(dayCounter);
+            //timeUIHandler.GetComponent<TimeUIHandler>().updateDay(dayCounter);
         }
         if (chrono) {
             if (temp >= 7 && temp <= 20)
@@ -55,7 +56,8 @@ public class ligthHandle : MonoBehaviour
             }
             hours = Mathf.Floor(timer / 60);
             minutes = Mathf.Floor(timer % 60);
-            timeUIHandler.GetComponent<TimeUIHandler>().updateTimer(hours, minutes);
+            scoreHandler.UpdateHoursMinutes(hours, minutes);
+            //timeUIHandler.GetComponent<TimeUIHandler>().updateTimer(hours, minutes);
         }
     }
 }

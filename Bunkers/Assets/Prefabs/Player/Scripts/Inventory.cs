@@ -97,13 +97,13 @@ public class Inventory : MonoBehaviour {
         } else if (Current == 0) {
             Weapons[Current].SetActive(false);
             Current = next;
-            CurrentWeaponSprite.active = true;
+            CurrentWeaponSprite.SetActive(true);
             spriteRenderer =  Weapons[Current].GetComponent<Weapon>().equip();
             CurrentWeaponSprite.GetComponent<Image>().sprite = spriteRenderer.sprite;
         } else {
             Weapons[Current].GetComponent<Weapon>().unequip();
             Current = next;
-            CurrentWeaponSprite.active = true;
+            CurrentWeaponSprite.SetActive(true);
             spriteRenderer = Weapons[Current].GetComponent<Weapon>().equip();
             CurrentWeaponSprite.GetComponent<Image>().sprite = spriteRenderer.sprite;
         }

@@ -16,6 +16,7 @@ public class range : MonoBehaviour
     public AudioClip shootsong;
     private AudioSource audioSource;
     private GameObject ReloadText;
+    private GameObject ReloadedText;
 
 
 
@@ -24,8 +25,8 @@ public class range : MonoBehaviour
         isFiring = false;
         nextFire = 0;
         audioSource = CreateAudioSource(shootsong, false);
-        ReloadText = GameObject.FindWithTag("ReloadText");
-        ReloadText.GetComponent<UnityEngine.UI.Text>().text = "";
+        ReloadText = GameObject.Find("HUD").GetComponent<HUDHandler>().ReloadTxt;
+        ReloadedText = GameObject.Find("HUD").GetComponent<HUDHandler>().ReloadedTxt;
     }
 
     public void    Updater() {
@@ -42,15 +43,28 @@ public class range : MonoBehaviour
     }
 
     private void    shoot() {
+        ReloadText.SetActive(false);
         if (chargers.Count > 0 && chargers[0].GetComponent<Charger>().useBullet()) {
-
             GameObject b = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             audioSource.Play();
             b.GetComponent<Bullet>().damages = damage;
         }
         else
-            ReloadText.GetComponent<UnityEngine.UI.Text>().text = "Press R for reload";
+            StartCoroutine(ShowReload(1f));
     }
+
+    private IEnumerator ShowReload(float time) {
+        ReloadText.SetActive(true);
+        yield return new WaitForSeconds(time);
+        ReloadText.SetActive(false);
+    }
+
+    private IEnumerator ShowReloaded(float time) {
+        ReloadedText.SetActive(true);
+        yield return new WaitForSeconds(time);
+        ReloadedText.SetActive(false);
+    }
+
     private AudioSource CreateAudioSource(AudioClip audioClip,
         bool startPlayingImmediately)
     {
@@ -60,9 +74,6 @@ public class range : MonoBehaviour
         AudioSource newAudioSource =
         audioSourceGO.AddComponent<AudioSource>() as AudioSource;
         newAudioSource.clip = audioClip;
-        if (!newAudioSource.isPlaying)
-            newAudioSource.Play();
-
         return newAudioSource;
     }
 
@@ -74,11 +85,11 @@ public class range : MonoBehaviour
             chargers.RemoveAt(0);
             if (c.GetComponent<Charger>().actualNbOfBullets <= 0) {
                 Destroy(c);
-            } else if (chargers.Count > 1 && c.GetComponent<Charger>().actualNbOfBullets > 0)
+            } else if (chargers.Count > 0 && c.GetComponent<Charger>().actualNbOfBullets > 0)
                 chargers.Add(c);
+            if (chargers.Count > 0)
+                StartCoroutine(ShowReloaded(0.5f));
         }
-        Debug.Log("reloaded");
-        ReloadText.GetComponent<UnityEngine.UI.Text>().text = "";
     }
 }
 

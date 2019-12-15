@@ -12,9 +12,10 @@ public class ChargerHandler : MonoBehaviour
 
     void Update()
     {
+        if (player == null)
+            return;
         if (player.inventory.Current > 0)
         {
-            print(player.inventory.Current);
             int chargerNb = player.inventory.Weapons[player.inventory.Current].transform.Find("Equiped").gameObject.GetComponent<range>().chargers.Count;
             if (chargerNb > 0)
             {

@@ -17,6 +17,8 @@ public class ArrowDestination : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Player == null)
+            return;
         Vector3 toPosition = Destination.transform.position;
         Vector3 fromPosition = Player.transform.position;
 
