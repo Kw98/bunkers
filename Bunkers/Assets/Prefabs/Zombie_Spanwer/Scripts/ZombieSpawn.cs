@@ -40,7 +40,7 @@ public class ZombieSpawn : MonoBehaviour
     void Update()
     {
         float hour = GameObject.Find("HUD").GetComponent<ScoreHandler>().score.hour;
-        if (hour >= 7f && hour < 22f && activated == true) {
+        if (hour >= 7f && hour < 22f) {
             activated = false;
             return;
         } else if (hour >= 22f && activated == false) {

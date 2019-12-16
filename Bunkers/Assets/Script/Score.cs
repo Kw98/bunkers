@@ -43,17 +43,17 @@ public class ScorePointsComparer : IComparer<Score> {
 
 public class ScoreTimeComparer : IComparer<Score> {
     public int Compare(Score x, Score y) {
-        if (x.day > y.day)
+        if (x.day < y.day)
             return 1;
-        else if (x.day < y.day)
+        else if (x.day > y.day)
             return -1;
         else {
-            if (x.hour > y.hour)
+            if (x.hour < y.hour)
                 return 1;
-            else if (x.hour < y.hour)
+            else if (x.hour > y.hour)
                 return -1;
             else
-                return x.min.CompareTo(y.min);
+                return -x.min.CompareTo(y.min);
         }
     }
 }
