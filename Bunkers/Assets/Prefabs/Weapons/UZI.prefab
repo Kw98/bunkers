@@ -241,7 +241,7 @@ MonoBehaviour:
     type: 3}
   maxCharger: 6
   chargers: []
-  shootsong: {fileID: 8300000, guid: d9f6892421fef3149b0b9fcf2a6c0b37, type: 3}
+  shootsong: {fileID: 8300000, guid: 65591c6b7b357a84f8b36fbfd6b88426, type: 3}
 --- !u!1 &8240421398914040377
 GameObject:
   m_ObjectHideFlags: 0

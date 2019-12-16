@@ -25,6 +25,10 @@ public class range : MonoBehaviour
         isFiring = false;
         nextFire = 0;
         audioSource = CreateAudioSource(shootsong, false);
+        audioSource.gameObject.AddComponent<SoundVolumeHandler>();
+        audioSource.gameObject.GetComponent<SoundVolumeHandler>().soundType = sound_type_e.EFFECT;
+        audioSource.playOnAwake = false;
+        audioSource.volume = 0.4f;
         ReloadText = GameObject.Find("HUD").GetComponent<HUDHandler>().ReloadTxt;
         ReloadedText = GameObject.Find("HUD").GetComponent<HUDHandler>().ReloadedTxt;
     }
