@@ -3714,7 +3714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundType: 0
-  source: {fileID: 0}
+  source: {fileID: 774066281}
 --- !u!1 &777016938
 GameObject:
   m_ObjectHideFlags: 0
@@ -7679,6 +7679,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279720525843737561, guid: a425608564d976740b66167bd239d884,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279720525843737561, guid: a425608564d976740b66167bd239d884,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279720525843737561, guid: a425608564d976740b66167bd239d884,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7279720526025911739, guid: a425608564d976740b66167bd239d884,
         type: 3}
