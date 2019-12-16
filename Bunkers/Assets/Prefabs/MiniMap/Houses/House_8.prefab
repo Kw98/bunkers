@@ -4543,7 +4543,6 @@ GameObject:
   - component: {fileID: 962816621695191534}
   - component: {fileID: 9185446361637953791}
   - component: {fileID: 5297491055305915499}
-  - component: {fileID: 2128853040069127577}
   m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
@@ -5570,19 +5569,3 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!19719996 &2128853040069127577
-TilemapCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6229258954334113346}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
-  m_ExtrusionFactor: 0.00001

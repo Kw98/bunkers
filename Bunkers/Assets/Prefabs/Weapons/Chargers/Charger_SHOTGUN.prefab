@@ -96,8 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e08793c61c7564d9a819a85b60d6d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxBullets: 1
-  actualNbOfBullets: 1
+  maxBullets: 10
+  actualNbOfBullets: 10
   weaponType: 3
 --- !u!61 &1414153259560934100
 BoxCollider2D:

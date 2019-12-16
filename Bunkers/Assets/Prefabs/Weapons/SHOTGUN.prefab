@@ -210,22 +210,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4060819725916831063, guid: ea1542d5b1bdabc48b12b82505580d5c,
     type: 3}
   maxCharger: 30
-  chargers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  chargers: []
   shootsong: {fileID: 8300000, guid: d9f6892421fef3149b0b9fcf2a6c0b37, type: 3}
 --- !u!1 &5409051900875245278
 GameObject:

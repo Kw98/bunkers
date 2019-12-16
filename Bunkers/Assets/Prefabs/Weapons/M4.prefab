@@ -159,10 +159,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4060819725916831063, guid: ea1542d5b1bdabc48b12b82505580d5c,
     type: 3}
   maxCharger: 4
-  chargers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  chargers: []
   shootsong: {fileID: 8300000, guid: d9f6892421fef3149b0b9fcf2a6c0b37, type: 3}
 --- !u!1 &4575992064714330768
 GameObject:
@@ -353,7 +350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9082858022512966465}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -13.591821, y: -11.852998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3168110637840775749}
