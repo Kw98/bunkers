@@ -5972,10 +5972,10 @@ TextureImporter:
       name: Hotline_miami_6_226
       rect:
         serializedVersion: 2
-        x: 692
-        y: 282
-        width: 6
-        height: 7
+        x: 682
+        y: 266
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5993,10 +5993,10 @@ TextureImporter:
       name: Hotline_miami_6_227
       rect:
         serializedVersion: 2
-        x: 721
-        y: 282
-        width: 10
-        height: 8
+        x: 715
+        y: 266
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6014,10 +6014,10 @@ TextureImporter:
       name: Hotline_miami_6_228
       rect:
         serializedVersion: 2
-        x: 753
-        y: 282
-        width: 11
-        height: 8
+        x: 748
+        y: 266
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6035,10 +6035,10 @@ TextureImporter:
       name: Hotline_miami_6_229
       rect:
         serializedVersion: 2
-        x: 783
-        y: 282
-        width: 12
-        height: 7
+        x: 780
+        y: 266
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6077,12 +6077,12 @@ TextureImporter:
       name: Hotline_miami_6_231
       rect:
         serializedVersion: 2
-        x: 698
-        y: 275
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 651
+        y: 272
+        width: 18
+        height: 16
+      alignment: 9
+      pivot: {x: 0.565094, y: 0.6301982}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6098,7 +6098,7 @@ TextureImporter:
       name: Hotline_miami_6_232
       rect:
         serializedVersion: 2
-        x: 731
+        x: 663
         y: 275
         width: 9
         height: 6
@@ -6119,8 +6119,8 @@ TextureImporter:
       name: Hotline_miami_6_233
       rect:
         serializedVersion: 2
-        x: 764
-        y: 275
+        x: 662
+        y: 278
         width: 11
         height: 6
       alignment: 0
@@ -6140,12 +6140,12 @@ TextureImporter:
       name: Hotline_miami_6_234
       rect:
         serializedVersion: 2
-        x: 798
-        y: 274
+        x: 664
+        y: 279
         width: 12
         height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.43146262, y: 0.5235029}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7820,8 +7820,8 @@ TextureImporter:
       name: Hotline_miami_6_314
       rect:
         serializedVersion: 2
-        x: 566
-        y: 118
+        x: 565
+        y: 153
         width: 6
         height: 6
       alignment: 0
@@ -8009,10 +8009,10 @@ TextureImporter:
       name: Hotline_miami_6_323
       rect:
         serializedVersion: 2
-        x: 560
-        y: 110
-        width: 6
-        height: 7
+        x: 550
+        y: 102
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8408,12 +8408,12 @@ TextureImporter:
       name: Hotline_miami_6_342
       rect:
         serializedVersion: 2
-        x: 566
-        y: 85
+        x: 565
+        y: 149
         width: 9
         height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5000068, y: 0.5589854}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8429,10 +8429,10 @@ TextureImporter:
       name: Hotline_miami_6_343
       rect:
         serializedVersion: 2
-        x: 556
-        y: 76
-        width: 10
-        height: 8
+        x: 550
+        y: 68
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8660,8 +8660,8 @@ TextureImporter:
       name: Hotline_miami_6_354
       rect:
         serializedVersion: 2
-        x: 566
-        y: 52
+        x: 563
+        y: 148
         width: 11
         height: 6
       alignment: 0
@@ -8807,10 +8807,10 @@ TextureImporter:
       name: Hotline_miami_6_361
       rect:
         serializedVersion: 2
-        x: 555
-        y: 43
-        width: 11
-        height: 8
+        x: 550
+        y: 35
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9059,8 +9059,8 @@ TextureImporter:
       name: Hotline_miami_6_373
       rect:
         serializedVersion: 2
-        x: 567
-        y: 19
+        x: 556
+        y: 140
         width: 12
         height: 7
       alignment: 0
@@ -9080,10 +9080,10 @@ TextureImporter:
       name: Hotline_miami_6_374
       rect:
         serializedVersion: 2
-        x: 552
-        y: 11
-        width: 12
-        height: 7
+        x: 550
+        y: 2
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
