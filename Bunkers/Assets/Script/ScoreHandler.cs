@@ -18,7 +18,7 @@ public class ScoreHandler : MonoBehaviour
     private void Start() {
         gameHandler = GameObject.Find("GameHandler").GetComponent<GameHandler>();
         score = new Score(gameHandler.playerName, startingPoints, lightHandler.dayCounter, lightHandler.hours, lightHandler.minutes);
-        score.day++;
+        score.day = 1;
         kills = 0;
     }
 

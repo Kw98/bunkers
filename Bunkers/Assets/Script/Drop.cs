@@ -6,6 +6,8 @@ public class Drop : MonoBehaviour
 {
     [SerializeField] private GameObject[]   chargers;
     [SerializeField] private GameObject     medikit;
+    [SerializeField] private GameObject[]     bonuses;
+    [SerializeField] private int[]  chances;
     private int ammoDropRate;
     private int medicDropRate;
 
@@ -27,12 +29,27 @@ public class Drop : MonoBehaviour
 
     public void spawn() {
         int r = Random.Range(0, 100);
-        if (Random.Range(0, 2) == 0) {
+        int c = Random.Range(0, 10);
+        if (c <= 4) {
             if (r <= ammoDropRate)
                 DropAmmo();
-        } else {
+        } else if (c <= 7) {
             if (r <= medicDropRate)
                 DropMedikit();
+        } else {
+            DropBonus();
+        }
+    }
+
+    private void DropBonus() {
+        int bonus = Random.Range(0, bonuses.Length);
+        int luck = Random.Range(0, chances[bonus]);
+        if (luck >= Random.Range(0, 101)) {
+            GameObject obj = bonuses[bonus];
+            float rand = Random.Range(-0.2f, 0.2f);
+            float rand2 = Random.Range(-0.2f, 0.2f);
+            obj.transform.position = new Vector3(transform.position.x + rand, transform.position.y + rand2, 0.0f);
+            Instantiate(obj);
         }
     }
 
