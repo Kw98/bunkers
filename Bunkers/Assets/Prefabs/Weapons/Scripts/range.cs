@@ -44,13 +44,23 @@ public class range : MonoBehaviour
 
     private void    shoot() {
         ReloadText.SetActive(false);
-        if (chargers.Count > 0 && chargers[0].GetComponent<Charger>().useBullet()) {
-            GameObject b = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-            audioSource.Play();
-            b.GetComponent<Bullet>().damages = damage;
+        if (GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAction>().ammoB.activated) {
+            shootBullet();
+            return;
         }
+        if (chargers.Count > 0 && chargers[0].GetComponent<Charger>().useBullet())
+            shootBullet();
         else
             StartCoroutine(ShowReload(1f));
+    }
+
+    private void    shootBullet() {
+        GameObject b = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        audioSource.Play();
+        if (!GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerAction>().damageB.activated)
+            b.GetComponent<Bullet>().damages = damage;
+        else
+            b.GetComponent<Bullet>().damages = damage * 2;
     }
 
     private IEnumerator ShowReload(float time) {

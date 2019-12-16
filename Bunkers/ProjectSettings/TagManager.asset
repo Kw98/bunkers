@@ -16,6 +16,7 @@ TagManager:
   - Battery
   - MedicPack
   - DDOL
+  - Bonus
   layers:
   - Default
   - TransparentFX
