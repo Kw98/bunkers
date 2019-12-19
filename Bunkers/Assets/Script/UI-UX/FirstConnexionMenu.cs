@@ -9,7 +9,6 @@ public class FirstConnexionMenu : MonoBehaviour
     [SerializeField] private GameObject ddol;
     [SerializeField] private Text   inputS;
     [SerializeField] private Text   inputT;
-    [SerializeField] private GameObject MainMenu;
 
     public void OnClick_Begin() {
         if (input.text.Length < 3)
@@ -17,7 +16,6 @@ public class FirstConnexionMenu : MonoBehaviour
         PlayerPrefs.SetInt("Id", Random.Range(1000, 9999));
         PlayerPrefs.SetString("PlayerName", input.text);
         PlayerPrefs.SetInt("FirstCo", 1);
-        MainMenu.SetActive(true);
         Instantiate(ddol);
     }
 
